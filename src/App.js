@@ -14,7 +14,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div class="screenshot-container">
+      <div className="screenshot-container">
         <HelpScreenshot data={this.state.helpData} />
       </div>
     );

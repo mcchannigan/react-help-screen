@@ -16,7 +16,7 @@ export default class ArrowLink extends Component {
     const className = 'arrow-link' + (this.props.active ? ' active' : '');
     return (
       <div className={className}>
-        <a href="javascript:void(0)" onClick={this.activateRegion.bind(this)}>{this.props.index + 1}</a>
+        <a href="#" onClick={this.activateRegion.bind(this)}>{this.props.index + 1}</a>
       </div>
     );
   }

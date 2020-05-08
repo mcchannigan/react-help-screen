@@ -67,6 +67,7 @@ img.screenshot {
   border-right: 0.5rem solid transparent;
   
   border-bottom: 1rem solid black;
+  transition: all 100ms ease-out;
 }
 
 .arrow-down {
@@ -101,7 +102,7 @@ img.screenshot {
   height: 0;
   background-color: black;
   z-index: 0;
-  transition: height 100ms ease-in;
+  transition: all 100ms ease-out;
 }
 
 .arrow-desc {
