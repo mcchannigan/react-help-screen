@@ -1,0 +1,28 @@
+{
+  "arrows" : [
+    {
+      "left" : "1%",
+      "top" : "13%",
+      "text" : "This is a plane with guns",
+      "direction" : "up",
+      "regionWidth" : "20%",
+      "regionHeight" : "20%"
+    },
+    {
+      "left" : "11%",
+      "top" : "46%",
+      "text" : "This is a bipedal walker",
+      "direction" : "up",
+      "regionWidth" : "10%",
+      "regionHeight" : "20%"
+    },
+    {
+      "left" : "19%",
+      "top" : "26%",
+      "text" : "This is a big ol' tank carrier",
+      "direction" : "up",
+      "regionWidth" : "38%",
+      "regionHeight" : "30%"
+    }
+  ]
+}

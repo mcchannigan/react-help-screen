@@ -1,26 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import { render } from 'react-dom';
+import HelpScreenshot from './HelpScreenshot';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      name: 'React',
+      helpData: require('./assets/help.json')
+    };
+  }
+
+  render() {
+    return (
+      <div class="screenshot-container">
+        <HelpScreenshot data={this.state.helpData} />
+      </div>
+    );
+  }
 }
 
-export default App;
