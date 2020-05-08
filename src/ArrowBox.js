@@ -26,17 +26,11 @@ export default class ArrowBox extends Component {
       <div className="arrow-box">
       <ArrowRegion width={this.props.data.regionWidth} height={this.props.data.regionHeight} left={this.props.data.left} top={this.props.data.top} onMouseEnter={this.activate.bind(this)} active={this.props.active} index={this.props.index}/>
         <div className={'arrow-container ' + divClass}>
-          
           <div className="arrow">
             <div className="arrow-up" style={{position: 'absolute', left: 'calc(' + arrLeft + '% - 0.5rem', top: arrTop + '%'}}></div>
             <CSSTransition in={this.props.active} timeout={200} classNames="stretch-v">
-            <div className="arrow-body" style={{position: 'absolute', left: 'calc(' + arrLeft + '% - 0.125rem)', top: 'calc(' + arrTop + '% + 0.75rem', height: 'calc(100% - ' + arrTop + '% - 2rem)'}}></div>
+            <div className="arrow-body" style={{position: 'absolute', left: 'calc(' + arrLeft + '% - 0.125rem)', top: 'calc(' + arrTop + '% + 0.75rem', height: 'calc(100% - ' + arrTop + '%)'}}></div>
             </CSSTransition>
-          </div>
-          <div class="arrow-desc">
-          <CSSTransition in={this.props.active} timeout={200} classNames="fade stretch-v">
-            <p>{this.props.data.text}</p>
-          </CSSTransition>
           </div>
         </div>
       </div>

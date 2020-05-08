@@ -117,9 +117,11 @@ img.screenshot {
   margin: 0;
 }
 
-div.hidden {
+.hidden {
   position: absolute;
-  left: -50em;
+  width: 0;
+  height: 0;
+  left: -99em;
 }
 
 div.arrow-region {
