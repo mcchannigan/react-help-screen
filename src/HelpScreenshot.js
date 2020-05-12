@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-//import {CSSTransition} from 'react-transition-group';
+import AnimateHeight from 'react-animate-height';
 import ArrowRegion from './ArrowRegion';
 import ArrowBox from './ArrowBox';
 import ArrowLink from './ArrowLink';
@@ -8,11 +8,18 @@ import RegionDescription from './RegionDescription';
 export default class HelpScreenshot extends Component {
   constructor(props) {
     super(props);
-    this.state = {activeArrow: 0, arrows: props.data.arrows};
+    this.state = {
+      activeArrow: 0,               // index of the currently active arrow region
+      descHeight: 'auto',           // Manages CSS height of the description box for animation
+      arrows: props.data.arrows,    // Arrow region and description data
+      animationDuration: 200        // The animation duration in ms
+    };
   }
 
   inactivateArrows(id) {
-    this.setState({activeArrow: id});
+    // descHeight to 0 to initiate height animation
+    this.setState({activeArrow: id, descHeight: 0});
+    //setTimeout(() => {this.setState({descHeight: 'auto'})}, this.state.animationDuration);
   }
 
   render() {
@@ -21,6 +28,7 @@ export default class HelpScreenshot extends Component {
     const regions = [];
     let activeArrow;
     let i = 0;
+    // Build region and description arrays
     for(const arrow of this.state.arrows) {
       let active = (i == this.state.activeArrow);
       if(active) {
@@ -31,6 +39,13 @@ export default class HelpScreenshot extends Component {
       regions.push(<RegionDescription key={i} text={arrow.text} active={active}/>)
       i++;
     }
+
+    // Allow for one frame at 0 height before setting back to auto
+    const dh = this.state.descHeight;
+    if(dh == 0) {
+      this.setState({descHeight: 'auto'});
+    }
+
     return (
       <div>
         <div className="screen-container">
@@ -38,9 +53,15 @@ export default class HelpScreenshot extends Component {
           <ArrowBox data={activeArrow}/>
           {boxes}
         </div>
-        <div className="region-desc-container">
-          {regions}
-        </div>
+        <AnimateHeight
+          duration={this.state.animationDuration}
+          height={dh}
+          easing="ease-out"
+        >
+          <div className="region-desc-container">
+            {regions}
+          </div>
+        </AnimateHeight>
         <div className="region-links-container" aria-hidden="true">
           {boxLinks}
         </div>

@@ -107,7 +107,6 @@ img.screenshot {
 
 .arrow-desc {
   position: relative;
-  border: 0.25rem solid black;
   background-color: white;
   padding: 0.5rem;
   margin: 0;
@@ -125,10 +124,14 @@ img.screenshot {
   left: -99em;
 }
 
+div.region-desc-container {
+  border: 0.25rem solid black;
+}
+
 div.arrow-region {
   position: absolute;
   border: 0.25rem solid black;
-  padding: 0 0.1rem;
+  padding: 0.1rem;
   transition: border 100ms ease-in;
 }
 
@@ -140,6 +143,12 @@ div.arrow-region.active {
 div.arrow-region .region-label {
   display: block;
   font-size: 0.8rem;
+  width: auto;
+  float: left;
+  padding: 0.1rem;
+  border-radius: 0.125rem;
+  background-color: black;
+  color: white;
 }
 
 /******************

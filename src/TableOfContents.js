@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import HelpScreenshot from './HelpScreenshot';
-//import {renderers} from './TableOfContents';
-import './App.css';
 
+function makeHeaderId(inStr) {
+    return inStr.toLowerCase().replace(' ', '-');
+}
 
-export default class App extends Component {
-  renderers = {
-    root : (p) => {
+export const renderers = {
+    root : function(p) {
       const children = p.children;
       const TOCLines = children.reduce((acc, { key, props }) => {
         // Skip non-headings
@@ -21,7 +20,7 @@ export default class App extends Component {
         }
 
         // Append line to TOC
-        const id = this.makeHeaderId(props.children[0].props.children);
+        const id = makeHeaderId(props.children[0].props.children);
         return acc.concat([`${indent}* [${props.children[0].props.children}](#${id})`]);
       }, []);
 
@@ -32,9 +31,9 @@ export default class App extends Component {
         </div>
       );
     },
-    heading : (p) => {
+    heading : function(p) {
       // Set id based on text of heading
-      const id = this.makeHeaderId(p.children[0].props.children);
+      const id = makeHeaderId(p.children[0].props.children);
       switch(p.level) {
         case(1):
           return (<h1 id={id}>{p.children}</h1>);
@@ -50,49 +49,14 @@ export default class App extends Component {
     },
     paragraph : (props) => {
         const text = props.children[0].props.children;
-        // Paragraphs of format "{x}" will output screenshots
         const match = text.match(/\{(.+)\}/);
         if(match) {
-            return <HelpScreenshot data={this.state.helpData[match[1]]} />;
+            console.log(this);
+            console.log(props);
+            console.log(match[1]);
+            return null;
         } else {
             return (<p>{props.children}</p>);
         }
     }
   };
-
-  constructor() {
-    super();
-    
-    this.state = {
-      name: 'React',
-      helpData: require('./assets/help.json')
-    };
-  }
-
-  componentDidMount() {
-    const markdownPath = require("./assets/body.md");
-
-    fetch(markdownPath)
-    .then(response => {
-      return response.text()
-    })
-    .then(text => {
-      this.setState({
-        markdown: text
-      });
-    });
-  }
-
-  makeHeaderId(inStr) {
-    return inStr.toLowerCase().replace(' ', '-');
-  }
-
-  render() {
-    return (
-      <div className="screenshot-container">
-        <ReactMarkdown source={this.state.markdown} className="markdown-section" renderers={this.renderers}/>
-      </div>
-    );
-  }
-}
-

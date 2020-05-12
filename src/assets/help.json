@@ -1,30 +1,62 @@
 {
-  "src" : "https://i.imgur.com/elWJXi8.jpeg",
-  "description" : "An image of various vehicles.",
-  "arrows" : [
-    {
-      "left" : "1%",
-      "top" : "16%",
-      "text" : "This is a plane with guns",
-      "direction" : "up",
-      "regionWidth" : "20%",
-      "regionHeight" : "20%"
-    },
-    {
-      "left" : "11%",
-      "top" : "51%",
-      "text" : "This is a bipedal walker",
-      "direction" : "up",
-      "regionWidth" : "10%",
-      "regionHeight" : "20%"
-    },
-    {
-      "left" : "19%",
-      "top" : "31%",
-      "text" : "This is a big ol' tank carrier. This is also an example of much longer descriptive text that will wrap to multiple lines but still not throw off the positioning of the box regions above nor the arrows.",
-      "direction" : "up",
-      "regionWidth" : "38%",
-      "regionHeight" : "30%"
-    }
-  ]
+  "help-1" : {
+    "src" : "https://i.imgur.com/elWJXi8.jpeg",
+    "description" : "An image of various vehicles.",
+    "arrows" : [
+      {
+        "left" : "1%",
+        "top" : "16%",
+        "text" : "This is a plane with guns",
+        "direction" : "up",
+        "regionWidth" : "20%",
+        "regionHeight" : "20%"
+      },
+      {
+        "left" : "11%",
+        "top" : "51%",
+        "text" : "This is a bipedal walker",
+        "direction" : "up",
+        "regionWidth" : "10%",
+        "regionHeight" : "20%"
+      },
+      {
+        "left" : "19%",
+        "top" : "31%",
+        "text" : "This is a big ol' tank carrier. This is also an example of much longer descriptive text that will wrap to multiple lines but still not throw off the positioning of the box regions above nor the arrows.",
+        "direction" : "up",
+        "regionWidth" : "38%",
+        "regionHeight" : "30%"
+      }
+    ]
+  },
+  "help-2" : {
+    "src" : "https://i.imgur.com/elWJXi8.jpeg",
+    "description" : "An image of various vehicles.",
+    "arrows" : [
+      {
+        "left" : "1%",
+        "top" : "16%",
+        "text" : "This is a plane with guns",
+        "direction" : "up",
+        "regionWidth" : "20%",
+        "regionHeight" : "20%"
+      },
+      {
+        "left" : "11%",
+        "top" : "51%",
+        "text" : "This is a bipedal walker",
+        "direction" : "up",
+        "regionWidth" : "10%",
+        "regionHeight" : "20%"
+      },
+      {
+        "left" : "19%",
+        "top" : "31%",
+        "text" : "This is a big ol' tank carrier. This is also an example of much longer descriptive text that will wrap to multiple lines but still not throw off the positioning of the box regions above nor the arrows.",
+        "direction" : "up",
+        "regionWidth" : "38%",
+        "regionHeight" : "30%"
+      }
+    ]
+  }
 }
