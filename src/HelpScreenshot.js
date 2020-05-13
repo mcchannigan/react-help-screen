@@ -34,7 +34,7 @@ export default class HelpScreenshot extends Component {
       if(active) {
         activeArrow = arrow;
       }
-      boxes.push(<ArrowRegion key={i} width={arrow.regionWidth} height={arrow.regionHeight} left={arrow.left} top={arrow.top} activateHandler={this.inactivateArrows.bind(this)} active={active} index={i}/>);
+      boxes.push(<ArrowRegion key={i} width={arrow.regionWidth} height={arrow.regionHeight} left={arrow.left} top={arrow.top} activateHandler={this.inactivateArrows.bind(this)} active={active} index={i} count={this.state.arrows.length}/>);
       boxLinks.push(<ArrowLink key={i} index={i} active={active} activateHandler={this.inactivateArrows.bind(this)}/>);
       regions.push(<RegionDescription key={i} text={arrow.text} active={active}/>)
       i++;
@@ -47,7 +47,7 @@ export default class HelpScreenshot extends Component {
     }
 
     return (
-      <div>
+      <div className="screen-desc-container">
         <div className="screen-container">
           <img className="screenshot" src={this.props.data.src} alt={this.props.data.description + ' Descriptions of components of the image follow.'}/>
           <ArrowBox data={activeArrow}/>
@@ -63,7 +63,7 @@ export default class HelpScreenshot extends Component {
           </div>
         </AnimateHeight>
         <div className="region-links-container" aria-hidden="true">
-          {boxLinks}
+          {boxLinks.length > 1 && boxLinks}
         </div>
       </div>  
     );

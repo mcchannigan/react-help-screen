@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactMarkdown from 'react-markdown';
 import HelpScreenshot from './HelpScreenshot';
-//import {renderers} from './TableOfContents';
 import './App.css';
 
 
@@ -26,8 +25,11 @@ export default class App extends Component {
       }, []);
 
       return (
-        <div>
-          <ReactMarkdown source={TOCLines.join("\n")} />
+        <div className="guide-container">
+          <div className="toc-container">
+            <h1>Table of Contents</h1>
+            <ReactMarkdown source={TOCLines.join("\n")} />
+          </div>
           {children}
         </div>
       );
@@ -43,9 +45,9 @@ export default class App extends Component {
         case(3):
           return (<h3 id={id}>{p.children}</h3>);
         case(4):
-          return (<h4 id={id}>{p.children}</h4>);
+          return (<h4>{p.children}</h4>);
         default:
-          return (<h5 id={id}>{p.children}</h5>);
+          return (<h5>{p.children}</h5>);
       }
     },
     paragraph : (props) => {
@@ -84,14 +86,12 @@ export default class App extends Component {
   }
 
   makeHeaderId(inStr) {
-    return inStr.toLowerCase().replace(' ', '-');
+    return inStr.toLowerCase().replace(/ /g, '-');
   }
 
   render() {
     return (
-      <div className="screenshot-container">
-        <ReactMarkdown source={this.state.markdown} className="markdown-section" renderers={this.renderers}/>
-      </div>
+        <ReactMarkdown source={this.state.markdown} renderers={this.renderers}/>
     );
   }
 }

@@ -1,61 +1,121 @@
 {
-  "help-1" : {
-    "src" : "https://i.imgur.com/elWJXi8.jpeg",
-    "description" : "An image of various vehicles.",
+  "help-error-messages" : {
+    "src" : "images/transaction-error-messages.jpg",
+    "description" : "An image depicting error messages on a transaction",
     "arrows" : [
       {
-        "left" : "1%",
-        "top" : "16%",
-        "text" : "This is a plane with guns",
+        "left" : "5%",
+        "top" : "1%",
+        "text" : "When an error occurs, a red message will appear at the top of the screen.",
         "direction" : "up",
-        "regionWidth" : "20%",
-        "regionHeight" : "20%"
+        "regionWidth" : "93%",
+        "regionHeight" : "28%"
       },
       {
-        "left" : "11%",
-        "top" : "51%",
-        "text" : "This is a bipedal walker",
+        "left" : "20%",
+        "top" : "70%",
+        "text" : "When you encounter an error message, the issues will be highlighted and described within the transaction.",
         "direction" : "up",
-        "regionWidth" : "10%",
-        "regionHeight" : "20%"
-      },
-      {
-        "left" : "19%",
-        "top" : "31%",
-        "text" : "This is a big ol' tank carrier. This is also an example of much longer descriptive text that will wrap to multiple lines but still not throw off the positioning of the box regions above nor the arrows.",
-        "direction" : "up",
-        "regionWidth" : "38%",
-        "regionHeight" : "30%"
+        "regionWidth" : "42%",
+        "regionHeight" : "14%"
       }
     ]
   },
-  "help-2" : {
-    "src" : "https://i.imgur.com/elWJXi8.jpeg",
-    "description" : "An image of various vehicles.",
+  "help-success-message" : {
+    "src" : "images/transaction-success-message.jpg",
+    "description" : "An image depicting a success message on a transaction.",
     "arrows" : [
       {
-        "left" : "1%",
-        "top" : "16%",
-        "text" : "This is a plane with guns",
+        "left" : "2%",
+        "top" : "3%",
+        "text" : "When you submit or save a job or transaction, a success message will appear at the top of the screen.",
         "direction" : "up",
-        "regionWidth" : "20%",
+        "regionWidth" : "97%",
+        "regionHeight" : "40%"
+      }
+    ]
+  },
+  "help-home" : {
+    "src" : "images/home-page.jpg",
+    "description" : "An image depicting the SECE home page.",
+    "arrows" : [
+      {
+        "left" : "67%",
+        "top" : "0.5%",
+        "text" : "Link to enter the ***sece*** site and login.",
+        "direction" : "up",
+        "regionWidth" : "31%",
         "regionHeight" : "20%"
       },
       {
-        "left" : "11%",
-        "top" : "51%",
-        "text" : "This is a bipedal walker",
+        "left" : "0.5%",
+        "top" : "14%",
+        "text" : "Text links leading to the websites of the various SE offices at the different campuses in the UH system.",
         "direction" : "up",
-        "regionWidth" : "10%",
-        "regionHeight" : "20%"
-      },
-      {
-        "left" : "19%",
-        "top" : "31%",
-        "text" : "This is a big ol' tank carrier. This is also an example of much longer descriptive text that will wrap to multiple lines but still not throw off the positioning of the box regions above nor the arrows.",
-        "direction" : "up",
-        "regionWidth" : "38%",
+        "regionWidth" : "45%",
         "regionHeight" : "30%"
+      },
+      {
+        "left" : "46%",
+        "top" : "24%",
+        "text" : "Image link to open a pop-up with the contact information for the SE offices at the various UH campuses.",
+        "direction" : "up",
+        "regionWidth" : "16%",
+        "regionHeight" : "14%"
+      },
+      {
+        "left" : "46%",
+        "top" : "39%",
+        "text" : "Image link to open a pop-up with the contact information for timesheet related inquiries.",
+        "direction" : "up",
+        "regionWidth" : "16%",
+        "regionHeight" : "14%"
+      },
+      {
+        "left" : "2%",
+        "top" : "60%",
+        "text" : "Text links that will take you to various resources that may be of interest to an employer.",
+        "direction" : "up",
+        "regionWidth" : "30%",
+        "regionHeight" : "33%"
+      }
+    ]
+  },
+  "help-login" : {
+    "src" : "images/login.jpg",
+    "description" : "An image depicting the SECE login screen.",
+    "arrows" : [
+      {
+        "left" : "44%",
+        "top" : "15%",
+        "text" : "UH employers may login using their UH username and password by pressing the \"UH Login\" button. If you have a problem with your username and/or password, please contact the ITS Help Desk at 956-8883 or email them at [help@hawaii.edu](mailto:help@hawaii.edu). You must use your personal username, as departmental usernames cannot be used to login to the system.",
+        "direction" : "up",
+        "regionWidth" : "35%",
+        "regionHeight" : "17%"
+      },
+      {
+        "left" : "44%",
+        "top" : "32%",
+        "text" : "The Non-UH Employers section is only used to create a profile or log into an account used to post non-student employment positions. Use the UH login if you intend to perform student employment tasks.",
+        "direction" : "up",
+        "regionWidth" : "35%",
+        "regionHeight" : "20%"
+      },
+      {
+        "left" : "67%",
+        "top" : "52%",
+        "text" : "Click on the Login Help link if you are having trouble for some quick tips or contact information.",
+        "direction" : "up",
+        "regionWidth" : "12%",
+        "regionHeight" : "5%"
+      },
+      {
+        "left" : "60%",
+        "top" : "57%",
+        "text" : "Click on the Job & Eligibility Info link to see the basic eligibility requirements for student employment eligibility.",
+        "direction" : "up",
+        "regionWidth" : "19%",
+        "regionHeight" : "5%"
       }
     ]
   }
