@@ -219,7 +219,7 @@
         "text" : "The Job Statistics section gives you an at-a-glance look at your jobs and applications for your jobs.\n\n* __In Draft Jobs:__ Jobs you have created but not submitted for review.\n* __Submitted Jobs:__ Jobs you have submitted for review and approval.\n* __Under Review Jobs:__ Jobs that are currently being reviewed for approval.\n* __On Hold Jobs:__ A reviewed job that Student Employment has additional questions about.\n* __Open/Closed Jobs:__ Jobs that are Open (being advertised) or approved but Closed.\n* __Applications:__ Indicates the number of applications that have been submitted today or in the past week (respectively).",
         "direction" : "up",
         "regionWidth" : "38%",
-        "regionHeight" : "60%"
+        "regionHeight" : "59%"
       },
       {
         "left" : "61%",
@@ -228,6 +228,52 @@
         "direction" : "up",
         "regionWidth" : "38%",
         "regionHeight" : "55%"
+      }
+    ]
+  },
+  "help-job-1" : {
+    "src" : "images/jobs-tab-1.jpg",
+    "description" : "An image of the Jobs tab showing an employer's list of jobs in its table view.",
+    "arrows" : [
+      {
+        "left" : "19%",
+        "top" : "46%",
+        "text" : "The job number, pay code, job program, and position title are listed first.\n\n* __Job Number:__ Jobs are assigned a job number and a job series will be jobs that share a job number with differing pay codes.\n* __Pay Code:__ The pay code (pay class) of the job. Jobs in a series (sharing the same job number) will have different pay codes.\n* __Program:__ Jobs will be listed as UH, FWS, or UH & FWS. UH jobs are open to any eligible student, FWS jobs are only open to those with Federal Work Study, and UH & FWS is open to all eligible students, but indicates a preference for Federal Work Study.\n* __Position Title:__ The working title of the job. Pressing on this will take you to the detailed view of the job where you can make edits.",
+        "direction" : "up",
+        "regionWidth" : "40%",
+        "regionHeight" : "40%"
+      },
+      {
+        "left" : "66%",
+        "top" : "46%",
+        "text" : "The Status and Applicants fields allow you to quickly interact with your job.\n\n* __Status:__ You can use this drop-down menu to Open or Close a job easily. If a job requires updates before it can be opened or closed, you will receive an error message indicating this. This usually means you will need to go into the job to make those updates before re-opening it.\n* __Applicants:__ This will indicate the number of students that have applied for the position. Pressing on this button will bring up a list of applicants and an interface that allows you to initiate hires. This feature will be illustrated a bit later in this guide.",
+        "direction" : "up",
+        "regionWidth" : "20%",
+        "regionHeight" : "40%"
+      },
+      {
+        "left" : "80%",
+        "top" : "40%",
+        "text" : "Filter your job list by keywords, job numbers or other aspects by typing into the _Filter_ box.",
+        "direction" : "up",
+        "regionWidth" : "20%",
+        "regionHeight" : "10%"
+      },
+      {
+        "left" : "88%",
+        "top" : "52.5%",
+        "text" : "The _Add to Series_ button is used to add a job to a job series. This means adding a job with the existing job number, but at a different pay code. The button will be on the same line as the job number that you will be adding a job to. When you add to a series, it will create a duplicate of an existing job in the series that you can then modify to match the new pay class/code.",
+        "direction" : "up",
+        "regionWidth" : "10%",
+        "regionHeight" : "12%"
+      },
+      {
+        "left" : "88%",
+        "top" : "16%",
+        "text" : "The _Create a New Job_ option is used when you want to create a completely new job rather than adding a job to an existing series. If the job has no relation to an existing job, use this option.",
+        "direction" : "up",
+        "regionWidth" : "12%",
+        "regionHeight" : "12%"
       }
     ]
   }

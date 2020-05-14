@@ -93,7 +93,7 @@ Below are some common terms you may encounter when using sece.
 - __Transaction:__ Changes made to a placement on sece are called transactions. These include things like account changes, pay increases, promotions, demotions, terminations, and so on.
 - __WDC:__ Warrant Distribution Code. Each office or department has its own WDC which is used by payroll. The code basically tells payroll to which department or office the check should be sent. This is also referred to as the _Warrant Code_ or _Warrant Number_.
 
-## Logging In
+# Logging In
 
 {help-home}
 
@@ -117,3 +117,33 @@ The first time you log into the sece system you will be prompted to create a pro
 {help-main}
 
 # Creating, Managing, and Advertising Jobs
+
+{help-job-1}
+
+## Jobs Tab
+
+The _Jobs_ tab is primarily used to create and manage job listings on sece. The following is a brief introduction to this module and some relevant information regarding jobs on sece.
+
+### Jobs vs. Job Series
+
+On ***sece***, all jobs are identified by a unique job number and an associated pay class (also called a pay code). When there is only one job with that job number, it can be referred to as a single job. When there are multiple jobs that share that job number, they form a job series.
+
+Jobs in a job series should be related and progressive, such that an employer can promote or downgrade a student without having to go through the hiring process again. A series may have up to seven jobs, one for each pay class (A1-A7). A typical series will look something like the following series:
+
+| Job# | Position Title                 |
+|------|--------------------------------|
+|348-A1|Laboratory Assistant (Trainee)  |
+|348-A2|Laboratory Assistant I          |
+|348-A3|Laboratory Assistant II         |
+|348-A4|Laboratory Researcher I         |
+|348-A5|Laboratory Researcher II        |
+|348-A6|Research Assistant I            |
+|348-A7|Research Assistant II           |
+
+Each position in a job series has its own position title, qualifications, duties, location, and so on. However, the jobs share certain information that when changed on one job will be changed on all other jobs in the series. The following are the shared aspects of the jobs in a series:
+
+* Job funding source
+* Primary job category
+* Job contact information
+* Transaction approvers
+* Timesheet approvers
