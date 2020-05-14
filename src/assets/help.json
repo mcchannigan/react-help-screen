@@ -118,5 +118,117 @@
         "regionHeight" : "5%"
       }
     ]
+  },
+  "help-select-site" : {
+    "src" : "images/site-select.jpg",
+    "description" : "An image depicting the SECE site selection screen.",
+    "arrows" : [
+      {
+        "left" : "1.5%",
+        "top" : "0%",
+        "text" : "Press the ***sece*** button to quickly return to the site selection menu.",
+        "direction" : "up",
+        "regionWidth" : "14%",
+        "regionHeight" : "20%"
+      },
+      {
+        "left" : "30%",
+        "top" : "54%",
+        "text" : "Click the link for the version of the site you wish to access. Only those sides of ***sece*** that you have access to based on your affiliation will be visible as options. You can switch between sides at any time without needing to log in to each side.",
+        "direction" : "up",
+        "regionWidth" : "30%",
+        "regionHeight" : "19%"
+      },
+      {
+        "left" : "30%",
+        "top" : "76%",
+        "text" : "Checking this box will mean the next time you log in to ***sece*** it will default to the side of ***sece*** (Student, Employer, etc.) that you chose to access this time.",
+        "direction" : "up",
+        "regionWidth" : "30%",
+        "regionHeight" : "15%"
+      }
+    ]
+  },
+  "help-profile-1" : {
+    "src" : "images/emp-profile-1.jpg",
+    "description" : "An image depicting the Departmental Information section of the profile.",
+    "arrows" : [
+      {
+        "left" : "5%",
+        "top" : "22%",
+        "text" : "The campus affiliation you select determines which SE office will be able to view and manage your records.",
+        "direction" : "up",
+        "regionWidth" : "75%",
+        "regionHeight" : "15%"
+      },
+      {
+        "left" : "5%",
+        "top" : "37%",
+        "text" : "Select your _College/Division_ and your _Office/Department Name_ from the drop-down menus. If they do not appear, you may input them into the text field instead.",
+        "direction" : "up",
+        "regionWidth" : "75%",
+        "regionHeight" : "60%"
+      }
+    ]
+  },
+  "help-profile-2" : {
+    "src" : "images/emp-profile-2.jpg",
+    "description" : "An image depicting the Contact Information section of the profile.",
+    "arrows" : [
+      {
+        "left" : "38%",
+        "top" : "86%",
+        "text" : "After entering your biographical information, click _Submit_ to finish.",
+        "direction" : "up",
+        "regionWidth" : "11%",
+        "regionHeight" : "10%"
+      }
+    ]
+  },
+  "help-main" : {
+    "src" : "images/emp-main-screen.jpg",
+    "description" : "An image of the Home tab.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "13%",
+        "text" : "The UH employer side of ***sece*** is divided into various tabs used for specific tasks. The Home tab shown here provides a quick view of ***sece*** activity related to you. The other tabs are briefly discussed below and detailed in depth later.\n\n* __Jobs:__ The Jobs tab is where you can create, edit, and re-open jobs.\n* __Placements:__ This tab is where you would create transactions for your jobs. This is where you would initiate hires and start transactions related to your employees.\n* __Forms and Info:__ You can find links to information and forms relevant to student employment.\n* __Timesheet:__ This is where you access timesheets.",
+        "direction" : "up",
+        "regionWidth" : "23%",
+        "regionHeight" : "43%"
+      },
+      {
+        "left" : "23%",
+        "top" : "22%",
+        "text" : "If you receive applications, you will receive a message at the top of the screen that can be pressed to see them.",
+        "direction" : "up",
+        "regionWidth" : "60%",
+        "regionHeight" : "14%"
+      },
+      {
+        "left" : "90%",
+        "top" : "0%",
+        "text" : "Clicking the down arrow will give you some additional options. This is how you would access your profile, switch to a different side of ***sece***, or log out.",
+        "direction" : "up",
+        "regionWidth" : "10%",
+        "regionHeight" : "10%"
+      },
+      {
+        "left" : "23%",
+        "top" : "38%",
+        "text" : "The Job Statistics section gives you an at-a-glance look at your jobs and applications for your jobs.\n\n* __In Draft Jobs:__ Jobs you have created but not submitted for review.\n* __Submitted Jobs:__ Jobs you have submitted for review and approval.\n* __Under Review Jobs:__ Jobs that are currently being reviewed for approval.\n* __On Hold Jobs:__ A reviewed job that Student Employment has additional questions about.\n* __Open/Closed Jobs:__ Jobs that are Open (being advertised) or approved but Closed.\n* __Applications:__ Indicates the number of applications that have been submitted today or in the past week (respectively).",
+        "direction" : "up",
+        "regionWidth" : "38%",
+        "regionHeight" : "60%"
+      },
+      {
+        "left" : "61%",
+        "top" : "38%",
+        "text" : "The Placement Statistics section gives you an at-a-glance look at your hires and transactions.\n\n* __Pending Transactions:__ These are the number of transactions making their way through the approval process. The different statuses are fairly self-explanatory, but it should be noted that most transactions do not require Student Employment approval. Hire transactions are the most common transaction that does require SE approval.\n* __Student Employees:__ These are the number of student employees currently employed (Active) and the number that are no longer employed (Inactive) under jobs on which you are listed as an approver.",
+        "direction" : "up",
+        "regionWidth" : "38%",
+        "regionHeight" : "55%"
+      }
+    ]
   }
 }

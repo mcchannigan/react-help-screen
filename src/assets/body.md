@@ -102,5 +102,18 @@ Below are some common terms you may encounter when using sece.
 > #### IT Policies
 > All UH staff should familiarize themselves with the IT policies of the University of Hawaii. You can view these policies at [http://www.hawaii.edu/infotech/policies/](http://www.hawaii.edu/infotech/policies/).
 
+{help-select-site}
+
 ## Creating a Profile
 
+The first time you log into the sece system you will be prompted to create a profile. If you transfer to a new job, be sure to update your profile.
+
+{help-profile-1}
+
+{help-profile-2}
+
+## Home Tab
+
+{help-main}
+
+# Creating, Managing, and Advertising Jobs
