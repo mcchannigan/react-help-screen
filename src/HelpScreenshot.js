@@ -26,6 +26,7 @@ export default class HelpScreenshot extends Component {
     const boxes = [];
     const boxLinks = [];
     const regions = [];
+    let descClass = this.state.arrows.length > 1 ? '' : ' single-description';
     let activeArrow;
     let i = 0;
     // Build region and description arrays
@@ -58,7 +59,7 @@ export default class HelpScreenshot extends Component {
           height={dh}
           easing="ease-out"
         >
-          <div className="region-desc-container">
+          <div className={'region-desc-container' + descClass}>
             {regions}
           </div>
         </AnimateHeight>

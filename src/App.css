@@ -3,8 +3,9 @@
   --dark-gray: #cdcdcd;
   --light-gray: #efefef;
   --almost-white: #f2f2f2;
+  --highlight-bg-color: #fffeaf;
   --highlight-color: #ab9900;
-  --arrow-color: #071e83;
+  --arrow-color: #07196b;
 }
 
 * {
@@ -15,6 +16,40 @@
 body {
   color: var(--almost-black);
   background-color: var(--dark-gray);
+}
+
+h1 {
+  border-bottom: 0.1rem solid var(--dark-gray);
+}
+
+blockquote {
+  padding: 0.5rem 1rem;
+  margin: 1rem 1.5rem;
+  background-color: var(--highlight-bg-color);
+  border-radius: 0.25rem;
+  border: 1px solid var(--highlight-color);
+}
+
+blockquote h4 {
+  margin: 0.75rem 0 1rem 0;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  padding: 0.5rem;
+  font-weight: bold;
+  text-align: left; 
+}
+
+td {
+  padding: 0.5rem;  
+}
+
+tr:not(:last-child) td {
+  border-bottom: 0.1rem solid var(--dark-gray);
 }
 
 div.guide-container {
@@ -32,6 +67,8 @@ div.screen-desc-container {
 div.screen-container {
   position: relative;
   border: 0.1rem solid var(--almost-black);
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
   /*box-shadow: 0 0.25em 0.5em rgba(0,0,0,0.3);*/
 }
 
@@ -47,6 +84,11 @@ div.arrow-link {
 
 div.arrow-link:first-child {
   border-left: 0.125rem solid var(--arrow-color);
+  border-bottom-left-radius: 0.25rem;
+}
+
+div.arrow-link:last-child {
+  border-bottom-right-radius: 0.25rem;
 }
 
 div.arrow-link a {
@@ -149,6 +191,11 @@ img.screenshot {
 
 div.region-desc-container {
   border: 0.25rem solid var(--arrow-color);
+  border-bottom-right-radius: 0.25rem;
+}
+
+div.region-desc-container.single-description {
+  border-bottom-left-radius: 0.25rem;
 }
 
 div.arrow-region {
