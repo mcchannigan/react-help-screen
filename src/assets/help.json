@@ -276,5 +276,131 @@
         "regionHeight" : "12%"
       }
     ]
+  },
+  "help-job-series" : {
+    "src" : "images/emp-job-series.jpg",
+    "description" : "An image of the Jobs tab highlighting two jobs: 333-A4 and 333-A5. Job 333-A4 has job title 'Reading Tutor 1,' and Job 333-A5 has title 'Reading Tutor 2.'",
+    "arrows" : [
+      {
+        "left" : "20%",
+        "top" : "55%",
+        "text" : "This is an example of a job series. Note the shared job number and progressive nature of the position title.",
+        "direction" : "up",
+        "regionWidth" : "40%",
+        "regionHeight" : "38%"
+      }
+    ]
+  },
+  "help-job-create-button" : {
+    "src" : "images/job-create-button.jpg",
+    "description" : "An image of the Jobs tab highlighting the 'Create a New Job' button.",
+    "arrows" : [
+      {
+        "left" : "88%",
+        "top" : "26%",
+        "text" : "To create a new job, simply press the 'Create a New Job' button.",
+        "direction" : "up",
+        "regionWidth" : "12%",
+        "regionHeight" : "18%"
+      }
+    ]
+  },
+  "help-job-create-1" : {
+    "src" : "images/job-create-1.jpg",
+    "description" : "An image of the beginning of the job creation form.",
+    "arrows" : [
+      {
+        "left" : "20%",
+        "top" : "15%",
+        "text" : "Buttons at the top and bottom of the form can be used to save, delete, cancel, or submit the job. Because the system has an inactivity timer, be sure to periodically save your job. Press the Submit button only when it is ready to be reviewed.",
+        "direction" : "up",
+        "regionWidth" : "60%",
+        "regionHeight" : "10%"
+      },
+      {
+        "left" : "93%",
+        "top" : "26%",
+        "text" : "You can press any \"?\" icon To get some additional helpful information about the associated section.",
+        "direction" : "up",
+        "regionWidth" : "5%",
+        "regionHeight" : "9%"
+      },
+      {
+        "left" : "0%",
+        "top" : "47%",
+        "text" : "The first step in creating a job is selecting the funding source/campus affiliation. This determines what account codes should be used and which campus SE office approves the job.\n\nFor example, jobs that will be paying student employees using a Manoa account code must have UH Manoa selected as the funding source. In this example, the Manoa SE office will review the job.\n\nIt is possible to have jobs where the student works at one campus, but the job is funded by another campus. In these situations, the job is monitored by the funding institution.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "13%"
+      },
+      {
+        "left" : "0%",
+        "top" : "73%",
+        "text" : "As the job makes its way through the approval process, the status it is in will be highlighted. Statuses are discussed a little later in this guide.",
+        "direction" : "up",
+        "regionWidth" : "75%",
+        "regionHeight" : "13%"
+      }
+    ]
+  },
+  "help-job-create-2" : {
+    "src" : "images/job-create-2.jpg",
+    "description" : "An image of the Job Classification / Duties section of the job form.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "12%",
+        "text" : "You should enter the desired position title. Specific titles are typically better than generic ones, as it gives the student an idea of what the job entails.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "21%"
+      },
+      {
+        "left" : "0%",
+        "top" : "33%",
+        "text" : "Select a primary job category that the job would fall under, and a secondary job category if you so desire. Job categories help classify the job for search filtering purposes. The primary category is shared be all jobs in the series, while the secondary category is specific to each job in the series.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "42%"
+      },
+      {
+        "left" : "0%",
+        "top" : "75%",
+        "text" : "The job classification determines which students will be eligible for the job by setting the job program. You may select UH, UH & FWS, or FWS.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "25%"
+      }
+    ]
+  },
+  "help-job-create-3" : {
+    "src" : "images/job-create-3.jpg",
+    "description" : "An image of the rest of the Job Classification / Duties section of the job form.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "All student assistant positions will be classified and paid in accordance with the guidelines contained in APM A9.880, Attachment 1. The campus SE office shall have final jurisdiction over the classification of individual positions. Student assistants will normally be paid on an hourly basis.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "15%"
+      },
+      {
+        "left" : "0%",
+        "top" : "15%",
+        "text" : "If the student, in the course of performing assigned duties, will at any time have access to, or be in the proximity of sensitive information as defined in E2.214, the student is required to complete a Form 92, General Confidentiality Notice (GCN). In that case, set the *General Confidentiality Notice (GCN) Required* drop-down to *Yes*.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "15%"
+      },
+      {
+        "left" : "0%",
+        "top" : "30%",
+        "text" : "The final two fields in this section allow you to enter qualifications and duties for the job. The SE office will review these to ensure they match the pay class selected. Note that once the job is approved, you can no longer edit these fields.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "65%"
+      }
+    ]
   }
 }

@@ -91,7 +91,7 @@ export default class App extends Component {
 
   render() {
     return (
-        <ReactMarkdown source={this.state.markdown} renderers={this.renderers}/>
+        <ReactMarkdown source={this.state.markdown} renderers={this.renderers} escapeHtml={false}/>
     );
   }
 }
