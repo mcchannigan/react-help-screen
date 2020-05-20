@@ -402,5 +402,297 @@
         "regionHeight" : "65%"
       }
     ]
+  },
+  "help-job-create-skills" : {
+    "src" : "images/job-create-skills.jpg",
+    "description" : "An image of the skills section of the job form.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "You may check boxes next to the skills you desire candidates to possess. The options available will vary based on the funding source of the job.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "100%"
+      }
+    ]
+  },
+  "help-job-create-location-sched-1" : {
+    "src" : "images/job-create-location-sched1.jpg",
+    "description" : "An image of the upper portion of the Location/Schedule section of the job form.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "5%",
+        "text" : "Select the island where your job is located. You must select *Island* first, because this drives the pull-down lists for *Campus*. If your job is not located on one of the Hawaiian Islands, select *Other* and specify the city/state in the *Other* text box.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "46%"
+      },
+      {
+        "left" : "0%",
+        "top" : "51%",
+        "text" : "Provide a brief description of your hours of operation or the days and times within which the student must work.\n\nExamples: M-F: 8am-5pm, Flexible Mon-Sat",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "30%"
+      },
+      {
+        "left" : "0%",
+        "top" : "81%",
+        "text" : "Enter the minimum and maximum hours per week. The maximum hours cannot exceed 20.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "19%"
+      }
+    ]
+  },
+  "help-job-create-location-sched-2" : {
+    "src" : "images/job-create-location-sched2.jpg",
+    "description" : "An image of the remaining portion of the Location/Schedule section of the job form.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "*Number of Openings* represents how many positions are available to fill for this job description.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "14%"
+      },
+      {
+        "left" : "0%",
+        "top" : "28%",
+        "text" : "Select whether or not the job should be opened after approval. If you select *Yes, Open and Advertise*, the job will be opened upon approval from SE. If you select *No, for Promotions Only*, the job will be set to *Closed* status upon approval.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "14%"
+      },
+      {
+        "left" : "0%",
+        "top" : "42%",
+        "text" : "The closing date determines when the job will automatically close. The job cannot be closed until 3 days have passed or 5 candidates add the job to their cart. The starting date indicates when the employer would ideally like the candidate to start.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "38%"
+      },
+      {
+        "left" : "0%",
+        "top" : "80%",
+        "text" : "If the employment is for a \"special\" schedule / period, you may select a *Special Classification* to designate one of the following: Summer Only, Weekends, Nights, and Nights & Weekends",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "14%"
+      }
+    ]
+  },
+  "help-job-create-how-to-apply" : {
+    "src" : "images/job-create-how-apply.jpg",
+    "description" : "An image of the Application Information section of the job form.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "10%",
+        "text" : "Select the method you would like to have students use to apply:\n\n* __Online Application:__ Applicants will submit documents of your choice directly through the system for your review. You can require applicants to submit any of the following documents: Resume, Cover Letter, Transcripts, and up to two other documents of your choosing. The text fields next to each option allow you to specify what type of document you are requesting.\n* __Email:__ Applicants will be instructed to email the contact(s) listed on the job. To provide specific instructions for content or attach-ments of the email, please enter them in the *Additional Information (to be shown to applicants)* field.\n* __Call for Interview:__ Applicants will be instructed to call the contact(s) listed on the job.\n* __In Person:__ Applicants will be instructed to inquire in person. The office address of the contact(s) listed on the job will be displayed.\n* __Other:__ For all other methods of application, you will be asked to enter instructions into a text field.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "14%"
+      },
+      {
+        "left" : "0%",
+        "top" : "24%",
+        "text" : "*Additional Information* is where you should enter any additional requests or instructions you would like to appear on the \"how to apply\" information.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "36%"
+      },
+      {
+        "left" : "0%",
+        "top" : "60%",
+        "text" : "*Internal Comments to Student Employment* is where you can enter any comments you wish to leave for student employment staff reviewing your job.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "36%"
+      }
+    ]
+  },
+  "help-job-approval-1" : {
+    "src" : "images/job-create-approval1.jpg",
+    "description" : "An image of Section 1: Job/Referral Contact Information on the job form.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "63%",
+        "text" : "Section 1 determines who will be printed as contacts on the *how to apply* pop-up (primary and secondary contacts). It is also used to set the supervisor. Finally, anyone listed in section 1 can make changes to the job. The usernames should be inputted in all lower case letters. When you save the job, the *Name* column will update with the name of the people matching the usernames you entered.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "10%"
+      }
+    ]
+  },
+  "help-job-approval-2" : {
+    "src" : "images/job-create-approval2.jpg",
+    "description" : "An image of Section 2: Transaction and Placement Approval Information on the job form.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "43%",
+        "text" : "Section 2 determines who is in the approval chain for transactions. When students are hired for this job, this is where the list of approvers comes from. The supervisor is set based on section 1. In addition, the employer must input an FA. Note that users inputted here that do not have placement access will be unable to approve transactions.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "10%"
+      }
+    ]
+  },
+  "help-job-approval-3" : {
+    "src" : "images/job-create-approval3.jpg",
+    "description" : "An image of Section 3: Timesheet Approvers on the job form.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "Section 3 determines who has timesheet approval roles for students hired for this job. Employers should enter at least one username for the Supervisor Level and one for the Business Office level. The supervisor must be listed as a Supervisor level approver and the FA is usually listed as the Business Office level approver. Additional approvers can be listed within the limits of the fields presented.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "100%"
+      }
+    ]
+  },
+  "help-job-manage" : {
+    "src" : "images/emp-job-series.jpg",
+    "description" : "An image of the Jobs tab highlighting options for managing your jobs.",
+    "arrows" : [
+      {
+        "left" : "38%",
+        "top" : "62%",
+        "text" : "Press on the job title to edit the job.",
+        "direction" : "up",
+        "regionWidth" : "20%",
+        "regionHeight" : "15%"
+      },
+      {
+        "left" : "65%",
+        "top" : "62%",
+        "text" : "Open/Close jobs using the *Status* drop-down menu or press the job title.",
+        "direction" : "up",
+        "regionWidth" : "9%",
+        "regionHeight" : "15%"
+      },
+      {
+        "left" : "80%",
+        "top" : "62%",
+        "text" : "Press the button under the *Applicants* column to view applications.",
+        "direction" : "up",
+        "regionWidth" : "6%",
+        "regionHeight" : "15%"
+      },
+      {
+        "left" : "87%",
+        "top" : "62%",
+        "text" : "Press the *Add to Series* button to add a new job with the same job number.",
+        "direction" : "up",
+        "regionWidth" : "12%",
+        "regionHeight" : "15%"
+      }
+    ]
+  },
+  "help-job-edit-general" : {
+    "src" : "images/job-edit-general.jpg",
+    "description" : "An image of the Submit buttons and General Information section of an existing job.",
+    "arrows" : [
+      {
+        "left" : "15%",
+        "top" : "17%",
+        "text" : "The *Submit* button allows you to save any changes you have made without changing the Open/Closed status of the job. The *Submit and Reopen Job* (and *Submit and Close Job*) button will allow you to save the changes and Open or Close the job respectively.",
+        "direction" : "up",
+        "regionWidth" : "70%",
+        "regionHeight" : "14%"
+      },
+      {
+        "left" : "0%",
+        "top" : "83%",
+        "text" : "The status highlighted in green and checked is the current status of the job. Once a job has been approved it will be either in OPEN or CLOSED status. The other statuses indicate the jobs place in the creation and approval process.",
+        "direction" : "up",
+        "regionWidth" : "72%",
+        "regionHeight" : "16%"
+      }
+    ]
+  },
+  "help-job-locked-data" : {
+    "src" : "images/job-locked-data.jpg",
+    "description" : "An image of the Duties and Qualifications of an existing job, which are not editable.",
+    "arrows" : [
+      {
+        "left" : "31%",
+        "top" : "86%",
+        "text" : "The *Request Update to Locked Data* button is what you would use to request changes to the Qualifications or Duties of a job. Because these fields must be appropriate to the pay class, changes must be reviewed and approved by your Student Employment office.",
+        "direction" : "up",
+        "regionWidth" : "38%",
+        "regionHeight" : "12%"
+      }
+    ]
+  },
+  "help-job-add-series" : {
+    "src" : "images/job-add-series.jpg",
+    "description" : "An image of a dialog screen asking whether you want to continue adding a job to a series.",
+    "arrows" : [
+      {
+        "left" : "38%",
+        "top" : "72%",
+        "text" : "When you press the Add to Series button you will be prompted with this screen. Press the Continue button to proceed.",
+        "direction" : "up",
+        "regionWidth" : "15%",
+        "regionHeight" : "23%"
+      }
+    ]
+  },
+  "help-job-add-series-open" : {
+    "src" : "images/job-add-series-open.jpg",
+    "description" : "An image of the 'Open Job After Student Employment Approval' drop-down menu.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "When you are updating the job to reflect the new pay class keep in mind if you plan on advertising the job or whether it is meant for promotions only. Use this drop-down menu to let Student Employment know which option you wish to do.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "100%"
+      }
+    ]
+  },
+  "help-job-applicants-nodocs" : {
+    "src" : "images/job-applicants-nodocs.jpg",
+    "description" : "An image of the Applicants screen for a job listing two applicants",
+    "arrows" : [
+      {
+        "left" : "80%",
+        "top" : "66%",
+        "text" : "If you wish to hire one of the applicants, pressing the *Hire* button will initiate the Hire transaction for that student.",
+        "direction" : "up",
+        "regionWidth" : "6%",
+        "regionHeight" : "19%"
+      }
+    ]
+  },
+  "help-job-applicants-docs" : {
+    "src" : "images/job-applicants-withdocs.jpg",
+    "description" : "An image of the Applicants screen for a job listing one applicant who submitted a resume.",
+    "arrows" : [
+      {
+        "left" : "64%",
+        "top" : "86%",
+        "text" : "If you set your job to allow online applications you will see a text link that you can press to download their uploaded documents.",
+        "direction" : "up",
+        "regionWidth" : "11%",
+        "regionHeight" : "12%"
+      },
+      {
+        "left" : "83%",
+        "top" : "2%",
+        "text" : "You can also download all applicants documents as a batch by pressing the *Download All* button.",
+        "direction" : "up",
+        "regionWidth" : "17%",
+        "regionHeight" : "14%"
+      }
+    ]
   }
 }

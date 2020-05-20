@@ -278,6 +278,20 @@ What this means is that a single job can be used to hire multiple students durin
 
 Pay class rates may periodically be adjusted, so please refer to APM A9.880 for the current rates.
 
+{help-job-create-skills}
+
+{help-job-create-location-sched-1}
+
+{help-job-create-location-sched-2}
+
+{help-job-create-how-to-apply}
+
+{help-job-approval-1}
+
+{help-job-approval-2}
+
+{help-job-approval-3}
+
 ### Adding Users to Sections 1, 2, and 3
 
 To assign users to roles in section 1, 2, and 3 you will need to have their UH usernames. UH usernames are the part of their email proceeding the @ symbol in their email address. For example, if their email address is *tarao@hawaii.edu*, their UH username is *tarao*.
@@ -319,6 +333,8 @@ You may designate as many users for each approval role as there are empty fields
 
 For jobs that have already been reviewed and approved by Student Employment you have a variety of options to manage those jobs. The most common tasks are detailed in brief below. When making updates to a job, or adding to a series, the job template will look mostly like a newly created job layout with a few notable differences.
 
+{help-job-manage}
+
 > #### Job Access
 > You can only view and manage jobs to which you have access. To have access, you must be listed in section 1 on the job as a contact person.
 
@@ -326,16 +342,119 @@ For jobs that have already been reviewed and approved by Student Employment you 
 
 You can open and close jobs in two ways. First, you can quickly do so by using the drop-down option under the Status column. If this option gives an error indicating the job requires updates, you will need to open/close it the second way.
 
-Pressing on the job title will take you to the detailed view. From there you can make any updates and then press the *Submit and Reopen Job* button (or *Submit and Close Job*).
-
 ### Editing Jobs
 
-Pressing on the job title will take you to the detailed view of the job. From there, you can make edits and updates.
+Pressing on the job title will take you to the detailed view. From there you can make any updates and then press the *Submit and Reopen Job* button (or *Submit and Close Job*).
+
+The detailed view of the job will look very much like what you would see when creating a new job. The most significant differences will be noted below.
+
+{help-job-edit-general}
+
+{help-job-locked-data}
+
+> #### Common Edits
+> Once a job is approved, you will most commonly be updating things like the closing date, starting date, and number of openings.
+
+> #### Editable Fields
+> Note that only white fields will be editable on an existing job. Locked fields can only be modified by the student employment office. Typically pay, duties, and qualifications are locked.
 
 ### Reviewing Applicants
 
 You can press on the button in the applicants column to view any applications that have been received. From that interface you can then view any materials they submitted and initiate hires.
 
+When you press the *Applicants* button, you will see the following screen listing all of the applicants.
+
+{help-job-applicants-nodocs}
+
+{help-job-applicants-docs}
+
 ### Adding to a Series
 
 When you want to add a job to a series you will press the button *Add to Series* on the same row as the first job in that series. This will generate a duplicate of an existing job in that series that you can then edit and change to the new pay class you would like to add. Jobs being added to a series will require review and approval by your Student Employment office.
+
+Adding a job to a series is much like creating a new job, save that you are working from a base template rather than a blank slate. Remember that jobs in series share a number of features. The remainder of the job not shown in this guide can be edited like normal. Please note that editing section 1, 2, or 3 affects all jobs in the series and that a job added to a series must be approved by SE.
+
+{help-job-add-series}
+
+{help-job-add-series-open}
+
+# Hiring a Student Employee
+
+## Hiring Students
+
+This section deals with hiring students using the sece system. The basic hiring process is as follows:
+
+1. Open and advertise the job.
+2. Interested and eligible students will add themselves to the applicant list and contact you in the manner specified to apply. The system also now allows online applications.
+3. You review applications submitted and conduct interviews.
+4. You select a candidate and complete the necessary paperwork with the student. The student may also need to complete a Form I-9 or other paperwork with your campus' student employment office.
+5. You can initiate the hire transaction as detailed on the next few pages. Enter the required information on the Hire transaction. Note that some information, such as the account code, might need to be entered by your Fiscal Authority.
+6. Approve the transaction by checking your approval box. This will route the hire transaction to the next approver in the chain as determined by the approver list in section 2 on the job.
+7. When the Fiscal Authority approves the transaction it will route to the relevant student employment office for final approval.
+8. When the student employment office approves the hire, the supervisor and student will receive an email notifying them that the hire has been approved. The student may start working once this email and they should not start before then.
+
+### Things to Keep in Mind
+
+The following are things you should keep in mind before trying to hire a student using sece.
+
+* __Do not interview a student who has not applied for your job.__ Only students who are eligible for your job can add themselves to your applicant list, so making sure they are on that list will save you some potential headaches down the road. Note that a change in a student's enrollment or academic status can change their work eligibility.
+* __Do not accept an application in someone else's name.__ Sometimes students get contact information from friends. If the student is not on your applicant list, you will not be able to initiate a hire transaction for them.
+* __Be aware that additional forms are required.__ Keep in mind that the student may have to complete additional paperwork not only with yourself, but with the relevant student employment office as well. More details on paperwork are provided later in this section.
+
+### Troubleshooting Tips
+
+If you should encounter any problems when initiating the hire transaction, it may be one of the following common issues:
+
+* __Be sure you are listed in section 2 on the job.__ Only users listed in section 2 can initiate a hire transaction.
+* __Be sure that the job has been open three days or that five people have added the job to their cart.__
+
+If none of these apply or correct the situation, please feel free to contact your campus student employment office.
+
+### Supplemental Forms
+
+The following are descriptions of the supplemental forms the student may need to complete in order to complete their hire.
+
+#### Federal I-9 Form
+
+This is a federal form that determines an employee's eligibility to legally work in the United States. All employees within the U.S. must complete the form and show the proper documentation. Once you have made an offer of employment to a student, and he/she has accepted that offer, the student should complete this form. By law, the form must be fully executed within three days of starting work, which is one reason why students may not start until their hire is approved by the Student Employment office at your campus.
+
+The form is now electronic and can be started on the sece system by the student, who will complete section 1 and then submit it. Once this is done, the student should bring the required documents to the relevant campus' student employment office to finish the form. Electronic I-9s are good at any campus in the UH system that uses the electronic form.
+
+#### Federal Tax Withholding Form (W-4)
+
+This form is used to determine the Federal income tax withholdings for the employee. The completed form should be retained within your department.
+
+#### State Tax Withholding Form (HW-4)
+
+This form is used to determine the State of Hawaii income tax withholdings for the employee. The completed form should be retained within your department.
+
+### Additional Forms
+
+Some or all of the following forms may be required based on circumstances and your campus' policies. These forms are not part of the standard hiring process, but rather they address special cases or forms.
+
+#### 90-Day Extension
+
+When a student completing a form I-9 presents a receipt for a replacement document, they may be required to complete a 90-day extension memo. A student presenting a receipt for a replacement document has 90 days to return with the actual document. This particular form is only required at UH Mānoa.
+
+#### FICA Questionnaire
+
+The FICA Questionnaire is used to determine whether or not a student is *Exempt* from FICA taxes. While this is primarily used to determine their status for the summer months, it can also be used to make this determination for the regular academic terms as well. Typically only Unclassified students will be *Not Exempt* during the regular academic terms (Fall/Spring). The questionnaire does not need to be sent to the student employment office.
+
+#### FWS Information and Policies
+
+Students who have a FWS award that will be used at a student employment job may be required to complete a form indicating they and their employer have read and will comply with the requirements of the FWS program. This form is only required at UH Mānoa and should be submitted to the student employment office.
+
+#### General Confidentiality Notice (GCN)
+
+Students who will have access to sensitive or personally identifiable information may be required to complete the General Confidentiality Notice. The form can be done in print or through the ACER site ([https://www.hawaii.edu/its/acer/](https://www.hawaii.edu/its/acer/)). Printed forms should be retained within your department and not sent to student employment.
+
+#### Multi-Job Memo
+
+A student working more than one student employment job may be required to complete a Multi-Job Memo if the campus requires it. Each supervisor acknowledges that the student will not exceed 20 hours per week between the two jobs during the academic periods. This form is currently only required at UH Mānoa, though students being hired into a Mānoa position may be asked to have their employers at other campuses complete the form.
+
+#### PTS Enrollment Form
+
+Student employees that are FICA Not Exempt from at any time will need to complete the PTS Enrollment form. They will only need to do so once so long as there is no significant break in employment (over a year), even if the student switches between *Exempt* and *Not Exempt* several times. This form is routed through your department's personnel office and should not be sent to the student employment office.
+
+### Steps for Initiating a Hire
+
