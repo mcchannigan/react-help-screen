@@ -458,3 +458,24 @@ Student employees that are FICA Not Exempt from at any time will need to complet
 
 ### Steps for Initiating a Hire
 
+{help-job-hire-1}
+
+{help-job-hire-2}
+
+{help-job-hire-add-openings}
+
+#### Step 4:
+
+Fill in the Hire transaction details and approve it. More details on the different aspects of the transaction are given below.
+
+{help-hire-student-1}
+
+{help-hire-student-2}
+
+{help-hire-job-1}
+
+{help-hire-job-2}
+
+> #### Static Fields
+> Static fields are fields you cannot type into or change. When a field is static, and the information is inaccurate, you will need to contact your campus' student employment office to have the change made or receive instructions on how the change can be made. Changes to *Duties* and *Qualifications* can be requested from the Job page using the *Request Update to Locked Data* button.
+

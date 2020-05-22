@@ -9,8 +9,8 @@ export default class App extends Component {
     root : (p) => {
       const children = p.children;
       const TOCLines = children.reduce((acc, { key, props }) => {
-        // Skip non-headings
-        if (key.indexOf('heading') !== 0) {
+        // Skip non-headings and h4 or greater
+        if (key.indexOf('heading') !== 0 || props.level > 3) {
           return acc;
         }
         // Indent by two spaces per heading level after h1

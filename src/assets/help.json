@@ -694,5 +694,159 @@
         "regionHeight" : "14%"
       }
     ]
+  },
+  "help-job-hire-1" : {
+    "src" : "images/emp-job-series.jpg",
+    "description" : "An image of the Jobs tab highlighting the applicants button.",
+    "arrows" : [
+      {
+        "left" : "80%",
+        "top" : "62%",
+        "text" : "#### Step 1:\n\nPress on the *Applicants* button to see the list of students that have applied for your position.",
+        "direction" : "up",
+        "regionWidth" : "6%",
+        "regionHeight" : "15%"
+      }
+    ]
+  },
+  "help-job-hire-2" : {
+    "src" : "images/job-applicants-withdocs.jpg",
+    "description" : "An image of the Applicants screen for a job listing one applicant who submitted a resume, highlighting the Hire button.",
+    "arrows" : [
+      {
+        "left" : "85%",
+        "top" : "84%",
+        "text" : "#### Step 2:\n\nPress on the *Hire* button of the student to initiate the HIRE transaction.",
+        "direction" : "up",
+        "regionWidth" : "6%",
+        "regionHeight" : "16%"
+      }
+    ]
+  },
+  "help-job-hire-add-openings" : {
+    "src" : "images/job-hire-additional-openings.jpg",
+    "description" : "An image of a pop-up dialog noting that the hire will fill the last available opening of the job.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "#### Step 3:\n\nIf the hire would fill the last opening available for the job, you will see this pop-up. This allows you to either add additional openings so as to keep the job open or close the job if no additional openings are available. Add the number of openings and press *Submit* if you have additional openings. Press *No Additional Openings* if you wish to close the job.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "100%"
+      }
+    ]
+  },
+  "help-hire-student-1" : {
+    "src" : "images/hire-transaction-1.jpg",
+    "description" : "An image of the first section of a hire transaction.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "32%",
+        "text" : "If the \"No SSN on file\" message is shown, you may proceed with the hire as normal, but you should have your student employee contact the SE office to get their SSN on file.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "15%"
+      },
+      {
+        "left" : "0%",
+        "top" : "47%",
+        "text" : "The student's biographical information will be pulled in automatically. You may change the address at the student's request, but please keep in mind that the address printed on the student's W2 will be what is listed here.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "53%"
+      }
+    ]
+  },
+  "help-hire-student-2" : {
+    "src" : "images/hire-transaction-2.jpg",
+    "description" : "An image of the next section of a hire transaction.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "22%",
+        "text" : "Select the student's citizenship information here. If they are not a citizen, also include the country in the next field.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "37%"
+      },
+      {
+        "left" : "0%",
+        "top" : "61%",
+        "text" : "If your campus participates in the E-Verify program, your Fiscal Authority will need to indicate here whether or not this hire is subject to E-Verification. All UH Manoa student hires are E-Verified, so this field is locked to *Yes* in this example.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "17%"
+      },
+      {
+        "left" : "0%",
+        "top" : "78%",
+        "text" : "Select the student's marital status. International students are required to put *Single* in most cases (see *Notice 1392, Supplement W-4 form for Nonresident Aliens*).",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "19%"
+      }
+    ]
+  },
+  "help-hire-job-1" : {
+    "src" : "images/hire-transaction-3.jpg",
+    "description" : "An image of the next section of a hire transaction: Job Information.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "Use the *Student is:* drop down menu to indicate if this is a new hire or re-hire. If you select rehire and wish to start the student at the pay step they left at, please leave comments to your SE office indicating this is the case.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "16%"
+      },
+      {
+        "left" : "0%",
+        "top" : "16%",
+        "text" : "The FICA Code can be determined by completing the FICA questionnaire with the student. International students are exempt from FICA.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "16%"
+      },
+      {
+        "left" : "0%",
+        "top" : "32%",
+        "text" : "After the HIRE transaction is saved or submitted for the first time, the student will be required to acknowledge receipt of a Medical/Prescription Drug Plan offer, which will be emailed to them automatically and shown when they next log in to ***sece***. This field will list the date the student acknowledged, or else show a message indicating that the student still needs to acknowledge. This message will not prevent the transaction from being approved or submitted.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "16%"
+      },
+      {
+        "left" : "0%",
+        "top" : "69%",
+        "text" : "The Pay Class and Step are fixed. All new hires start at the first step per APM A9.880. An employer may request that a student be hired at a higher step based on relevant experience in that specific job, like when a student is being rehired for the same position. You should leave comments for SE with a justification when you wish the student to start at a higher step.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "16%"
+      }
+    ]
+  },
+  "help-hire-job-2" : {
+    "src" : "images/hire-transaction-4.jpg",
+    "description" : "An image of the rest of the Job Information section of a hire transaction.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "This section displays the job information as it existed at the time the hire transaction was generated. This is done so that even if the job is changed later, there is a record of the original terms of the student's employment. Duties and Qualifications cannot be edited at this step. Check to make sure the student is being hired for the correct job number and at the correct pay class.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "76%"
+      },
+      {
+        "left" : "0%",
+        "top" : "76%",
+        "text" : "Using the *Supervision Received* and *Student Supervises Others* drop-down menus, indicate the level of supervision the student will require and whether or not the student will supervise others.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "24%"
+      }
+    ]
   }
 }
