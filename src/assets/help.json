@@ -848,5 +848,259 @@
         "regionHeight" : "24%"
       }
     ]
+  },
+  "help-hire-accounts" : {
+    "src" : "images/hire-transaction-5.jpg",
+    "description" : "An image of the Payroll Information section of a hire transaction.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "Enter the appointment period for the student, meaning the period in which you expect the student to be in your employ. Note that the appointment period cannot exceed one year nor can it begin prior to the date of the job application. For more details on appointment periods, see the *APM A9.880*.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "20%"
+      },
+      {
+        "left" : "0%",
+        "top" : "20%",
+        "text" : "Enter the Payroll Information here. Each account code that will be used to pay the student’s wages should be entered in this section, but you must enter at least one account code.\n\n* __Payroll Number:__ Typically *F3 - Regular*, unless the student has a Federal Work Study (FWS) award, in which case *F1 - Federal Work Study* may be selected for the account from which your contribution will come. Consult with your campus’ student employment office for additional information related to FWS.\n* __Warrant Code:__ The three-digit code that determines to which department checks will be routed.\n* __Campus:__ The campus that controls/funds this account. The funding source of the job and the campus code should usually match. Note that the work location and even supervising staff may be from a different campus than the funding source/campus code, as some positions may be funded and managed as a cooperative effort between campuses.\n* __Account Code:__ The full fourteen-digit account code is condensed into a seven-digit code used for general purposes; the last seven digits of the full code in this case. Employer contributions and overearnings will be charged to this account in the case of FWS students when on the F1 payroll number. For students on the F3 payroll number, all earnings for hours allocated to this account will be charged to the account.\n* __Sub-Account Code:__ Most accounts will not use a sub-account code, but this line is provided should there be one.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "70%"
+      },
+      {
+        "left" : "0%",
+        "top" : "90%",
+        "text" : "If the student employee will be paid from more than one account, you may press *Add Another Account* to add an additional account.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "10%"
+      }
+    ]
+  },
+  "help-hire-approval" : {
+    "src" : "images/hire-transaction-6.jpg",
+    "description" : "An image of the Approval section of a hire transaction.",
+    "arrows" : [
+      {
+        "left" : "64%",
+        "top" : "13%",
+        "text" : "This section lists the chain of approvers for the transaction. To approve the transaction, check the box next to your name and hit *Save/Submit*.",
+        "direction" : "up",
+        "regionWidth" : "35%",
+        "regionHeight" : "15%"
+      },
+      {
+        "left" : "35%",
+        "top" : "74%",
+        "text" : "To save changes but not approve, hit *Save/Submit* without checking your approval box.",
+        "direction" : "up",
+        "regionWidth" : "18%",
+        "regionHeight" : "17%"
+      }
+    ]
+  },
+  "help-placements-tab" : {
+    "src" : "images/placements-tab.jpg",
+    "description" : "An image of the Placements tab. Listing transactions awaiting approval and a list of student employee records.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "5%",
+        "text" : "Transactions that are currently awaiting your approval will be listed first. You may press anywhere on a row to bring up the detailed view of that transaction.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "8%"
+      },
+      {
+        "left" : "0%",
+        "top" : "13%",
+        "text" : "The transaction type of transactions awaiting approval will be listed in shorthand for your information.\n\n* __STD__: This is a Student Personal Information change transaction.\n* __FICA__: This is a FICA code change transaction.\n* __AP-PER__: This is an Appointment Period change transaction.\n* __RC-STP__: This is a Step Increase within Same Class transaction.\n* __RC-PRM__: This is a Promotion to New Class (within same series) transaction.\n* __RC-DGR__: This is a Downgrade to New Class (within same series) transaction.\n* __FC-ADD__: This is an Add New Account transaction.\n* __FC-C/T__: This is a Change or Terminate Account Code transaction.\n* __HIRE__: This is a Hire transaction.",
+        "direction" : "up",
+        "regionWidth" : "12%",
+        "regionHeight" : "7%"
+      },
+      {
+        "left" : "0%",
+        "top" : "21%",
+        "text" : "Transactions that are currently awaiting the approval of others in your department will be listed next. You can see when the transaction entered its current status (*As of Date*) and who it is waiting on for its next approval (*Waiting On*).",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "19%"
+      },
+      {
+        "left" : "0%",
+        "top" : "40%",
+        "text" : "Under *Awaiting SE Approval*, transactions that have received all departmental approvals and are awaiting approval of the Student Employment office are listed.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "11%"
+      },
+      {
+        "left" : "0%",
+        "top" : "52%",
+        "text" : "The *Student Employees* section lets you view current and former student employees. You can use the filter options above to sort the list. Pressing anywhere on the row will take you to that student employee’s placement record.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "46%"
+      }
+    ]
+  },
+  "help-placement-detail" : {
+    "src" : "images/placements-detail.jpg",
+    "description" : "An image of a Placement Record.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "8%",
+        "text" : "The student's employment record, known as a Placement Record, displays basic information in the top section, including things like pay rate, hire date, position title, and their FWS award (when applicable).",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "51%"
+      },
+      {
+        "left" : "0%",
+        "top" : "59%",
+        "text" : "If the student employee has Federal Work Study, the amount of their award for the semester and their remaining balance will be displayed here.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "24%"
+      },
+      {
+        "left" : "15%",
+        "top" : "83%",
+        "text" : "Use the first drop-down menu to view transactions that are going through the approval process, or to create a new transaction. Note that you will not be able to create a new transaction if there is one currently routing for approvals.",
+        "direction" : "up",
+        "regionWidth" : "70%",
+        "regionHeight" : "8%"
+      },
+      {
+        "left" : "18%",
+        "top" : "91%",
+        "text" : "Use the *Historical Transactions* drop-down menu to view all transactions that have been previously approved and processed. This will always start with the hire transaction.",
+        "direction" : "up",
+        "regionWidth" : "64%",
+        "regionHeight" : "7%"
+      }
+    ]
+  },
+  "help-placement-job-approval" : {
+    "src" : "images/job-create-approval2.jpg",
+    "description" : "An image of the Section 2: Transaction and Placement Approval Information section of a job form.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "The job determines the approval chain for all transactions (including hires).",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "100%"
+      }
+    ]
+  },
+  "help-placement-plc-approval" : {
+    "src" : "images/placement-approval.jpg",
+    "description" : "An image of the Approval Information section of a placement transaction.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "All transactions will display this chain at the bottom and this is also where you will check the box next to your name to do your approval.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "100%"
+      }
+    ]
+  },
+  "help-trans-stdinfo-1" : {
+    "src" : "images/trans-stdinfo-1.jpg",
+    "description" : "An image of a Data Change - Student Personal Info transaction",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "The type of transaction that is being created will be listed at the top of the transaction.",
+        "direction" : "up",
+        "regionWidth" : "60%",
+        "regionHeight" : "12%"
+      },
+      {
+        "left" : "58%",
+        "top" : "25%",
+        "text" : "The new information is entered under the *Change To:* column. When a field is left blank, the information for that section will not be changed.",
+        "direction" : "up",
+        "regionWidth" : "30%",
+        "regionHeight" : "10%"
+      },
+      {
+        "left" : "59%",
+        "top" : "52%",
+        "text" : "The first set of fields allows for updates to the student's SSN and name for payroll purposes. To change a first name or middle name to a blank value, enter a single period \".\" in the corresponding field under the *Change To* column.\n\nUpdates to these values will be fed into the payroll system, and require a copy of the student's social security card be sent to the UH Payroll Office.",
+        "direction" : "up",
+        "regionWidth" : "39%",
+        "regionHeight" : "48%"
+      }
+    ]
+  },
+  "help-trans-stdinfo-2" : {
+    "src" : "images/trans-stdinfo-2.jpg",
+    "description" : "An image of a Data Change - Student Personal Info transaction",
+    "arrows" : [
+      {
+        "left" : "59%",
+        "top" : "0%",
+        "text" : "You can change the student’s address on their payroll record by inputting the new address in the transaction. This determines the address that will be printed on the student’s W-2.",
+        "direction" : "up",
+        "regionWidth" : "38%",
+        "regionHeight" : "32%"
+      },
+      {
+        "left" : "1%",
+        "top" : "70%",
+        "text" : "You can leave comments to Student Employment in the *Internal Comments* field.",
+        "direction" : "up",
+        "regionWidth" : "98%",
+        "regionHeight" : "28%"
+      }
+    ]
+  },
+  "help-trans-fica" : {
+    "src" : "images/trans-fica.jpg",
+    "description" : "An image of a Data Change - FICA transaction showing a current FICA code of N0",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "The type of transaction that is being created will be listed at the top of the transaction.",
+        "direction" : "up",
+        "regionWidth" : "60%",
+        "regionHeight" : "10%"
+      },
+      {
+        "left" : "47%",
+        "top" : "30%",
+        "text" : "You can change the student’s FICA code from N0 (exempt from FICA) to K0 (not exempt from FICA) using the drop-down menu under the *Change To:* column.",
+        "direction" : "up",
+        "regionWidth" : "51%",
+        "regionHeight" : "9%"
+      },
+      {
+        "left" : "1%",
+        "top" : "42%",
+        "text" : "You can leave comments to Student Employment in the *Internal Comments* field.",
+        "direction" : "up",
+        "regionWidth" : "98%",
+        "regionHeight" : "30%"
+      },
+      {
+        "left" : "0%",
+        "top" : "72%",
+        "text" : "The account codes affected by this change will be listed here for informational purposes.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "28%"
+      }
+    ]
   }
 }

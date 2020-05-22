@@ -255,6 +255,53 @@ div.arrow-region .region-label {
   color: var(--light-gray);
 }
 
+.flowchart-container {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flowchart-box {
+  border: 0.25rem solid var(--region-outline-color);
+  padding: 0.5rem;
+  text-align: center;
+  background-color: white;
+  font-weight: bold;
+  position: relative;
+  margin: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.flowchart-box:not(:last-child):after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 103%;
+  top: 38%;
+
+  border-top: 0.75rem solid transparent;
+  border-bottom: 0.75rem solid transparent;
+  
+  border-left: 1rem solid var(--arrow-color);
+}
+
+@media screen and (max-width: 38rem) {
+  .flowchart-container {
+    flex-direction: column;
+  }
+
+  .flowchart-box:not(:last-child):after {
+    left: calc(50% - 0.5rem);
+    top: 100%;
+
+    border-left: 0.75rem solid transparent;
+    border-right: 0.75rem solid transparent;
+  
+    border-top: 1rem solid var(--arrow-color);
+  }
+}
+
 /******************
  * CSS Transforms *
  ******************/

@@ -479,3 +479,166 @@ Fill in the Hire transaction details and approve it. More details on the differe
 > #### Static Fields
 > Static fields are fields you cannot type into or change. When a field is static, and the information is inaccurate, you will need to contact your campus' student employment office to have the change made or receive instructions on how the change can be made. Changes to *Duties* and *Qualifications* can be requested from the Job page using the *Request Update to Locked Data* button.
 
+{help-hire-accounts}
+
+{help-hire-approval}
+
+## Hiring Process
+
+The Hire transaction receives a number of approvals along the way to being processed into the payroll system. The flowchart below summarizes the process a hire transaction goes through.
+
+<figure class="flowchart-container">
+  <div class="flowchart-box">Hire Transaction Initiated</div>
+  <div class="flowchart-box">Routes for approval within the department</div>
+  <div class="flowchart-box">Routes to Fiscal Authority for approval</div>
+  <div class="flowchart-box">Routes to your SE office for final approval</div>
+  <div class="flowchart-box">Processed in the payroll system</div>
+</figure>
+
+### Create the Hire Transaction
+
+Any user listed in section 2 may create the hire transaction using the *Hire* button as described earlier. If the creator does not check their approval box, the first approver in the chain will be notified to approve the transaction when the transaction is saved. If the creator does approve the transaction, the next approver after them in the chain will be notified instead.
+
+### Departmental Approvals
+
+Once created, the hire transaction will need to route through the department to receive all additional approvals. These approvals are determined by the usernames inputted into section 2 of the job. As each user approves the transaction, the next approver in the chain will receive an email notifying them that the transaction is awaiting their approval.
+
+Any user further down in the chain may bypass the approval of those preceding them in the chain. This is sometimes necessary when an approver is unavailable or does not have placement access. Once an individual has approved the transaction they will be unable to make any further changes, though those who have yet to approve may still make changes.
+
+### Fiscal Authority Approval
+
+Once all of the normal departmental approvals have been done, the Fiscal Authority will need to do their approval. If the Fiscal Authority is unavailable, the backup FA may approve in their stead. Backup Fiscal Authority is not required normally and the transaction does not route to the backup FA when the FA approves the transaction.
+
+Many of the fields on the Hire can be left blank up until this point, if you so desire, but all required fields must be filled before the Fiscal Authority can approve the hire. When the FA does their approval the system will validate that all required fields are completed and that the account codes are active. Should there be any problems, the FA will receive the error message in red. Once the FA or backup FA has approved the transaction, no further changes can be made to the Hire transaction. If changes to the Hire transaction need to be made after the FA or backup FA has done their approval, please contact your campus’ SE office to request said changes.
+
+### SE Approval
+
+The Hire transaction will then route to the appropriate student employment office for review and approval based on the funding source of the job. Approvals typically occur within three to five business days. Missing supplemental forms or errors on the hire may cause delays.
+
+If there is a problem, the hire transaction will be placed on HOLD by the student employment office and you should be contacted shortly with an explanation of the situation. If the transaction is approved by the student employment office, you should receive an email indicating the transaction has been approved. Students are allowed to start working once this approval email has been received.
+
+### Changing Locked Fields on Hires
+
+Certain aspects of a hire will be locked and cannot be edited by you as the employer on the Hire transaction. Some aspects, such as the *Job Information* and the *Approval Information* sections may not be changed on the hire transaction once it has been generated. In these cases, the hire transaction must be deleted and recreated once the Job record is corrected.
+
+If you need to make changes to any of the parts of the hire transaction indicated below, contact your SE office or leave comments on the hire transaction making the request.
+
+#### Student's Personal Information
+
+Certain aspects of the student’s information cannot be changed by you as the employer. If you notice that the student’s name, social security number, date of birth, or gender are inaccurate, consult your SE office.
+
+Corrections to the SSN or name may require the submission of documentation to UH Payroll. If the date of birth or gender are inaccurate, the SE office may need to work with the ITS team to make the correction. The student may also want to check with the records office of their home campus to correct the information on their regular student record.
+
+#### Starting at a Higher Step
+
+Student hires are normally always started at the first step of their pay class. If you are rehiring a student, or the student possesses prior experience that you feel merits consideration, you may make a request for the student be started at a higher step.
+
+Most commonly this means having the student hired at the step they were at when they were last in your employ in the same position. This request is usually made by leaving comments to student employment on the hire transaction, though individual campuses may have their own procedures.
+
+#### Marital Status (International Students)
+
+International students who qualify as nonresident aliens must indicate *Single* on the Hire transaction for tax purposes. Most international students will fall into this category.
+
+If the student passes the substantial presence test, thus qualifying as a resident alien for tax purposes, they can request that the Hire transaction reflect their accurate marital status. This change must be made by your SE office. See the IRS document called *Notice 1392* for additional information.
+
+# Placements Tab
+
+> If you do not see the Placements tab, you do not have Placement Access. Contact your Department Liaison or Campus Liaison to request the training to get this access. If you do not know who your Liaison is, contact the Student Employment office at your campus.
+
+{help-placements-tab}
+
+## Viewing Employment Records
+
+{help-placement-detail}
+
+## Transaction Types
+
+This section provides a brief description of each of the different transaction types you may create for a student employee. Once created, transactions will route for departmental approvals just as a hire transaction would. The full details on each transaction type are presented after this brief introduction.
+
+#### Data Chg - Student Personal Info
+
+This transaction is used to change one or more pieces of information related to the student. This includes the option to change the student’s address, citizenship status, marital status, and tax exemptions. Only the fields changed under the *To:* column will be updated and all fields left blank will remain the same.
+
+#### Data Chg - FICA
+
+This transaction is used to change a student’s record so that they are either exempt or not exempt from FICA taxes. Please see the *Summer FICA Tax Information* and the *Student Assistant FICA Questionnaire* for more details on FICA. The detailed section on this transaction also has more details.
+
+#### Data Chg - Appt Period
+
+This transaction is used to change or update the student’s appointment period. Whenever the student’s current appointment period ends, you should update their appointment period using this transaction. The appointment period defines the current period in which you intend to employ the student, not to exceed one year.
+
+#### Rate Chg - Step Increase within Same Class
+
+This transaction is used to grant a student a step increase. The transaction moves a student up one step on the pay scale within their current class. Step increases can only be granted if six or more months have passed since the student’s last step increase, promotion, or hire date. Students that work for one year from their last step increase, promotion, or hire date, and who work 400 or more hours during that period, are entitled to a mandatory step increase.
+
+#### Rate Chg - Promo to New Class
+
+This transaction is used to grant a student a promotion. The transaction allows you to move a student up to any higher pay class within the same series (same job number). You will need to create the new jobs in the series before promoting students to them if these jobs do not already exist. The student should meet the qualifications and be able to perform the duties of the new pay class.
+
+#### Rate Chg - Downgrade to New Class
+
+This transaction is used to downgrade a student to a lower pay class within the same series. Downgrading a student requires the approval of your student employment office and should be justified. This is typically allowed after a student was temporarily promoted to a higher pay class for performing advanced duties, and is now resuming their normal tasks. Considerations for a step increase at the lower class may be requested, especially if the employee was at a higher step in that lower pay class before the promotion.
+
+#### Fund Chg - Add New Account Code
+
+This transaction is used to add a new account code to a student’s record. Adding an account code allows you to pay the student from the new account. These transactions usually only require student employment approval when using the *F1-Federal Work Study* payroll number.
+
+#### Fund Chg - Change or Terminate Account Code
+
+This transaction is used to either change an existing account code on the student’s record or to terminate an account code on the student’s record. Note that terminating all account codes will result in terminating the student’s record on the payroll system, ending their employment. Certain changes will require student employment approval, such as changing the payroll number to *F1-Federal Work Study* or changing the *Warrant Distribution Code*. Note that students cannot be terminated until two pay periods after they receive their last pay check.
+
+> #### Timing Transactions
+> A transaction will generally take effect on the date it is processed in the Payroll system, which is usually, but not always, the business day that it receives its final approval. Some transactions, such as FICA, have more specific timing issues.
+
+### Transaction Approval Process
+
+Every transaction will route through the approver list for approvals. When a transaction is created, the person creating it usually does the first approval, progressing through the chain of approvers. If the creator of the transaction does not approve it, it will route to the first person in the approval chain instead.
+
+#### List of Approvers
+
+The list of approvers is set in section 2 on the Job when the job is created. You must have a Supervisor and a Fiscal Authority listed.
+
+{help-placement-job-approval}
+
+{help-placement-plc-approval}
+
+#### Changing Approvers
+
+If you need to change approvers for a Job, navigate into the job as discussed previously and make the changes in section 2 (*Transaction and Placement Approval Information*) on the job. Please note that once a transaction has been created, the approval list will be fixed on the transaction and cannot be changed. Changing the approvers on the job will prevent those removed from approving the transaction. If you wish to change the approvers at this point you will need to delete the transaction and recreate it.
+
+#### Routing for Approvals
+
+The transaction will route starting with the first person in the chain or the next person in the chain after the creator, assuming the creator approves it, if the creator of the transaction is not the first approver. Approvals proceed from the top down. Each user will receive an email when the transaction is awaiting their approval. Once the Fiscal Authority or their backup approves the transaction, it will move on to student employment for final approval (if necessary) or finalize on the system.
+
+#### Bypassing Approvals
+
+Any approver can go in and approve a transaction before it is their turn, bypassing the approvals of those above them. Bypassing a Supervisor is generally discouraged, but circumstances may require it from time to time. Bypassing is most commonly used when an approver does not yet have placement access or is unavailable.
+
+### Data Chg - Student Personal Info
+
+{help-trans-stdinfo-1}
+
+{help-trans-stdinfo-2}
+
+> #### Records & Name Changes
+> Changing information using this transaction only affects the Payroll record. If the student wishes to change this information on their student record and/or sece, they will need to make the change with the Records office. 
+>
+> If the student changes their name or SSN, you should contact your student employment office for information. Typically, this involves a memo requesting a name/SSN change and a photocopy of the student’s Social Security Card showing his/her new name being forwarded to Payroll or the appropriate office.
+
+### Data Chg - FICA
+
+{help-trans-fica}
+
+> #### Transaction Approval Notice
+> Unlike most transactions, FICA transactions only require one approval. If anyone on the approval list approves, the transaction will finalize.
+
+#### What is FICA
+
+FICA is essentially payroll taxes that a student is normally exempt from during the regular academic periods (Fall/Spring). A student that is not exempt from FICA, for whatever reason, has their earnings subject to an assessment for PTS Deferred Compensation equal to 7.50% of gross wages before taxes and a Medicare tax of 1.45% (and 1.45% charged to the employer). Should you or the student want more details, a booklet explaining PTS Deferred Compensation can be found on the *Forms and Info* tab.
+
+The FICA questionnaire can be used to determine the FICA status of a student for any given academic period, though classified students are typically only *K0-Not exempt* during summer sessions, so FICA is primarily a concern at the end of the Spring semester. Please consult with your Fiscal Authority or your student employment office if you have additional questions.
+
+#### Timing Transactions
+
+If a student is exempt from FICA taxes for even one day in a pay period, they are exempt for the entire pay period. If there are less than five weeks between the end of their exemption and the start of the next term in which they are exempt, they may be left as exempt for that intervening period as well. Consult the FICA memorandum issued by Payroll (*Forms and Info* tab) for the dates on which to input changes.
+
