@@ -32,14 +32,14 @@ The following are some basic tips for navigating on the ***sece*** system:
 * __Searches:__ When conducting a search you can search by full words/names or you can use a wildcard to search by part of a word/name.
   To perform a wildcard search, type the first few letters and end with a % symbol. For example, searching using "pan%" will search for all words starting with the letters "pan."
 * __Sub-Tabs:__ When on some tabs, a series of text links at the top of the page may appear. These are called sub-tabs and they take you to different screens within that section.
-* __Tabs:__ Similar to tabs in a binder, these tabs at the top of the screen divide the functions of sece into related functions. For the employer, these tabs are Jobs/Other, Placements/Forms, and Timesheet.
+* __Tabs:__ Similar to tabs in a binder, these tabs at the top of the screen divide the functions of ***sece*** into related functions. For the employer, these tabs are Jobs/Other, Placements/Forms, and Timesheet.
 * __Text Fields:__ White text fields can be typed in-to by the user.
 * __Text Links:__ Text links will appear as text that is underlined or dark blue. Clicking on a text link will typically take you to another page linked to that text. When you mouse-over a text link the mouse icon will change to a pointing hand.
 * __Timing Out:__ If you are idle while logged in for around 15 minutes, the system will log you out. Please keep this in mind while creating jobs or doing other lengthy actions, as this could cause you to lose your data. Saving periodically will prevent the system from logging you out.
 
 ## EEO/AA
 
-The University of Hawaii is an Equal Employment Opportunity (EEO) and Affirmative Action (AA) employer, and as such, users of the sece system must comply with the relevant federal and state laws and regulations.
+The University of Hawaii is an Equal Employment Opportunity (EEO) and Affirmative Action (AA) employer, and as such, users of the ***sece*** system must comply with the relevant federal and state laws and regulations.
 
 ## FERPA
 
@@ -47,13 +47,13 @@ The Family Educational Rights and Privacy Act (FERPA) (20 U.S.C. § 1232g; 34 CF
 
 ## Administrative Procedures Manuals
 
-The Administrative Procedures Manuals (APM) can be found as a link on the Placements/Forms tab of sece. These two documents define the policies and procedures governing student employment at the University. [APM A9.860](https://www.hawaii.edu/policy/docs/temp/ap9.860.pdf) defines grievance procedures and [APM A9.880](https://www.hawaii.edu/policy/?action=viewPolicy&policySection=ap&policyChapter=9&policyNumber=880) covers all other policies and procedures related to student employment.
+The Administrative Procedures Manuals (APM) can be found as a link on the Placements/Forms tab of ***sece***. These two documents define the policies and procedures governing student employment at the University. [APM A9.860](https://www.hawaii.edu/policy/docs/temp/ap9.860.pdf) defines grievance procedures and [APM A9.880](https://www.hawaii.edu/policy/?action=viewPolicy&policySection=ap&policyChapter=9&policyNumber=880) covers all other policies and procedures related to student employment.
 
 ## The Hiring Process
 
 The following is a brief introduction to the hiring process. For more details, please refer to the Hiring Policies & Procedures document on the _Forms and Info_ tab, or [Hiring a Student Employee](#hiring-a-student-employee) in this document.
 
-1. Create a job or open an existing job on the sece system.
+1. Create a job or open an existing job on the ***sece*** system.
 2. Eligible students interested in the position will add the job to their job cart. If they are interested in applying for the position, they will hit the apply button that adds them to your applicant list.
 3. Students apply for the position as the employer indicated on the job.
 4. The best candidate is selected and an offer is made. Those not selected should be promptly informed so they can continue their job search.
@@ -64,9 +64,9 @@ The following is a brief introduction to the hiring process. For more details, p
 
 ## Glossary of Terms
 
-Below are some common terms you may encounter when using sece.
+Below are some common terms you may encounter when using ***sece***.
 
-- __Account Code:__ The account code is a long string of digits designating the account from which workers will be paid. The codes as used on sece will be seven digits long (1117111).
+- __Account Code:__ The account code is a long string of digits designating the account from which workers will be paid. The codes as used on ***sece*** will be seven digits long (1117111).
 - __APM:__ Administrative Procedures Manual. In this document, APM refers to the guidelines governing student employment policies and procedures (A9.880) and the grievance process (A9.860). Links to these can be found on the _Forms and Info_ tab.
 - __BO:__ Business Office. An abbreviation used in relation to timesheets to refer to the Business Office level approver.
 - __EEO:__ Equal Employment Opportunity, which refers to laws prohibiting certain types of discrimination in certain workplaces.
@@ -86,11 +86,11 @@ Below are some common terms you may encounter when using sece.
 - __Placement:__ A student's employment record. A placement can be active or inactive. Active means the student is working currently and inactive means the student is no longer placed in the position.
 - __Placement Access:__ A user must get this from student employment or their liaison if they wish to initiate transactions/hires.
 - __SE Office:__ Student Employment Office. Each of the campuses in the University of Hawaii system has an office responsible for handling student employment. The term SE Office, or Student Employment Office, generically refers to these.
-- ***sece*** __(see-key):__ This term is primarily used in relation to the sece jobs database. The system is used to manage student employees, help students find jobs, post jobs and manage student timesheets.
+- ***sece*** __(see-key):__ This term is primarily used in relation to the ***sece*** jobs database. The system is used to manage student employees, help students find jobs, post jobs and manage student timesheets.
 - __STD:__ Student. An abbreviation used in relation to timesheets that refers to the student.
 - __Step:__ Each pay class has four steps with most new hires starting at the first step of a given pay class. Steps define the pay rate for the student and are typically awarded based on merit and time spent in a given job. These will typically be written as the pay class followed by the step number, thus A22 would be the A2 pay class at the second step.
 - __SUP:__ Supervisor. An abbreviation used in relation to timesheets that refers to the supervisor level approver.
-- __Transaction:__ Changes made to a placement on sece are called transactions. These include things like account changes, pay increases, promotions, demotions, terminations, and so on.
+- __Transaction:__ Changes made to a placement on ***sece*** are called transactions. These include things like account changes, pay increases, promotions, demotions, terminations, and so on.
 - __WDC:__ Warrant Distribution Code. Each office or department has its own WDC which is used by payroll. The code basically tells payroll to which department or office the check should be sent. This is also referred to as the _Warrant Code_ or _Warrant Number_.
 
 # Logging In
@@ -106,7 +106,7 @@ Below are some common terms you may encounter when using sece.
 
 ## Creating a Profile
 
-The first time you log into the sece system you will be prompted to create a profile. If you transfer to a new job, be sure to update your profile.
+The first time you log into the ***sece*** system you will be prompted to create a profile. If you transfer to a new job, be sure to update your profile.
 
 {help-profile-1}
 
@@ -122,7 +122,7 @@ The first time you log into the sece system you will be prompted to create a pro
 
 ## Jobs Tab
 
-The _Jobs_ tab is primarily used to create and manage job listings on sece. The following is a brief introduction to this module and some relevant information regarding jobs on sece.
+The _Jobs_ tab is primarily used to create and manage job listings on ***sece***. The following is a brief introduction to this module and some relevant information regarding jobs on ***sece***.
 
 ### Jobs vs. Job Series
 
@@ -152,7 +152,7 @@ Each position in a job series has its own position title, qualifications, duties
 
 ## Jobs as Templates
 
-A job on the sece system can be thought of more as a template rather than the actual hiring record. A student's hire transaction (discussed later) is the actual employment record which is generated based on the information contained in the job.
+A job on the ***sece*** system can be thought of more as a template rather than the actual hiring record. A student's hire transaction (discussed later) is the actual employment record which is generated based on the information contained in the job.
 
 What this means is that a single job can be used to hire multiple students during a single recruitment or even be used later to hire new/additional students. For example, if you need to hire two students for the same sort of work, you can open a single job and hire both under that same job number. The only time you will need to create a new job for each hire is when the students will be performing different functions or different qualifications are required. Otherwise, a job can be re-opened and re-used as often as you need it.
 
@@ -296,7 +296,7 @@ Pay class rates may periodically be adjusted, so please refer to APM A9.880 for 
 
 To assign users to roles in section 1, 2, and 3 you will need to have their UH usernames. UH usernames are the part of their email proceeding the @ symbol in their email address. For example, if their email address is *tarao@hawaii.edu*, their UH username is *tarao*.
 
-You may only enter usernames of individuals who have been assigned a UH username and who have the proper affiliation (staff or faculty). In addition, the user must have created a profile on sece to be entered into these sections.
+You may only enter usernames of individuals who have been assigned a UH username and who have the proper affiliation (staff or faculty). In addition, the user must have created a profile on ***sece*** to be entered into these sections.
 
 ### Section 1: Job/Referral Contact
 
@@ -382,7 +382,7 @@ Adding a job to a series is much like creating a new job, save that you are work
 
 ## Hiring Students
 
-This section deals with hiring students using the sece system. The basic hiring process is as follows:
+This section deals with hiring students using the ***sece*** system. The basic hiring process is as follows:
 
 1. Open and advertise the job.
 2. Interested and eligible students will add themselves to the applicant list and contact you in the manner specified to apply. The system also now allows online applications.
@@ -395,7 +395,7 @@ This section deals with hiring students using the sece system. The basic hiring 
 
 ### Things to Keep in Mind
 
-The following are things you should keep in mind before trying to hire a student using sece.
+The following are things you should keep in mind before trying to hire a student using ***sece***.
 
 * __Do not interview a student who has not applied for your job.__ Only students who are eligible for your job can add themselves to your applicant list, so making sure they are on that list will save you some potential headaches down the road. Note that a change in a student's enrollment or academic status can change their work eligibility.
 * __Do not accept an application in someone else's name.__ Sometimes students get contact information from friends. If the student is not on your applicant list, you will not be able to initiate a hire transaction for them.
@@ -418,7 +418,7 @@ The following are descriptions of the supplemental forms the student may need to
 
 This is a federal form that determines an employee's eligibility to legally work in the United States. All employees within the U.S. must complete the form and show the proper documentation. Once you have made an offer of employment to a student, and he/she has accepted that offer, the student should complete this form. By law, the form must be fully executed within three days of starting work, which is one reason why students may not start until their hire is approved by the Student Employment office at your campus.
 
-The form is now electronic and can be started on the sece system by the student, who will complete section 1 and then submit it. Once this is done, the student should bring the required documents to the relevant campus' student employment office to finish the form. Electronic I-9s are good at any campus in the UH system that uses the electronic form.
+The form is now electronic and can be started on the ***sece*** system by the student, who will complete section 1 and then submit it. Once this is done, the student should bring the required documents to the relevant campus' student employment office to finish the form. Electronic I-9s are good at any campus in the UH system that uses the electronic form.
 
 #### Federal Tax Withholding Form (W-4)
 
@@ -621,7 +621,7 @@ Any approver can go in and approve a transaction before it is their turn, bypass
 {help-trans-stdinfo-2}
 
 > #### Records & Name Changes
-> Changing information using this transaction only affects the Payroll record. If the student wishes to change this information on their student record and/or sece, they will need to make the change with the Records office. 
+> Changing information using this transaction only affects the Payroll record. If the student wishes to change this information on their student record and/or ***sece***, they will need to make the change with the Records office. 
 >
 > If the student changes their name or SSN, you should contact your student employment office for information. Typically, this involves a memo requesting a name/SSN change and a photocopy of the student’s Social Security Card showing his/her new name being forwarded to Payroll or the appropriate office.
 
@@ -642,3 +642,359 @@ The FICA questionnaire can be used to determine the FICA status of a student for
 
 If a student is exempt from FICA taxes for even one day in a pay period, they are exempt for the entire pay period. If there are less than five weeks between the end of their exemption and the start of the next term in which they are exempt, they may be left as exempt for that intervening period as well. Consult the FICA memorandum issued by Payroll (*Forms and Info* tab) for the dates on which to input changes.
 
+<!-- Link to FICA flowchart? -->
+
+### Data Chg - Appt Period
+
+{help-trans-appt}
+
+#### What is an Appointment Period?
+
+When a student is hired, you must set an appointment period not to exceed a year, but renewable as you see fit. As defined by the APM the appointment period sets the period of time which you agree to employ the student. When the appointment period ends, you may terminate a student’s employment without cause; however, you may also renew their employment by submitting either this transaction or one of the others that includes the ability to update the appointment period. If you are terminating a student prior to the end of their appointment period you should give two weeks notice per the APM unless you have cause to not do so. While the expiration of the appointment period does not mean the student must stop working, you should endeavor to update the appointment period as soon as possible when it does expire.
+
+### Rate Chg - Step Increase within Same Class
+
+{help-trans-step}
+
+#### Student Employment Approval
+
+If you submit a step increase for an employee before six months have passed since their hire date (or last pay increase), the transaction will go to your Student Employment office for review. If you know you are submitting it early, we recommend leaving justification in the *Internal Comments to Student Employment* section.
+
+#### Step Increase Rules
+
+New hires start at the first step in the pay class and there are a total of four steps in each pay class. This is notated as the final digit in the class/step designation. For example, A21 indicates the A2 pay class and the first step, while A22 indicates the A2 pay class and the second step. The fourth step is as high as a student can go without moving up to the next pay class. Step increases can normally only be given if six months have passed since the last pay increase (step/promotion) and/or the hire date. A mandatory step increase must be given after the student has worked one year from the last increase or hire date and the student has worked 400+ hours during that period.
+
+### Rate Chg - Promo to New Class (within same series)
+
+{help-trans-promo}
+
+#### Promotions
+
+You may promote a student using this transaction to any pay class in the same job series (same job number). The student must meet the qualifications of the new pay class and be able to perform the duties indicated. Promotions are always to the first step. The job listing at the higher pay class must have been created and approved before the student can be promoted to that level.
+
+### Rate Chg - Downgrade to a New Class (within same series)
+
+{help-trans-demo}
+
+#### Student Employment Approval
+
+Downgrades require student employment approval. If you are downgrading a student that was at a higher step in the lower pay class, indicate this in the comments to restore them to that step. Leaving comments justifying the downgrade, or making prior arrangements with your SE office, will also increase the likelihood that the downgrade will be approved. Most downgrades are the result of an employee temporarily assuming greater duties.
+
+### Fund Chg - Add New Account Code
+
+{help-trans-add}
+
+> #### Account Codes
+> You should consult your Fiscal Authority when adding account codes if you have questions.
+
+### Fund Chg - Change or Terminate Account Code
+
+{help-trans-chg}
+
+#### Terminations
+
+One of the possible uses of this transaction is to terminate a student’s employment. The system will prevent you from initiating a termination until two pay periods have passed since the last pay date. If you check the terminate box in all of the accounts associated with the student’s employment record, this transaction will terminate the student.
+
+#### Changing/Removing Accounts
+
+One of the uses for this transaction is to either remove or change accounts associated with the student’s employment record. If you wish to remove account codes, but not terminate the student, check the terminate box for the accounts you wish to remove, but you must leave at least one account active. If you want to change accounts, enter the new accounts information on the *Change To:* line next to the account code you wish to change.
+
+# Forms and Info
+
+{help-forms-info}
+
+The *Forms and Info* tab is where you will find links to resources relevant to hiring student employees.
+
+## General Forms and Info
+
+The *General Forms and Info* section contains a number of links to various general documents that are used at all campuses. Each of the documents are briefly described below:
+
+* __Employer Guidebook to ***sece*** Functions:__ This is a link to this guide.
+* __Hiring Policies & Procedures:__ This is a link to a document that walks you through advertising jobs and hiring students.
+* __Federal Income Tax Withholding Form (W-4):__ This is a link to the Federal income tax form that student employees need to complete to determine their Federal withholding allowances.
+* __State of Hawaii Employee Withholding Allowance and Status Certificate (HW-4):__ This is a link to the State of Hawaii income tax form that student employees need to complete to determine their State withholding allowances.
+* __HIP Direct Deposit Login:__ This is a link to log in to the Hawaii Information Portal (HIP).
+* __Form I-9 Instructions:__ This is a link to a pdf containing detailed instructions on completing the form I-9 provided by USCIS.
+* __Federal Form I-9:__ This is a link to the pdf version of the form I-9. Please note that some campuses now use the electronic I-9 form built into ***sece***.
+* __General Confidentiality Notice form__: When student employees will have access to sensitive information, you may ask them to complete this form. The form should be retained as part of their personnel record in your office. You may also have them complete the form on the ITS ACER website ([https://www.hawaii.edu/its/acer/](https://www.hawaii.edu/its/acer/)).
+* __Administrative Procedures Manual A9.860:__ This is a link to the APM governing grievance procedures.
+* __Administrative Procedures Manual A9.880:__ This is a link to the APM governing general student employment practices, procedures, and policies for the UH system.
+* __PTS Enrollment Form:__ This is a link to the pdf form used to enroll a student in the PTS deferment program. Students subject to FICA taxes should complete this form.
+* __PTS Deferred Compensation Booklet:__ This is a link to the booklet detailing the PTS deferred compensation system that student employees pay into when subject to FICA taxes.
+* __Student Assistant FICA Questionnaire:__ This is a link to the FICA questionnaire which you can use to determine if the student is subject to FICA taxes.
+* __Summer FICA Tax Information:__ This is a link to the memorandum detailing FICA rules for the summer.
+* __Contact Student Employment:__ This is a link to the contact page listing contact information for all campuses.
+
+## UH Manoa Forms/Info
+
+* __READ THIS FIRST:__ This is a link to a memorandum that all UH Manoa employers should read and be familiar with.
+* __90-Day Extension:__ This is a link to a pdf detailing the 90-day extension process for I-9s completed using receipts.
+* __Instructions for Hiring F1 Student w/o SSN:__ This is a link to a pdf describing the process of hiring F1 students and obtaining Social Security Numbers.
+* __Multi-Job Memo:__ This is a link to a pdf of the multi-job memo.
+* __FWS Information & Policies:__ This is a link to a pdf of the FWS Information & Policies document.
+
+# Timesheets
+
+# Records Maintenance
+
+This refers to a feature in ***sece*** that automatically performs a number of tasks related to records maintenance on the system. These tasks include tracking eligibility, mandatory step increases, and electronic I-9 expiration. If one of your student employees receives a communication from the system regarding one of these, and you have questions, please contact your campus SE office.
+
+## Electronic I-9 Expiration
+
+When a student employee’s electronic I-9 is near expiration, the system will generate a series of memos notifying the supervisor and the student of the situation. Typically, only the electronic I-9s of certain international students will have expiration dates, though citizens in certain rare cases might have an expiration date.
+
+When you receive such a memo, the student will typically have one month until their expiration date, which should give them time to get their documents in order. If the student does not update their form I-9 in a timely manner, the system will begin a series of notifications that will ultimately end in termination.
+
+The I-9 expiration function runs at the start of each month.
+
+## Eligibility
+
+When a student is no longer eligible for student employment, the system will generate a series of two memos to the student and supervisor notifying them of the situation. If the situation is not resolved, the student will be terminated by the system as described in the memo. The student should get in touch with the SE office of the campus with which their job is affiliated to find out why they are ineligible. Generally speaking, it is better for the student to contact the SE office when trying to resolve these situations due to FERPA considerations.
+
+Reasons for ineligibility will vary greatly, but typically are the result of unsatisfactory academic progress or insufficient enrollment. Exceptions or special considerations are given at the discretion of the appropriate SE office. For students working at a campus other than their primary institution, they may need to work with both campuses SE offices to resolve the situation.
+The eligibility function runs at the start of each academic term.
+
+## Mandatory Step Increase
+
+When a student has worked one year, and at least 400 hours, since their last pay increase (step increase or promotion) and/or hire date, they are entitled to a mandatory step increase. The system will automatically grant the step increase in these cases. No action needs to be taken on the part of the employer. This increase cannot be stopped or prevented, even in cases where the student is no longer working for you.
+
+The mandatory step increase function runs at the start of each week.
+
+# Quick Guides
+
+## Creating a New Job
+
+Perform this task when you wish to create a new job that is unrelated to previous jobs you may have created.
+
+1. Log in to ***sece***.
+2. Go to the *Jobs* tab.
+3. Press on the button called *Create a New Job*.
+4. Select the job funding source or campus affiliation from the drop-down field.
+5. Fill in the job information and details. Note that all fields marked by a red asterisk are required.
+6. If you would like to save the draft and finish later, press the *Save Only* button at the bottom of the page. It is recommended that you save periodically as the system may time you out.
+7. If you are ready to submit it for review by your student employment office, press on the *Submit* button.
+
+## Adding Jobs to a Series
+
+Perform this task when creating a new job which is directly related to an existing job. Adding a job to a series creates a job which can also be used for promotion and demotion. Jobs created in this way have the same job number as the original job, but they will have a different pay class.
+
+1. Log in to ***sece***.
+2. Go to the *Jobs* tab.
+3. Locate the job number of the series to which you wish to add the new job. Press the *Add to Series* button located on the same row as the job number.
+4. The system will ask if you are sure your intent is to add a job to the series. Press the *Continue* button.
+5. This will create a duplicate of the existing job for you to work from. Change the pay class, update the duties and qualifications and make any other changes.
+6. On the line that says *Open Job after Student Employment Approval*, be sure to set it to *No, for Promotions only* if you intend to use the job to promote a student employee.
+7. If you would like to save the draft and finish later, click the *Save Only* button.
+8. If you are ready to submit it for review by your student employment office, click on the *Submit* button.
+
+## Re-Opening a Job
+
+Perform this task when you wish to re-open a job which has already been approved.
+
+1. Log in to ***sece***.
+2. Go to the *Jobs* tab.
+3. Locate the job you would like to re-open and go to the *Status* column. Using the drop-down menu, change the status to OPEN.
+4. The system will ask if you are sure you wish to re-open the job. Press on the *OK* button.
+5. If there are no issues, you will see a message at the top indicating that the job has been successfully been reopened.
+6. If you see an error message at the top of the page, you will need to go into the job to make updates. Press on the position title of the job you wish to reopen.
+7. Make any necessary updates. Usually if you are seeing an error it is because the *Closing Date* has passed.
+8. Once you have made the updates, press the *Submit and Reopen* button.
+
+## Updating a Job
+
+Perform this task when you wish to make changes to an existing job other than the duties or qualifications.
+
+1. Log in to ***sece***.
+2. Go to the *Jobs* tab.
+3. Locate the job you would like to update and press on the position title of that job.
+4. Make any edits to the job that you wish. Note that if you are editing an open job, making changes will reset the three day or five referral counter for when the job can be closed.
+5. Click on the *Submit* button to save the changes.
+
+## Changing a Job
+
+Perform this task when you wish to make changes to the duties and/or qualifications of an existing job.
+
+1. Log in to ***sece***.
+2. Go to the *Jobs* tab.
+3. Locate the job you would like to update and press on the position title of that job.
+4. Press on the *Request Update to Locked Data* button.
+5. Make your revisions to the *Qualifications* and *Duties* in the editable fields. The current duties and qualifications will be listed as well.
+6. Leave any comments for the Student Employment office in the *Employer Comments* field.
+7. Press the *Submit* button when you are done. Your SE office will review the requested changes and finalize them if they are approved.
+
+## Changing Job Programs
+
+Perform this task when you wish to change the job program classification of the job.
+
+1. Log in to ***sece***.
+2. Go to the *Jobs* tab.
+3. Locate the job you would like to update and press on the position title of that job.
+4. In the *Job Classification / Duties* section, use the drop-down field on the *Classify Job As* line to set the new classification for the job.
+5. Click on the *Submit* button.
+
+## Changing Job Contacts
+
+Perform this task when you wish to make changes to *Section 1: Job/Referral Contact Information*. This controls who will be displayed on the job application information as a contact and who can make changes to the job.
+
+1. Log in to ***sece***.
+2. Go to the *Jobs* tab.
+3. Locate the job you would like to update and press on the position title of that job.
+4. Scroll down to the *Job Contact, Placement and Timesheet Approval Information* section. Change, subtract or add usernames to the various roles in section 1 and select the radio button next to the username of the supervisor.
+5. Click on the *Submit* button at the bottom of the page to save the changes.
+
+## Changing Transaction Approvers
+
+Perform this task when you wish to make changes to *Section 2: Transaction and Placement Approval*. This controls who will be in the approval chain for hires and transactions.
+
+1. Log in to **sece**.
+2. Go to the *Jobs* tab.
+3. Locate the job you would like to update and press on the position title of that job.
+4. Scroll down to the *Job Contact, Placement and Timesheet Approval Information* section. Change, subtract or add usernames to the various roles as needed in section 2. Note that the supervisor role is always the supervisor selected in section 1 and you must include a Fiscal Authority.
+5. Click on the *Submit* button to save the changes.
+
+## Changing Timesheet Approvers
+
+Perform this task when you wish to make changes to *Section 3: Timesheet Approvers*. This controls who can approve timesheets for students hired for this job.
+
+1. Log in to ***sece***.
+2. Go to the *Jobs* tab.
+3. Locate the job you would like to update and press on the position title of that job.
+4. Scroll down to the *Job Contact, Placement and Timesheet Approval Information* section. Change, subtract or add usernames as needed to section 3. You must have at least one supervisor level and one business office level approver.
+5. Click on the *Submit* button to save the changes.
+
+## Changing Student Information
+
+Perform this task when you wish to make changes to a student employee’s address, citizenship status, marital status, or tax exemptions.
+
+1. Log in to ***sece***.
+2. Go to the *Placements* tab.
+3. Press on the name of the student for whom you wish to create the transaction.
+4. Using the *Create New Transaction* drop-down menu, select the *Data Chg - Student Personal Info* transaction.
+5. Make the changes to the student’s information and leave the fields blank for any information that will not be changing.
+6. Check the approval box next to your name and click on the *Submit* button. The transaction will then route through your department for the other approvals.
+
+## Changing FICA Status
+
+Perform this task when you wish to change the FICA status of the student.
+
+1. Log in to ***sece***.
+2. Go to the *Placements* tab.
+3. Press on the name of the student for whom you wish to create the transaction.
+4. Using the *Create New Transaction* drop-down menu, select the *Data Chg - FICA* transaction.
+5. Under the *Change To:* column, select the new FICA code.
+6. Check the approval box next to your name and click on the *Submit* button. The transaction will then be processed and finalized, as this transaction only requires one approval.
+
+## Changing Appointment Period
+
+Perform this task when you wish to update the appointment period.
+
+1. Log in to ***sece***.
+2. Go to the *Placements* tab.
+3. Press on the name of the student for whom you wish to create the transaction.
+4. Using the *Create New Transaction* drop-down menu, select the *Data Chg - Appt Period* transaction.
+5. Under the *Change To:* column, enter the new appointment period start and end dates.
+6. Check the approval box next to your name and click on the *Submit* button. The transaction will then route through your department for the other approvals.
+
+## Giving a Step Increase
+
+Perform this task when you wish to give a student a step increase.
+
+1. Log in to ***sece***.
+2. Go to the *Placements* tab.
+3. Press on the name of the student for whom you wish to create the transaction.
+4. Using the *Create New Transaction* drop-down menu, select the *Rate Chg - Step Increase within Same Class* transaction.
+5. Update the appointment period of the student if you so desire.
+6. Check the approval box next to your name and click on the *Submit* button. The transaction will then route through your department for the other approvals.
+7. If the step increase is submitted before six months has passed from the hire date or last change in pay rate it will go to your campus Student Employment office for final approval.
+
+## Promoting a Student
+
+Perform this task when you wish to promote a student to a new pay class.
+
+1. Log in to ***sece***.
+2. Go to the *Placements* tab.
+3. Press on the name of the student for whom you wish to create the transaction.
+4. Using the *Create New Transaction* drop-down menu, select the *Rate Chg - Promo to New Class (within same series)* transaction.
+5. Select the new pay class you would like to promote the student to under the *Change To:* column.
+6. Update the appointment period and any other fields you wish under the *Change To:* column.
+7. Check the approval box next to your name and click on the *Submit* button. The transaction will then route through your department for the other approvals.
+
+## Downgrading a Student
+
+Perform this task when you wish to downgrade a student to a lower pay class.
+
+1. Log in to ***sece***.
+2. Go to the *Placements* tab.
+3. Press on the name of the student for whom you wish to create the transaction.
+4. Using the *Create New Transaction* drop-down menu, select the *Rate Chg - Downgrade to New Class (within same series)* transaction.
+5. Select the new pay class you would like to promote the student to under the *Change To:* column.
+6. Update the appointment period and any other fields you wish under the *Change To:* column.
+7. Check the approval box next to your name and click on the *Submit* button. The transaction will then route through your department for the other approvals.
+8. Demotion transactions will go to your campus Student Employment office for final approval.
+
+## Adding Account Codes
+
+Perform this task when you wish to add a new account code to a student’s record.
+
+1. Log in to ***sece***.
+2. Go to the *Placements* tab.
+3. Press on the name of the student for whom you wish to create the transaction.
+4. Using the *Create New Transaction* drop-down menu, select the *Fund Chg - Add New Account Code* transaction.
+5. Enter the new account information. You may add additional account codes with a single transaction by pressing on the *Add Another Account* text link.
+6. Check the approval box next to your name and click on the *Submit* button. The transaction will then route through your department for the other approvals.
+7. Accounts with the F1 Payroll Number will be routed to your campus Student Employment office for review and approval.
+
+## Changing Account Codes
+
+Perform this task when you wish to change an existing account code on the student’s record.
+
+1. Log in to ***sece***.
+2. Go to the *Placements* tab.
+3. Press on the name of the student for whom you wish to create the transaction.
+4. Using the *Create New Transaction* drop-down menu, select the *Fund Chg - Change or Terminate Account Code* transaction.
+5. Enter the new account information on the appropriate line beneath the account code you wish to change.
+6. Check the approval box next to your name and click on the *Submit* button. The transaction will then route through your department for the other approvals.
+7. When changing accounts to the F1 Payroll Number, the transaction will be routed to your campus Student Employment office for review and approval.
+
+## Removing Account Codes
+
+Perform this task when you wish to remove an existing account code from a student’s record.
+
+1. Log in to ***sece***.
+2. Go to the *Placements* tab.
+3. Press on the name of the student for whom you wish to create the transaction.
+4. Using the *Create New Transaction* drop-down menu, select the *Fund Chg - Change or Terminate Account Code* transaction.
+5. Check the *Terminate* box under the account codes you wish to remove. Please note that checking all boxes will terminate the student’s employment.
+6. Check the approval box next to your name and click on the *Submit* button. The transaction will then route through your department for the other approvals.
+
+## Terminating a Student
+
+Perform this task when you wish to terminate a student’s employment record. Please note that you will not be able to terminate a student until two pay periods after their last check is received.
+
+1. Log in to ***sece***.
+2. Go to the *Placements* tab.
+3. Press on the name of the student for whom you wish to create the transaction.
+4. Using the *Create New Transaction* drop-down menu, select the *Fund Chg - Change or Terminate Account Code* transaction.
+5. Check the *Terminate* box under each account code. All boxes must be checked in order to terminate the student.
+6. Check the approval box next to your name and click on the *Submit* button. The transaction will then route through your department for the other approvals.
+
+## Timesheet Approvals
+
+Perform this task when you wish to approve a timesheet.
+
+1. Log in to ***sece***.
+2. Go to the *Timesheet* tab.
+3. Click on the text link called *Awaiting Your Approval*.
+4. You may now either mass approve timesheets or review the timesheets in detail and approve them.
+5. For mass approvals, check the box in the *Approve* column for each timesheet you wish to approve, then hit the *Approve All Checked* button.
+6. For detailed approvals, click the text link that says *Edit* under the *Details* column. This will take you to the detailed view of the timesheet.
+7. Review the timesheet, check the box next to your name near the bottom of the page, and then click the *Submit* button.
+
+## Switching Approver Roles
+
+Perform this task when you approve timesheets as both a Supervisor and a Business Office level approver and need to switch roles.
+
+1. Log in to ***sece***.
+2. Go to the *Timesheet* tab.
+3. Located at the top of the page, above the *Online Timesheets - Main Menu* heading, will be the words *Supervisor* and *Business Office*.
+4. The bolded word is the current role you are in and the text link can be clicked to switch to that role indicated.

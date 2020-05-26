@@ -1102,5 +1102,343 @@
         "regionHeight" : "28%"
       }
     ]
+  },
+  "help-trans-appt" : {
+    "src" : "images/trans-appt-per.jpg",
+    "description" : "An image of a Data Change - Appt Period transaction showing the current Appointment Period From and To dates.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "The type of transaction that is being created will be listed at the top of the transaction.",
+        "direction" : "up",
+        "regionWidth" : "40%",
+        "regionHeight" : "8%"
+      },
+      {
+        "left" : "60%",
+        "top" : "21%",
+        "text" : "You update the appointment period under the *Change To:* column. Appointment periods cannot exceed one year and the end of the appointment period must be after the current date.",
+        "direction" : "up",
+        "regionWidth" : "40%",
+        "regionHeight" : "7%"
+      },
+      {
+        "left" : "60%",
+        "top" : "28%",
+        "text" : "The *From* date is the start date and the *To* date is the end date.",
+        "direction" : "up",
+        "regionWidth" : "40%",
+        "regionHeight" : "14%"
+      },
+      {
+        "left" : "1%",
+        "top" : "42%",
+        "text" : "You can leave comments to Student Employment in the *Internal Comments* field.",
+        "direction" : "up",
+        "regionWidth" : "98%",
+        "regionHeight" : "30%"
+      },
+      {
+        "left" : "0%",
+        "top" : "72%",
+        "text" : "The account codes affected by this change will be listed here for informational purposes.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "28%"
+      }
+    ]
+  },
+  "help-trans-step" : {
+    "src" : "images/trans-step.jpg",
+    "description" : "An image of a Rate Change - Step Increase transaction showing a step increase from A31 to A32",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "The type of transaction that is being created will be listed at the top of the transaction.",
+        "direction" : "up",
+        "regionWidth" : "80%",
+        "regionHeight" : "8%"
+      },
+      {
+        "left" : "60%",
+        "top" : "26%",
+        "text" : "Under the *Change To:* column, the new class/step and pay rate will be indicated. Since only one step can be given at a time, this will be a locked field. You must also fill in the appointment period, though you can use the same dates as the current appointment period.",
+        "direction" : "up",
+        "regionWidth" : "40%",
+        "regionHeight" : "20%"
+      },
+      {
+        "left" : "1%",
+        "top" : "46%",
+        "text" : "You can leave comments to Student Employment in the *Internal Comments* field.",
+        "direction" : "up",
+        "regionWidth" : "98%",
+        "regionHeight" : "28%"
+      },
+      {
+        "left" : "0%",
+        "top" : "74%",
+        "text" : "The account codes affected by this change will be listed here for informational purposes.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "26%"
+      }
+    ]
+  },
+  "help-trans-promo" : {
+    "src" : "images/trans-promo.jpg",
+    "description" : "An image of a Rate Change - Promo to New Class transaction.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "The type of transaction that is being created will be listed at the top of the transaction.",
+        "direction" : "up",
+        "regionWidth" : "80%",
+        "regionHeight" : "9%"
+      },
+      {
+        "left" : "57%",
+        "top" : "28%",
+        "text" : "Under the *Change To:* column you should fill in the required information, but minimally you need to select a new pay class. You will only be able to promote an employee to a job that already exists in the series (has the same job number). If the job does not exist, you will need to add it to the series.",
+        "direction" : "up",
+        "regionWidth" : "42%",
+        "regionHeight" : "6%"
+      },
+      {
+        "left" : "57%",
+        "top" : "34%",
+        "text" : "Indicate the level of supervision the employee requires and whether or not they will supervise other employees.",
+        "direction" : "up",
+        "regionWidth" : "42%",
+        "regionHeight" : "13%"
+      },
+      {
+        "left" : "57%",
+        "top" : "47%",
+        "text" : "You must fill in the appointment period, though you can use the same dates as the current appointment period.",
+        "direction" : "up",
+        "regionWidth" : "42%",
+        "regionHeight" : "13%"
+      },
+      {
+        "left" : "1%",
+        "top" : "65%",
+        "text" : "You can leave comments to Student Employment in the *Internal Comments* field.",
+        "direction" : "up",
+        "regionWidth" : "98%",
+        "regionHeight" : "17%"
+      },
+      {
+        "left" : "0%",
+        "top" : "82%",
+        "text" : "The account codes affected by this change will be listed here for informational purposes.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "21%"
+      }
+    ]
+  },
+  "help-trans-demo" : {
+    "src" : "images/trans-demo.jpg",
+    "description" : "An image of a Rate Change - Downgrade to New Class transaction.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "The type of transaction that is being created will be listed at the top of the transaction.",
+        "direction" : "up",
+        "regionWidth" : "80%",
+        "regionHeight" : "9%"
+      },
+      {
+        "left" : "57%",
+        "top" : "28%",
+        "text" : "Under the *Change To:* column you select the pay class to which the employee is being downgraded. The job you are downgrading them to must be in the same series (share the same job number).",
+        "direction" : "up",
+        "regionWidth" : "42%",
+        "regionHeight" : "6%"
+      },
+      {
+        "left" : "57%",
+        "top" : "34%",
+        "text" : "Indicate the level of supervision the employee requires and whether or not they will supervise other employees.",
+        "direction" : "up",
+        "regionWidth" : "42%",
+        "regionHeight" : "13%"
+      },
+      {
+        "left" : "57%",
+        "top" : "47%",
+        "text" : "You must fill in the appointment period, though you can use the same dates as the current appointment period.",
+        "direction" : "up",
+        "regionWidth" : "42%",
+        "regionHeight" : "13%"
+      },
+      {
+        "left" : "1%",
+        "top" : "65%",
+        "text" : "You can leave comments to Student Employment in the *Internal Comments* field. Because this transaction requires Student Employment approval, it helps to leave justification for the downgrade here.",
+        "direction" : "up",
+        "regionWidth" : "98%",
+        "regionHeight" : "17%"
+      },
+      {
+        "left" : "0%",
+        "top" : "82%",
+        "text" : "The account codes affected by this change will be listed here for informational purposes.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "21%"
+      }
+    ]
+  },
+  "help-trans-add" : {
+    "src" : "images/trans-add.jpg",
+    "description" : "An image of a Fund Change - Add New Account Code transaction.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "The type of transaction that is being created will be listed at the top of the transaction.",
+        "direction" : "up",
+        "regionWidth" : "80%",
+        "regionHeight" : "6%"
+      },
+      {
+        "left" : "0%",
+        "top" : "15%",
+        "text" : "Select the appropriate Payroll Number. For most accounts you should use the F3 Payroll Number for student employees. F1 should only be used for ac-counts to which Federal Work Study hours will be charged. Adding an account code with an F1 Payroll Number will mean your Student Employment office will need to review the transaction.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "7%"
+      },
+      {
+        "left" : "0%",
+        "top" : "23%",
+        "text" : "Input the Warrant Code (indicates where checks are to be delivered).",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "7%"
+      },
+      {
+        "left" : "0%",
+        "top" : "31%",
+        "text" : "Select the campus that controls the account code.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "7%"
+      },
+      {
+        "left" : "0%",
+        "top" : "39%",
+        "text" : "Input the seven-digit account code you wish to add.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "7%"
+      },
+      {
+        "left" : "0%",
+        "top" : "47%",
+        "text" : "Enter the sub-account code (if it has one).",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "7%"
+      },
+      {
+        "left" : "0%",
+        "top" : "56%",
+        "text" : "You may add multiple accounts with a single transaction. Press the *Add Another Account* text link to add another account.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "7%"
+      },
+      {
+        "left" : "0%",
+        "top" : "63%",
+        "text" : "You can leave comments to Student Employment in the *Internal Comments* field. Because this transaction requires Student Employment approval, it helps to leave justification for the downgrade here.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "19%"
+      },
+      {
+        "left" : "0%",
+        "top" : "82%",
+        "text" : "The account codes affected by this change will be listed here for informational purposes.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "18%"
+      }
+    ]
+  },
+  "help-trans-chg" : {
+    "src" : "images/trans-chg.jpg",
+    "description" : "An image of a Fund Change - Change or Terminate Accounts transaction.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "The type of transaction that is being created will be listed at the top of the transaction.",
+        "direction" : "up",
+        "regionWidth" : "80%",
+        "regionHeight" : "12%"
+      },
+      {
+        "left" : "52%",
+        "top" : "25%",
+        "text" : "The *Change To:* column is used only when you are changing an account code. The old account information will be replaced by the account information listed in this column.",
+        "direction" : "up",
+        "regionWidth" : "47%",
+        "regionHeight" : "5%"
+      },
+      {
+        "left" : "36%",
+        "top" : "35%",
+        "text" : "Checking the *Terminate* box will remove the account from the student’s position. Terminating all accounts terminates their employment. Do not check this box when you want to change the account, either check this box or enter information into the *Change To* column, not both.",
+        "direction" : "up",
+        "regionWidth" : "16%",
+        "regionHeight" : "6%"
+      },
+      {
+        "left" : "52%",
+        "top" : "40%",
+        "text" : "When changing an account, enter the information here. See the previous section on the [Add New Account Code transaction](#fund-chg---add-new-account-code) for information on each of these lines.",
+        "direction" : "up",
+        "regionWidth" : "47%",
+        "regionHeight" : "30%"
+      },
+      {
+        "left" : "0%",
+        "top" : "74%",
+        "text" : "You can leave comments to Student Employment in the *Internal Comments* field.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "26%"
+      }
+    ]
+  },
+  "help-forms-info" : {
+    "src" : "images/forms-and-info.jpg",
+    "description" : "An image of the Forms and Info tab.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "8%",
+        "text" : "Listed first are *General Forms and Info,* which are resources that are relevant to all campuses. This includes things like tax forms, FICA, the APM, and other system-wide resources.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "63%"
+      },
+      {
+        "left" : "0%",
+        "top" : "71%",
+        "text" : "*UH Manoa Forms and Info* are resources that are relevant only to those hiring students at UH Manoa.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "30%"
+      }
+    ]
   }
 }

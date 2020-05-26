@@ -248,7 +248,7 @@ div.arrow-region .region-label {
   display: block;
   font-size: 0.8rem;
   width: auto;
-  float: left;
+  float: right;
   padding: 0.1rem;
   border-radius: 0.125rem;
   background-color: var(--almost-black);
