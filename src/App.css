@@ -78,7 +78,7 @@ table.info-table ul, table.info-table ol {
   padding-left: 1rem;
 }
 
-div.guide-container {
+div.page-container {
   margin:auto;
   background-color: var(--almost-white);
   padding: 0.5rem 1rem;
@@ -117,24 +117,26 @@ div.arrow-link:last-child {
   border-bottom-right-radius: 0.25rem;
 }
 
-div.arrow-link a {
+div.arrow-link button {
   display: block;
   width: 100%;
   height: 100%;
   padding: 0.25rem 0.5rem;
   text-decoration: none;
   font-weight: bold;
+  border: none;
+  margin: 0;
   color: var(--almost-black);
   background-color: white;
   transition: all 200ms ease-in;
 }
 
-div.arrow-link.active a {
+div.arrow-link.active button {
   color: var(--light-gray);
   background-color: var(--arrow-color);
 }
 
-div.arrow-link a:hover {
+div.arrow-link button:hover {
   color: var(--light-gray);
   background-color: var(--arrow-color);
 }
@@ -253,6 +255,22 @@ div.arrow-region .region-label {
   border-radius: 0.125rem;
   background-color: var(--almost-black);
   color: var(--light-gray);
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-nav .page-link {
+  min-width: 4rem;  
+}
+
+.page-link a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--almost-black);
 }
 
 .flowchart-container {
