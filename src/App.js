@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactMarkdown from 'react-markdown';
 import GuidePage from './GuidePage';
+import makeHeaderId from './utils';
 import './App.css';
 
 
@@ -33,7 +34,7 @@ export default class App extends Component {
           }
   
           // Append line to TOC
-          const id = this.makeHeaderId(props.children[0].props.children);
+          const id = makeHeaderId(props.children[0].props.children);
           return acc.concat([`${indent}* [${props.children[0].props.children}](?page=${page}#${id})`]);
         }, []);
   
@@ -66,7 +67,8 @@ export default class App extends Component {
       require("./assets/body.md"), 
       require("./assets/page2.md"), 
       require("./assets/page3.md"), 
-      require("./assets/page4.md")
+      require("./assets/page4.md"),
+      require("./assets/page5.md")
     ];
 
     for(let i = 0; i < markdownPaths.length; i++) {
@@ -89,12 +91,7 @@ export default class App extends Component {
       this.setState({
         page: page
       });
-      console.log(page);
     }
-  }
-
-  makeHeaderId(inStr) {
-    return inStr.toLowerCase().replace(/ /g, '-');
   }
 
   render() {

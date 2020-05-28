@@ -1440,5 +1440,141 @@
         "regionHeight" : "30%"
       }
     ]
+  },
+  "help-timesheet-main" : {
+    "src" : "images/timesheets-main.jpg",
+    "description" : "An image of the main Timesheets screen.",
+    "arrows" : [
+      {
+        "left" : "35%",
+        "top" : "17%",
+        "text" : "The non-link text is the current role and the text link is clickable to switch to the other role. You will be in the Supervisor role by default if you serve both roles. If you have only one role, this text will not be shown.",
+        "direction" : "up",
+        "regionWidth" : "30%",
+        "regionHeight" : "8%"
+      },
+      {
+        "left" : "13%",
+        "top" : "35%",
+        "text" : "Press on the text links in the *Timesheet Status* table to view the timesheets currently in the named status. The different statuses and their definitions are listed below this image.",
+        "direction" : "up",
+        "regionWidth" : "27%",
+        "regionHeight" : "40%"
+      },
+      {
+        "left" : "52%",
+        "top" : "37%",
+        "text" : "The list of links under the *Timesheets* heading grants you access to various options for tasks related to timesheets, including creating and searching timesheets.",
+        "direction" : "up",
+        "regionWidth" : "24%",
+        "regionHeight" : "22%"
+      },
+      {
+        "left" : "52%",
+        "top" : "70%",
+        "text" : "The list of links under the *Schedules* heading take you to schedules of various sorts as detailed under the [Schedules](#schedules) heading below.",
+        "direction" : "up",
+        "regionWidth" : "24%",
+        "regionHeight" : "12%"
+      }
+    ]
+  },
+  "help-timesheet-search" : {
+    "src" : "images/timesheets-search.jpg",
+    "description" : "An image of the Timesheets Search screen.",
+    "arrows" : [
+      {
+        "left" : "2%",
+        "top" : "24%",
+        "text" : "The timesheet search section allows you to customize your search. When accessing this screen through a *Timesheet Status* link, the *Status* field will be pre-filled to match the status that was selected. Each of the fields allows you to select a specific type of criteria that the system will use to filter the search.",
+        "direction" : "up",
+        "regionWidth" : "72%",
+        "regionHeight" : "23%"
+      },
+      {
+        "left" : "2%",
+        "top" : "54%",
+        "text" : "The table below displays the timesheets that meet the search criteria you provided. For each timesheet, a brief summary will be displayed. Hours are displayed as REG (regular), REG OT (regular overtime), NIGHT (night), and NIGHT OT (night overtime).",
+        "direction" : "up",
+        "regionWidth" : "96%",
+        "regionHeight" : "6%"
+      },
+      {
+        "left" : "86%",
+        "top" : "59.5%",
+        "text" : "The *Details* column will display a link titled *Edit*, which will take you to the detailed view of the timesheet when clicked. The *Approve* column will display either a checkbox or a warning icon. If there is a warning icon, the timesheet cannot be mass approved.",
+        "direction" : "up",
+        "regionWidth" : "12%",
+        "regionHeight" : "18%"
+      },
+      {
+        "left" : "82%",
+        "top" : "83%",
+        "text" : "You can use the export options to export the current timesheet search results to either an Excel spreadsheet or a PDF document.",
+        "direction" : "up",
+        "regionWidth" : "18%",
+        "regionHeight" : "4%"
+      },
+      {
+        "left" : "42%",
+        "top" : "86%",
+        "text" : "If you checked boxes under the *Approve* column, clicking the *Approve all checked* button will approve the checked timesheets.",
+        "direction" : "up",
+        "regionWidth" : "18%",
+        "regionHeight" : "5%"
+      }
+    ]
+  },
+  "help-timesheet-input-1" : {
+    "src" : "images/timesheets-input1.jpg",
+    "description" : "An image of the top of the Timesheet Input screen.",
+    "arrows" : [
+      {
+        "left" : "2%",
+        "top" : "29%",
+        "text" : "Information about the student, the timesheet, and the job is displayed. The timesheet summary section will display any warning icons and any timesheets that have been appended to this timesheet.",
+        "direction" : "up",
+        "regionWidth" : "47%",
+        "regionHeight" : "23%"
+      },
+      {
+        "left" : "49%",
+        "top" : "29%",
+        "text" : "Displayed next is the current status of the timesheet and the various deadlines for submission and the supervisor/business office approvals.",
+        "direction" : "up",
+        "regionWidth" : "47%",
+        "regionHeight" : "30%"
+      },
+      {
+        "left" : "2%",
+        "top" : "62%",
+        "text" : "*Supervisor Notes* and/or *Business Office Notes* are used to communicate with other users when timesheets are returned to a previous approver or to document adjustments to the timesheet. Notes about adjustments help to serve as an audit trail.",
+        "direction" : "up",
+        "regionWidth" : "80%",
+        "regionHeight" : "35%"
+      }
+    ]
+  },
+  "help-timesheet-input-2" : {
+    "src" : "images/timesheets-input2.jpg",
+    "description" : "An image of the Daily Work hours section of the Timesheet Input screen.",
+    "arrows" : [
+      {
+        "left" : "2%",
+        "top" : "2%",
+        "text" : "Grayed out days fall outside the pay period and hours worked during these days will not be added to the current hours for the timesheet. However, these hours will be added to the weekly totals to track the hours worked per week. This means that the sum of the weekly hours will usually not equal the current hours listed below.",
+        "direction" : "up",
+        "regionWidth" : "96%",
+        "regionHeight" : "40%"
+      },
+      {
+        "left" : "2%",
+        "top" : "44%",
+        "text" : "Clicking on the date text link allows you to edit the hours worked in the same manner as students inputting hours. If you make adjustments, you should note the reasons in the appropriate *Notes* section. If someone other than the person who created the timesheet makes adjustments, the day will be flagged with a star warning icon.",
+        "direction" : "up",
+        "regionWidth" : "12%",
+        "regionHeight" : "30%"
+      }
+    ]
   }
 }

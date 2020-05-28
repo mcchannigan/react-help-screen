@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactMarkdown from 'react-markdown';
 import HelpScreenshot from './HelpScreenshot';
 import Navigation from './Navigation';
+import makeHeaderId from './utils';
 
 export default class GuidePage extends Component {
     renderers = {
@@ -19,7 +20,7 @@ export default class GuidePage extends Component {
           }
   
           // Append line to TOC
-          const id = this.makeHeaderId(props.children[0].props.children);
+          const id = makeHeaderId(props.children[0].props.children);
           return acc.concat([`${indent}* [${props.children[0].props.children}](#${id})`]);
         }, []);
   
@@ -35,7 +36,7 @@ export default class GuidePage extends Component {
       },
       heading : (p) => {
         // Set id based on text of heading
-        const id = this.makeHeaderId(p.children[0].props.children);
+        const id = makeHeaderId(p.children[0].props.children);
         switch(p.level) {
           case(1):
             return (<h1 id={id}>{p.children}</h1>);
@@ -90,10 +91,6 @@ export default class GuidePage extends Component {
           });
         }
       }
-    }
-  
-    makeHeaderId(inStr) {
-      return inStr.toLowerCase().replace(/ /g, '-');
     }
   
     render() {
