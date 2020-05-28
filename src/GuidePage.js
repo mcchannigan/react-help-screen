@@ -24,7 +24,7 @@ export default class GuidePage extends Component {
         }, []);
   
         return (
-          <div className="guide-container">
+          <div className="guide-content">
             <div className="toc-container">
               <h1>Contents</h1>
               <ReactMarkdown source={TOCLines.join("\n")} />
@@ -65,17 +65,31 @@ export default class GuidePage extends Component {
       super(props);
       this.state = {
           page : props.page,
+          scrolled : false,
+          contentLoaded : false,
           helpData : props.helpData
       }
     }
 
-    componentDidMount() {
-        if(window.location.hash.length > 0) {
-          let element = document.getElementById(window.location.hash.substr(1));
-          if(element != null) {
-            element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
-          }
+    componentDidUpdate() {
+      if(!this.state.contentLoaded) {
+        if(document.querySelector('p')) {
+          document.querySelector('.guide-container').style.opacity = 1;
+          this.setState({
+            contentLoaded : true
+          });
         }
+      }
+      if(!this.state.scrolled && window.location.hash.length > 0) {
+        let element = document.getElementById(window.location.hash.substr(1));
+        if(element != null) {
+          //element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+          window.scrollTo(0, element.offsetTop);
+          this.setState({
+            scrolled : true
+          });
+        }
+      }
     }
   
     makeHeaderId(inStr) {
@@ -84,7 +98,7 @@ export default class GuidePage extends Component {
   
     render() {
       return (
-          <div className="page-container">
+          <div className="guide-container">
               <Navigation page={this.state.page} pageCount={this.props.markdown.length}/>
               <ReactMarkdown source={this.props.markdown[this.state.page - 1]} renderers={this.renderers} escapeHtml={false}/>
               <Navigation page={this.state.page} pageCount={this.props.markdown.length}/>

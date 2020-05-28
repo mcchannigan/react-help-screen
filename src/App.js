@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 import ReactMarkdown from 'react-markdown';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
 import GuidePage from './GuidePage';
 import './App.css';
 
@@ -17,6 +12,7 @@ export default class App extends Component {
     this.state = {
       name: 'React',
       markdownPages: [],
+      page: null,
       helpData: require('./assets/help.json')
     };
   }
@@ -38,19 +34,31 @@ export default class App extends Component {
   
           // Append line to TOC
           const id = this.makeHeaderId(props.children[0].props.children);
-          return acc.concat([`${indent}* [${props.children[0].props.children}](/page/${page}#${id})`]);
+          return acc.concat([`${indent}* [${props.children[0].props.children}](?page=${page}#${id})`]);
         }, []);
   
         return (
-          <div className="guide-container">
+          <div className="guide-content">
             <div className="toc-container">
-              <h2>Page {page}</h2>
+              <h2><a href={'?page=' + page}>Page {page}</a></h2>
               <ReactMarkdown source={TOCLines.join("\n")} />
             </div>
           </div>
         );
       }
     }
+  }
+
+  getQueryVariable(variable) {
+    const query = window.location.search.substring(1);
+    const vars = query.split('&');
+    for (let i = 0; i < vars.length; i++) {
+        const pair = vars[i].split('=');
+        if (decodeURIComponent(pair[0]) == variable) {
+            return decodeURIComponent(pair[1]);
+        }
+    }
+    return null;
   }
 
   componentDidMount() {
@@ -69,11 +77,19 @@ export default class App extends Component {
       })
       .then(text => {
         const mkdownArray = this.state.markdownPages.slice();
-        mkdownArray.push(text);
+        mkdownArray[i] = text;
         this.setState({
           markdownPages: mkdownArray
         });
       });
+    }
+
+    let page = this.getQueryVariable('page');
+    if(page != null) {
+      this.setState({
+        page: page
+      });
+      console.log(page);
     }
   }
 
@@ -87,19 +103,19 @@ export default class App extends Component {
       tocPages.push(<ReactMarkdown key={i} source={this.state.markdownPages[i]} renderers={this.makeRenderer(i + 1)}/>);
     }
 
-    return (
-      <Router>
+    if(this.state.page != null) {
+      return (
         <div className="page-container">
-        <Switch>
-          <Route exact path="/">
+          <GuidePage markdown={this.state.markdownPages} helpData={this.state.helpData} page={this.state.page}/>
+        </div>
+      );
+    } else {
+      return (
+        <div className="page-container">
             <h1>Table of Contents</h1>
             {tocPages}
-          </Route>
-          <Route path="/page/:id" component={props => <GuidePage markdown={this.state.markdownPages} helpData={this.state.helpData} page={props.match.params.id}/>}>
-          </Route>
-        </Switch>
         </div>
-      </Router>
-    );
+      );
+    }
   }
 }

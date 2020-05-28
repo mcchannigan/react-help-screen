@@ -27,6 +27,11 @@ h1 {
   border-bottom: 0.1rem solid var(--dark-gray);
 }
 
+h2 a {
+  text-decoration: none;
+  color: var(--almost-black);
+}
+
 blockquote {
   padding: 0.5rem 1rem;
   margin: 1rem 1.5rem;
@@ -85,6 +90,13 @@ div.page-container {
   width: 100%;
   max-width: 45rem;
 }
+
+div.guide-container {
+  padding-bottom: 2rem;
+  opacity: 0;
+  transition: opacity 200ms ease-out;
+}
+
 
 div.screen-desc-container {
   margin: 0.5rem auto;

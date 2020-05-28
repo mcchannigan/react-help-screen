@@ -1,6 +1,6 @@
 {
   "help-error-messages" : {
-    "src" : "/images/transaction-error-messages.jpg",
+    "src" : "images/transaction-error-messages.jpg",
     "description" : "An image depicting error messages on a transaction",
     "arrows" : [
       {
@@ -22,7 +22,7 @@
     ]
   },
   "help-success-message" : {
-    "src" : "/images/transaction-success-message.jpg",
+    "src" : "images/transaction-success-message.jpg",
     "description" : "An image depicting a success message on a transaction.",
     "arrows" : [
       {
@@ -36,7 +36,7 @@
     ]
   },
   "help-home" : {
-    "src" : "/images/home-page.jpg",
+    "src" : "images/home-page.jpg",
     "description" : "An image depicting the SECE home page.",
     "arrows" : [
       {
@@ -82,7 +82,7 @@
     ]
   },
   "help-login" : {
-    "src" : "/images/login.jpg",
+    "src" : "images/login.jpg",
     "description" : "An image depicting the SECE login screen.",
     "arrows" : [
       {
@@ -120,7 +120,7 @@
     ]
   },
   "help-select-site" : {
-    "src" : "/images/site-select.jpg",
+    "src" : "images/site-select.jpg",
     "description" : "An image depicting the SECE site selection screen.",
     "arrows" : [
       {
@@ -150,7 +150,7 @@
     ]
   },
   "help-profile-1" : {
-    "src" : "/images/emp-profile-1.jpg",
+    "src" : "images/emp-profile-1.jpg",
     "description" : "An image depicting the Departmental Information section of the profile.",
     "arrows" : [
       {
@@ -172,7 +172,7 @@
     ]
   },
   "help-profile-2" : {
-    "src" : "/images/emp-profile-2.jpg",
+    "src" : "images/emp-profile-2.jpg",
     "description" : "An image depicting the Contact Information section of the profile.",
     "arrows" : [
       {
@@ -186,7 +186,7 @@
     ]
   },
   "help-main" : {
-    "src" : "/images/emp-main-screen.jpg",
+    "src" : "images/emp-main-screen.jpg",
     "description" : "An image of the Home tab.",
     "arrows" : [
       {
@@ -232,7 +232,7 @@
     ]
   },
   "help-job-1" : {
-    "src" : "/images/jobs-tab-1.jpg",
+    "src" : "images/jobs-tab-1.jpg",
     "description" : "An image of the Jobs tab showing an employer's list of jobs in its table view.",
     "arrows" : [
       {
@@ -278,7 +278,7 @@
     ]
   },
   "help-job-series" : {
-    "src" : "/images/emp-job-series.jpg",
+    "src" : "images/emp-job-series.jpg",
     "description" : "An image of the Jobs tab highlighting two jobs: 333-A4 and 333-A5. Job 333-A4 has job title 'Reading Tutor 1,' and Job 333-A5 has title 'Reading Tutor 2.'",
     "arrows" : [
       {
@@ -292,7 +292,7 @@
     ]
   },
   "help-job-create-button" : {
-    "src" : "/images/job-create-button.jpg",
+    "src" : "images/job-create-button.jpg",
     "description" : "An image of the Jobs tab highlighting the 'Create a New Job' button.",
     "arrows" : [
       {
@@ -306,7 +306,7 @@
     ]
   },
   "help-job-create-1" : {
-    "src" : "/images/job-create-1.jpg",
+    "src" : "images/job-create-1.jpg",
     "description" : "An image of the beginning of the job creation form.",
     "arrows" : [
       {
@@ -344,7 +344,7 @@
     ]
   },
   "help-job-create-2" : {
-    "src" : "/images/job-create-2.jpg",
+    "src" : "images/job-create-2.jpg",
     "description" : "An image of the Job Classification / Duties section of the job form.",
     "arrows" : [
       {
@@ -374,7 +374,7 @@
     ]
   },
   "help-job-create-3" : {
-    "src" : "/images/job-create-3.jpg",
+    "src" : "images/job-create-3.jpg",
     "description" : "An image of the rest of the Job Classification / Duties section of the job form.",
     "arrows" : [
       {
@@ -404,7 +404,7 @@
     ]
   },
   "help-job-create-skills" : {
-    "src" : "/images/job-create-skills.jpg",
+    "src" : "images/job-create-skills.jpg",
     "description" : "An image of the skills section of the job form.",
     "arrows" : [
       {
@@ -418,7 +418,7 @@
     ]
   },
   "help-job-create-location-sched-1" : {
-    "src" : "/images/job-create-location-sched1.jpg",
+    "src" : "images/job-create-location-sched1.jpg",
     "description" : "An image of the upper portion of the Location/Schedule section of the job form.",
     "arrows" : [
       {
@@ -448,7 +448,7 @@
     ]
   },
   "help-job-create-location-sched-2" : {
-    "src" : "/images/job-create-location-sched2.jpg",
+    "src" : "images/job-create-location-sched2.jpg",
     "description" : "An image of the remaining portion of the Location/Schedule section of the job form.",
     "arrows" : [
       {
@@ -486,7 +486,7 @@
     ]
   },
   "help-job-create-how-to-apply" : {
-    "src" : "/images/job-create-how-apply.jpg",
+    "src" : "images/job-create-how-apply.jpg",
     "description" : "An image of the Application Information section of the job form.",
     "arrows" : [
       {
@@ -516,7 +516,7 @@
     ]
   },
   "help-job-approval-1" : {
-    "src" : "/images/job-create-approval1.jpg",
+    "src" : "images/job-create-approval1.jpg",
     "description" : "An image of Section 1: Job/Referral Contact Information on the job form.",
     "arrows" : [
       {
@@ -530,7 +530,7 @@
     ]
   },
   "help-job-approval-2" : {
-    "src" : "/images/job-create-approval2.jpg",
+    "src" : "images/job-create-approval2.jpg",
     "description" : "An image of Section 2: Transaction and Placement Approval Information on the job form.",
     "arrows" : [
       {
@@ -544,7 +544,7 @@
     ]
   },
   "help-job-approval-3" : {
-    "src" : "/images/job-create-approval3.jpg",
+    "src" : "images/job-create-approval3.jpg",
     "description" : "An image of Section 3: Timesheet Approvers on the job form.",
     "arrows" : [
       {
@@ -558,7 +558,7 @@
     ]
   },
   "help-job-manage" : {
-    "src" : "/images/emp-job-series.jpg",
+    "src" : "images/emp-job-series.jpg",
     "description" : "An image of the Jobs tab highlighting options for managing your jobs.",
     "arrows" : [
       {
@@ -596,7 +596,7 @@
     ]
   },
   "help-job-edit-general" : {
-    "src" : "/images/job-edit-general.jpg",
+    "src" : "images/job-edit-general.jpg",
     "description" : "An image of the Submit buttons and General Information section of an existing job.",
     "arrows" : [
       {
@@ -618,7 +618,7 @@
     ]
   },
   "help-job-locked-data" : {
-    "src" : "/images/job-locked-data.jpg",
+    "src" : "images/job-locked-data.jpg",
     "description" : "An image of the Duties and Qualifications of an existing job, which are not editable.",
     "arrows" : [
       {
@@ -632,7 +632,7 @@
     ]
   },
   "help-job-add-series" : {
-    "src" : "/images/job-add-series.jpg",
+    "src" : "images/job-add-series.jpg",
     "description" : "An image of a dialog screen asking whether you want to continue adding a job to a series.",
     "arrows" : [
       {
@@ -646,7 +646,7 @@
     ]
   },
   "help-job-add-series-open" : {
-    "src" : "/images/job-add-series-open.jpg",
+    "src" : "images/job-add-series-open.jpg",
     "description" : "An image of the 'Open Job After Student Employment Approval' drop-down menu.",
     "arrows" : [
       {
@@ -660,7 +660,7 @@
     ]
   },
   "help-job-applicants-nodocs" : {
-    "src" : "/images/job-applicants-nodocs.jpg",
+    "src" : "images/job-applicants-nodocs.jpg",
     "description" : "An image of the Applicants screen for a job listing two applicants",
     "arrows" : [
       {
@@ -674,7 +674,7 @@
     ]
   },
   "help-job-applicants-docs" : {
-    "src" : "/images/job-applicants-withdocs.jpg",
+    "src" : "images/job-applicants-withdocs.jpg",
     "description" : "An image of the Applicants screen for a job listing one applicant who submitted a resume.",
     "arrows" : [
       {
@@ -696,7 +696,7 @@
     ]
   },
   "help-job-hire-1" : {
-    "src" : "/images/emp-job-series.jpg",
+    "src" : "images/emp-job-series.jpg",
     "description" : "An image of the Jobs tab highlighting the applicants button.",
     "arrows" : [
       {
@@ -710,7 +710,7 @@
     ]
   },
   "help-job-hire-2" : {
-    "src" : "/images/job-applicants-withdocs.jpg",
+    "src" : "images/job-applicants-withdocs.jpg",
     "description" : "An image of the Applicants screen for a job listing one applicant who submitted a resume, highlighting the Hire button.",
     "arrows" : [
       {
@@ -724,7 +724,7 @@
     ]
   },
   "help-job-hire-add-openings" : {
-    "src" : "/images/job-hire-additional-openings.jpg",
+    "src" : "images/job-hire-additional-openings.jpg",
     "description" : "An image of a pop-up dialog noting that the hire will fill the last available opening of the job.",
     "arrows" : [
       {
@@ -738,7 +738,7 @@
     ]
   },
   "help-hire-student-1" : {
-    "src" : "/images/hire-transaction-1.jpg",
+    "src" : "images/hire-transaction-1.jpg",
     "description" : "An image of the first section of a hire transaction.",
     "arrows" : [
       {
@@ -760,7 +760,7 @@
     ]
   },
   "help-hire-student-2" : {
-    "src" : "/images/hire-transaction-2.jpg",
+    "src" : "images/hire-transaction-2.jpg",
     "description" : "An image of the next section of a hire transaction.",
     "arrows" : [
       {
@@ -790,7 +790,7 @@
     ]
   },
   "help-hire-job-1" : {
-    "src" : "/images/hire-transaction-3.jpg",
+    "src" : "images/hire-transaction-3.jpg",
     "description" : "An image of the next section of a hire transaction: Job Information.",
     "arrows" : [
       {
@@ -828,7 +828,7 @@
     ]
   },
   "help-hire-job-2" : {
-    "src" : "/images/hire-transaction-4.jpg",
+    "src" : "images/hire-transaction-4.jpg",
     "description" : "An image of the rest of the Job Information section of a hire transaction.",
     "arrows" : [
       {
@@ -850,7 +850,7 @@
     ]
   },
   "help-hire-accounts" : {
-    "src" : "/images/hire-transaction-5.jpg",
+    "src" : "images/hire-transaction-5.jpg",
     "description" : "An image of the Payroll Information section of a hire transaction.",
     "arrows" : [
       {
@@ -880,7 +880,7 @@
     ]
   },
   "help-hire-approval" : {
-    "src" : "/images/hire-transaction-6.jpg",
+    "src" : "images/hire-transaction-6.jpg",
     "description" : "An image of the Approval section of a hire transaction.",
     "arrows" : [
       {
@@ -902,7 +902,7 @@
     ]
   },
   "help-placements-tab" : {
-    "src" : "/images/placements-tab.jpg",
+    "src" : "images/placements-tab.jpg",
     "description" : "An image of the Placements tab. Listing transactions awaiting approval and a list of student employee records.",
     "arrows" : [
       {
@@ -948,7 +948,7 @@
     ]
   },
   "help-placement-detail" : {
-    "src" : "/images/placements-detail.jpg",
+    "src" : "images/placements-detail.jpg",
     "description" : "An image of a Placement Record.",
     "arrows" : [
       {
@@ -986,7 +986,7 @@
     ]
   },
   "help-placement-job-approval" : {
-    "src" : "/images/job-create-approval2.jpg",
+    "src" : "images/job-create-approval2.jpg",
     "description" : "An image of the Section 2: Transaction and Placement Approval Information section of a job form.",
     "arrows" : [
       {
@@ -1000,7 +1000,7 @@
     ]
   },
   "help-placement-plc-approval" : {
-    "src" : "/images/placement-approval.jpg",
+    "src" : "images/placement-approval.jpg",
     "description" : "An image of the Approval Information section of a placement transaction.",
     "arrows" : [
       {
@@ -1014,7 +1014,7 @@
     ]
   },
   "help-trans-stdinfo-1" : {
-    "src" : "/images/trans-stdinfo-1.jpg",
+    "src" : "images/trans-stdinfo-1.jpg",
     "description" : "An image of a Data Change - Student Personal Info transaction",
     "arrows" : [
       {
@@ -1044,7 +1044,7 @@
     ]
   },
   "help-trans-stdinfo-2" : {
-    "src" : "/images/trans-stdinfo-2.jpg",
+    "src" : "images/trans-stdinfo-2.jpg",
     "description" : "An image of a Data Change - Student Personal Info transaction",
     "arrows" : [
       {
@@ -1066,7 +1066,7 @@
     ]
   },
   "help-trans-fica" : {
-    "src" : "/images/trans-fica.jpg",
+    "src" : "images/trans-fica.jpg",
     "description" : "An image of a Data Change - FICA transaction showing a current FICA code of N0",
     "arrows" : [
       {
@@ -1104,7 +1104,7 @@
     ]
   },
   "help-trans-appt" : {
-    "src" : "/images/trans-appt-per.jpg",
+    "src" : "images/trans-appt-per.jpg",
     "description" : "An image of a Data Change - Appt Period transaction showing the current Appointment Period From and To dates.",
     "arrows" : [
       {
@@ -1150,7 +1150,7 @@
     ]
   },
   "help-trans-step" : {
-    "src" : "/images/trans-step.jpg",
+    "src" : "images/trans-step.jpg",
     "description" : "An image of a Rate Change - Step Increase transaction showing a step increase from A31 to A32",
     "arrows" : [
       {
@@ -1188,7 +1188,7 @@
     ]
   },
   "help-trans-promo" : {
-    "src" : "/images/trans-promo.jpg",
+    "src" : "images/trans-promo.jpg",
     "description" : "An image of a Rate Change - Promo to New Class transaction.",
     "arrows" : [
       {
@@ -1242,7 +1242,7 @@
     ]
   },
   "help-trans-demo" : {
-    "src" : "/images/trans-demo.jpg",
+    "src" : "images/trans-demo.jpg",
     "description" : "An image of a Rate Change - Downgrade to New Class transaction.",
     "arrows" : [
       {
@@ -1296,7 +1296,7 @@
     ]
   },
   "help-trans-add" : {
-    "src" : "/images/trans-add.jpg",
+    "src" : "images/trans-add.jpg",
     "description" : "An image of a Fund Change - Add New Account Code transaction.",
     "arrows" : [
       {
@@ -1374,7 +1374,7 @@
     ]
   },
   "help-trans-chg" : {
-    "src" : "/images/trans-chg.jpg",
+    "src" : "images/trans-chg.jpg",
     "description" : "An image of a Fund Change - Change or Terminate Accounts transaction.",
     "arrows" : [
       {
@@ -1420,7 +1420,7 @@
     ]
   },
   "help-forms-info" : {
-    "src" : "/images/forms-and-info.jpg",
+    "src" : "images/forms-and-info.jpg",
     "description" : "An image of the Forms and Info tab.",
     "arrows" : [
       {

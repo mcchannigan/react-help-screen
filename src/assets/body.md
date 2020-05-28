@@ -51,7 +51,7 @@ The Administrative Procedures Manuals (APM) can be found as a link on the Placem
 
 ## The Hiring Process
 
-The following is a brief introduction to the hiring process. For more details, please refer to the Hiring Policies & Procedures document on the _Forms and Info_ tab, or [Hiring a Student Employee](#hiring-a-student-employee) in this document.
+The following is a brief introduction to the hiring process. For more details, please refer to the Hiring Policies & Procedures document on the _Forms and Info_ tab, or [Hiring a Student Employee](?page=3#hiring-a-student-employee) in this document.
 
 1. Create a job or open an existing job on the ***sece*** system.
 2. Eligible students interested in the position will add the job to their job cart. If they are interested in applying for the position, they will hit the apply button that adds them to your applicant list.
