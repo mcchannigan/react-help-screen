@@ -142,3 +142,111 @@ The second way to reach this screen is by clicking on the *Timesheet Search* lin
 {help-timesheet-input-1}
 
 {help-timesheet-input-2}
+
+{help-timesheet-input-3}
+
+{help-timesheet-input-4}
+
+### Adjusting Hours
+
+{help-timesheet-adj-hours}
+
+Adjusting hours is done in the same manner as a student would input the hours. In each column list the start time on top and the stop time on the bottom using the drop-down fields. If the student worked multiple shifts during a day, complete one column for each shift.
+
+The checkboxes under the *Waive* column allow you to waive premium pay for this day (*8+* is overtime and *Night* is night hours). Checking the appropriate box means that hours of that type worked during this day will be paid at the base rate rather than the premium rate. This should only be done when you have an explicit understanding with the student that premium pay will not be paid. Typically this occurs when the student works these hours for their own convenience rather than at your request.
+
+### Reconciled Hours
+
+{help-timesheet-reconcile}
+
+When a student was paid for too many or too few hours on a previous timesheet, you may use the reconcile feature to make the correction. To do this, you use the drop down field that reads *Select a Period to \[add/subtract\] hours*. You should select the pay period in which they wish to make the adjustments, then use the drop down menus to add or subtract hours of the appropriate type. The + or - drop down field is used to determine whether hours are added or subtracted. Clicking *Approve* will save the changes and *Cancel* will cancel adjustments.
+
+Note that hours added or subtracted will actually be paid on the current timesheet, thus you cannot subtract more hours than will be paid on the current timesheet. For example, if 10 hours were worked on the current timesheet, and you need to subtract hours from a previous timesheet, you could not subtract more than 10 on the current timesheet through a reconcile.
+
+### Late Timesheets & Appending
+
+{help-timesheet-appending}
+
+Late timesheets can be appended to the current timesheet, allowing you to approve all timesheets at once. If there are unapproved late timesheets, they will be displayed under *Historical Timesheets* as shown above. These will be identified as late timesheets and will be listed by pay period. Clicking on the *Approve* link will append that timesheet to the current timesheet, totaling all hours on both timesheets. Multiple late timesheets may be appended to the current timesheet in this way. The *Edit* link allows the employer to see the detailed view of the timesheet so they can review the hours worked before appending it to the current timesheet.
+
+### Deleting Timesheets
+
+Only the person that created a timesheet can delete that timesheet. If the employer created the timesheet, they can delete it. Historical timesheets can never be deleted.
+
+If an employer wishes to delete a timesheet created by a student, they must contact ITS using the help email address ([timesheet-help@lists.hawaii.edu](mailto:timesheet-help@lists.hawaii.edu)). The timesheet in question will not be deleted if there are worked hours on it that are still owed to the student. The employer will also need to detail that they attempted to contact the student to have them delete the timesheet, but received no response.
+
+## Creating Timesheets
+
+### Creating New/Late Timesheets
+
+You can use the *Create New/Late Timesheet* link to create a timesheet for one of your student employees. The same rules apply to you for creating timesheets as for students, meaning timesheets can only be created from the date of hire onward and only one timesheet can exist per job for each pay period.
+
+{help-timesheet-create}
+
+{help-timesheet-total-hour}
+
+## Timesheet Options & Contact Info
+
+{help-timesheet-options}
+
+Clicking on the *Contact Info* link will open [this pop-up screen](https://www.hawaii.edu/sece/info/contactPage-timesheets.html), which contains directions to basic resources such as help pop-ups and the timesheet user guides.
+
+> #### Email Notifications
+> If notifications are not turned off, you will receive an email whenever a timesheet is submitted for your approval. Turning off this notification is generally not recommended, if you are the primary approver.
+
+## Timesheet Reports
+
+{help-timesheet-reports}
+
+{help-timesheet-payments-report}
+
+#### FWS Awards
+
+This report allows you to track FWS earnings for all or individual students by selecting the F1 payroll# from the drop down menu.
+
+{help-timesheet-students-report}
+
+#### Timesheet Approver List
+
+This report will allow you to view a list of job numbers on which you are an approver and the other approvers on that job.
+
+#### Student Job List
+
+This report will allow you to view a list of students for whom you are an approver, and the other approvers (including the approval role they hold).
+
+#### Help/FAQs
+
+This is not a report, but rather it is a pop-up that contains a list of common questions and answers.
+
+## Timesheet Schedules
+
+{help-timesheet-schedule-work}
+
+{help-timesheet-schedule-payperiod}
+
+{help-timesheet-schedule-holiday}
+
+## Timesheet Approvals
+
+#### The Timesheet Approval Process
+
+Timesheet approvals usually follow a basic process when no special considerations or circumstances apply. Below is a walkthrough of a typical timesheet approval process.
+
+{help-timesheet-approval}
+
+#### Step 1: Awaiting Your Approval
+Click on the text link in the *Timesheet Status* box that reads *Awaiting Your Approval*. This should take you to the screen shown above.
+
+#### Step 2: Mass Approvals
+At your discretion, you may mass approve any timesheet that does not have a warning icon in place of the checkbox on the screen shown. To mass approve, do the following:
+
+1. Verify the hours indicated and then check the box in the *Approve* column for each timesheet you wish to approve.
+2. Once you have checked all of the boxes for timesheets you wish to approve, click the *Approve all checked* button at the bottom of the screen.
+3. A confirmation box will pop up, click *yes* to confirm your approvals.
+
+#### Step 3: Individual Approvals
+For timesheets that have warning icons, you will need to individually approve them. This can be accomplished by doing the following:
+
+1. Click on the *Edit* text link in the *Details* column for the timesheet you wish to approve. This will take you to the detailed view of the timesheet.
+2. Verify the hours worked, then scroll down and allocate the hours to the appropriate accounts. Note that if only a single account is associated with this student employee, hours will be allocated automatically. In many cases the Business Office approver allocates hours to accounts, so supervisors may leave this alone for now.
+3. Scroll to the bottom of the timesheet. Your name under the approver list should be highlighted in yellow as will your approval check box. Check the box to approve the timesheet and click the *Submit to Business Office* button at the bottom of the page or the *Submit for Payment* button for BO approvers.

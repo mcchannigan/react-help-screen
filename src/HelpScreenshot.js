@@ -26,7 +26,8 @@ export default class HelpScreenshot extends Component {
     const boxes = [];
     const boxLinks = [];
     const regions = [];
-    let descClass = this.state.arrows.length > 1 ? '' : ' single-description';
+    const arrowCount = this.state.arrows.length;
+    let descClass = arrowCount > 1 ? '' : ' single-description';
     let activeArrow;
     let i = 0;
     // Build region and description arrays
@@ -47,26 +48,36 @@ export default class HelpScreenshot extends Component {
       this.setState({descHeight: 'auto'});
     }
 
-    return (
-      <div className="screen-desc-container">
-        <div className="screen-container">
-          <img className="screenshot" src={this.props.data.src} alt={this.props.data.description + ' Descriptions of components of the image follow.'}/>
-          <ArrowBox data={activeArrow}/>
-          {boxes}
-        </div>
-        <AnimateHeight
-          duration={this.state.animationDuration}
-          height={dh}
-          easing="ease-out"
-        >
-          <div className={'region-desc-container' + descClass}>
-            {regions}
+    if(arrowCount == 0) {
+      return (
+        <div className="screen-desc-container">
+          <div className="screen-container">
+            <img className="screenshot" src={this.props.data.src} alt={this.props.data.description}/>
           </div>
-        </AnimateHeight>
-        <div className="region-links-container" aria-hidden="true">
-          {boxLinks.length > 1 && boxLinks}
         </div>
-      </div>  
-    );
+      );
+    } else {
+      return (
+        <div className="screen-desc-container">
+          <div className="screen-container">
+            <img className="screenshot" src={this.props.data.src} alt={this.props.data.description + ' Descriptions of components of the image follow.'}/>
+              <ArrowBox data={activeArrow}/>
+            {boxes}
+          </div>
+          <AnimateHeight
+            duration={this.state.animationDuration}
+            height={dh}
+            easing="ease-out"
+          >
+            <div className={'region-desc-container' + descClass}>
+              {regions}
+            </div>
+          </AnimateHeight>
+          <div className="region-links-container" aria-hidden="true">
+            {boxLinks.length > 1 && boxLinks}
+          </div>
+        </div>  
+      );
+    }
   }
 }

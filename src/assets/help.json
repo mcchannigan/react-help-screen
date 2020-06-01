@@ -1576,5 +1576,267 @@
         "regionHeight" : "30%"
       }
     ]
+  },
+  "help-timesheet-input-3" : {
+    "src" : "images/timesheets-input3.jpg",
+    "description" : "An image of the Timesheet summary and Account Details sections of the Timesheet Input screen.",
+    "arrows" : [
+      {
+        "left" : "49%",
+        "top" : "10%",
+        "text" : "The *Current Hours* are the totals of each of the different hours types worked by the student on this timesheet.",
+        "direction" : "up",
+        "regionWidth" : "14%",
+        "regionHeight" : "10%"
+      },
+      {
+        "left" : "2%",
+        "top" : "19%",
+        "text" : "The *Historical Timesheets* section can be used to reconcile hours on an old timesheet or append late timesheets to the current timesheet. The *Grand Total* is the sum of the current hours and all reconciled/appended hours.",
+        "direction" : "up",
+        "regionWidth" : "96%",
+        "regionHeight" : "32%"
+      },
+      {
+        "left" : "49%",
+        "top" : "70%",
+        "text" : "If a timesheet has only one account code, the hours will be automatically entered. If there is more than one account code, the Supervisor or BO must allocate hours to the accounts using the drop-down fields in the *Account Details* section.",
+        "direction" : "up",
+        "regionWidth" : "14%",
+        "regionHeight" : "26%"
+      }
+    ]
+  },
+  "help-timesheet-input-4" : {
+    "src" : "images/timesheets-input4.jpg",
+    "description" : "An image of the Approval Information section of the Timesheet Input screen.",
+    "arrows" : [
+      {
+        "left" : "30%",
+        "top" : "11%",
+        "text" : "You may approve the timesheet by checking your approval checkbox, which will be highlighted in yellow, and hitting the *Submit* button below. The *Save* button will save the timesheet and the *Return* button will return the timesheet to the indicated person for review.",
+        "direction" : "up",
+        "regionWidth" : "6%",
+        "regionHeight" : "8%"
+      },
+      {
+        "left" : "2%",
+        "top" : "37%",
+        "text" : "Internal notes are only visible to employers and admin users; students cannot see these notes.",
+        "direction" : "up",
+        "regionWidth" : "76%",
+        "regionHeight" : "30%"
+      },
+      {
+        "left" : "2%",
+        "top" : "72%",
+        "text" : "The transaction log tracks actions taken by various parties and dates stamps that activity forming a record available for review.",
+        "direction" : "up",
+        "regionWidth" : "96%",
+        "regionHeight" : "20%"
+      }
+    ]
+  },
+  "help-timesheet-adj-hours" : {
+    "src" : "images/timesheets-adjusting-hours.jpg",
+    "description" : "An image of a timesheet input screen showing drop-down menus for start/stop times on a work day.",
+    "arrows" : []
+  },
+  "help-timesheet-reconcile" : {
+    "src" : "images/timesheets-reconcile-hours.jpg",
+    "description" : "An image of the Historical Timesheets section with a pay period selected for reconciling. Drop-down menus for selecting hours to add/subtract are shown.",
+    "arrows" : []
+  },
+  "help-timesheet-appending" : {
+    "src" : "images/timesheets-appending.jpg",
+    "description" : "An image of the Late Timesheets section showing a late timesheet and options to approve or edit it.",
+    "arrows" : []
+  },
+  "help-timesheet-create" : {
+    "src" : "images/timesheets-create.jpg",
+    "description" : "An image of the Create New Timesheet screen.",
+    "arrows" : [
+      {
+        "left" : "2%",
+        "top" : "43%",
+        "text" : "You first select a student for whom you wish to create a timesheet. This will open up drop-down menus for the *Job Title/Pay* and *Pay Period* lines. You can then use these two new drop-down menus to select the job and the pay period, though these fields may not be selectable if the student has only one job under the employer, or if there is only one viable pay period for which a timesheet can be created.",
+        "direction" : "up",
+        "regionWidth" : "46%",
+        "regionHeight" : "9%"
+      },
+      {
+        "left" : "2%",
+        "top" : "60%",
+        "text" : "The Timesheet Template line contains a drop-down menu that provides you the option to use a *Regular* or *Total Hour* template. Regular templates look exactly like the normal timesheet a student submits. Total Hour templates look like a normal timesheet, save that the section that normally contains the week/day lines is replaced by a series of drop-down menus that allow the employer to simply enter the total hours of each type worked rather than manually inputting hours for each day. The next screenshot is an example of the Total Hour inputting method. It is considered best practice to not use total hour timesheets unless circumstances warrant it.\n\nClicking on the *Next* button at the bottom of the screen will create the timesheet based on the various choices made.",
+        "direction" : "up",
+        "regionWidth" : "46%",
+        "regionHeight" : "9%"
+      }
+    ]
+  },
+  "help-timesheet-total-hour" : {
+    "src" : "images/timesheets-total-hour.jpg",
+    "description" : "An image of a Total Hour timesheet.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "Select the number of hours of each type the student worked this pay period. Total hour timesheets do not record the days and times the student worked and should only be used sparingly as they do not contain a proper auditing trail unless you include copious notes documenting dates and times worked.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "100%"
+      }
+    ]
+  },
+  "help-timesheet-options" : {
+    "src" : "images/timesheets-options.jpg",
+    "description" : "An image of the Timesheet Options screen.",
+    "arrows" : [
+      {
+        "left" : "2%",
+        "top" : "46%",
+        "text" : "Checking the *Turn OFF notifications to my UH email* box prevents automatic emails from being sent to your hawaii.edu email.",
+        "direction" : "up",
+        "regionWidth" : "46%",
+        "regionHeight" : "10%"
+      },
+      {
+        "left" : "2%",
+        "top" : "55%",
+        "text" : "Inputting an alternate email address will send automated messages to this email address. If the UH email box is unchecked, emails will be sent to both accounts.",
+        "direction" : "up",
+        "regionWidth" : "65%",
+        "regionHeight" : "10%"
+      },
+      {
+        "left" : "74%",
+        "top" : "46%",
+        "text" : "Clicking the test email links will send a test email to the email account listed on the same line. This allows you to test whether your preferences are functioning the way you expect.",
+        "direction" : "up",
+        "regionWidth" : "20%",
+        "regionHeight" : "20%"
+      }
+    ]
+  },
+  "help-timesheet-reports" : {
+    "src" : "images/timesheets-reports.jpg",
+    "description" : "An image of the Timesheet Reports screen listing text links titled: \"Timesheet Payments,\" \"FWS Awards,\" \"Student Payments,\" \"Timesheet Approver List,\" \"Student Job List,\" and \"Help/FAQs.\"",
+    "arrows" : [
+      {
+        "left" : "37%",
+        "top" : "32%",
+        "text" : "Clicking these text links will take you to the various reports available.",
+        "direction" : "up",
+        "regionWidth" : "20%",
+        "regionHeight" : "54%"
+      }
+    ]
+  },
+  "help-timesheet-payments-report" : {
+    "src" : "images/timesheets-reports-payment.jpg",
+    "description" : "An image of the Timesheet Payments Reports screen showing the search options.",
+    "arrows" : [
+      {
+        "left" : "1%",
+        "top" : "33%",
+        "text" : "Search by calendar or fiscal year, individual students or all students, specific jobs, or specific accounts.",
+        "direction" : "up",
+        "regionWidth" : "60%",
+        "regionHeight" : "53%"
+      },
+      {
+        "left" : "1%",
+        "top" : "85%",
+        "text" : "Timesheet payment reports are best used when you are primarily interested in checking payments over a calendar or fiscal year. Hours worked and amounts paid will be shown for each pay period and totaled for the year.",
+        "direction" : "up",
+        "regionWidth" : "25%",
+        "regionHeight" : "15%"
+      }
+    ]
+  },
+  "help-timesheet-students-report" : {
+    "src" : "images/timesheets-reports-student.jpg",
+    "description" : "An image of the Student Payments Reports screen showing the search options.",
+    "arrows" : [
+      {
+        "left" : "1%",
+        "top" : "33%",
+        "text" : "Search by individual students and/or specific jobs for the selected pay period.",
+        "direction" : "up",
+        "regionWidth" : "60%",
+        "regionHeight" : "47%"
+      },
+      {
+        "left" : "20%",
+        "top" : "80%",
+        "text" : "Timesheet payment reports are best used when you are attempting to track payments for a given pay period or determine how funds were allocated to various accounts.",
+        "direction" : "up",
+        "regionWidth" : "12%",
+        "regionHeight" : "12%"
+      }
+    ]
+  },
+  "help-timesheet-schedule-work" : {
+    "src" : "images/timesheets-work-schedule.jpg",
+    "description" : "An image of the Work Schedule screen.",
+    "arrows" : [
+      {
+        "left" : "1%",
+        "top" : "38%",
+        "text" : "The *Work Schedule* link will display a list of the students who are currently employed by you.",
+        "direction" : "up",
+        "regionWidth" : "23%",
+        "regionHeight" : "38%"
+      },
+      {
+        "left" : "57%",
+        "top" : "38%",
+        "text" : "If any hours are listed under the *Time Details* section, that student has created a work schedule. Work schedules pre-populate the student’s timesheet with hours set by the student employee. These hours can still be edited later by the student.",
+        "direction" : "up",
+        "regionWidth" : "30%",
+        "regionHeight" : "38%"
+      },
+      {
+        "left" : "91%",
+        "top" : "42%",
+        "text" : "You may click the appropriate *View* text link in order to view the schedule the student employee has created.",
+        "direction" : "up",
+        "regionWidth" : "7%",
+        "regionHeight" : "34%"
+      }
+    ]
+  },
+  "help-timesheet-schedule-payperiod" : {
+    "src" : "images/timesheets-payperiod-schedule.jpg",
+    "description" : "An image of the Pay Period Schedule screen.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "The *Pay Period Schedule* link will display the pay periods for the selected calendar year. This lists the due dates for the student to submit the timesheet and each of the approval dates for the Supervisor and Business Office. It also lists the associated pay day for that pay period and the time when the timesheet will be/was processed.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "100%"
+      }
+    ]
+  },
+  "help-timesheet-schedule-holiday" : {
+    "src" : "images/timesheets-holiday-schedule.jpg",
+    "description" : "An image of the Holiday Schedule screen.",
+    "arrows" : [
+      {
+        "left" : "0%",
+        "top" : "0%",
+        "text" : "The *Holiday Schedule* link will display the observed holidays for the current calendar year selected.",
+        "direction" : "up",
+        "regionWidth" : "100%",
+        "regionHeight" : "100%"
+      }
+    ]
+  },
+  "help-timesheet-approval" : {
+    "src" : "images/timesheets-search.jpg",
+    "description" : "An image of the Timesheet Search screen.",
+    "arrows" : []
   }
 }
