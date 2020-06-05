@@ -58,7 +58,7 @@ When a student completing a form I-9 presents a receipt for a replacement docume
 
 #### FICA Questionnaire
 
-The FICA Questionnaire is used to determine whether or not a student is *Exempt* from FICA taxes. While this is primarily used to determine their status for the summer months, it can also be used to make this determination for the regular academic terms as well. Typically only Unclassified students will be *Not Exempt* during the regular academic terms (Fall/Spring). The questionnaire does not need to be sent to the student employment office.
+The [FICA Questionnaire](https://www.hawaii.edu/sece/forms/FICA-Questionnaire.pdf) is used to determine whether or not a student is *Exempt* from FICA taxes. While this is primarily used to determine their status for the summer months, it can also be used to make this determination for the regular academic terms as well. Typically only Unclassified students will be *Not Exempt* during the regular academic terms (Fall/Spring). The questionnaire does not need to be sent to the student employment office. A flowchart for determining FICA eligibility is included in the questionnaire PDF.
 
 #### FWS Information and Policies
 
