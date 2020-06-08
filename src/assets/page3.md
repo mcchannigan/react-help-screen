@@ -256,7 +256,7 @@ Any approver can go in and approve a transaction before it is their turn, bypass
 
 FICA is essentially payroll taxes that a student is normally exempt from during the regular academic periods (Fall/Spring). A student that is not exempt from FICA, for whatever reason, has their earnings subject to an assessment for PTS Deferred Compensation equal to 7.50% of gross wages before taxes and a Medicare tax of 1.45% (and 1.45% charged to the employer). Should you or the student want more details, a booklet explaining PTS Deferred Compensation can be found on the *Forms and Info* tab.
 
-The FICA questionnaire can be used to determine the FICA status of a student for any given academic period, though classified students are typically only *K0-Not exempt* during summer sessions, so FICA is primarily a concern at the end of the Spring semester. Please consult with your Fiscal Authority or your student employment office if you have additional questions.
+The [FICA Questionnaire](https://www.hawaii.edu/sece/forms/FICA-Questionnaire.pdf) can be used to determine the FICA status of a student for any given academic period, though classified students are typically only *K0-Not exempt* during summer sessions, so FICA is primarily a concern at the end of the Spring semester. Please consult with your Fiscal Authority or your student employment office if you have additional questions.
 
 #### Timing Transactions
 
