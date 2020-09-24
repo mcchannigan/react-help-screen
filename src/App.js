@@ -9,12 +9,21 @@ export default class App extends Component {
 
   constructor() {
     super();
+
+    let hd = null;
+    if(process.env.REACT_APP_GUIDE_TYPE === 'admin') {
+      hd = require('./assets/help-admin.json');
+    } else if(process.env.REACT_APP_GUIDE_TYPE === 'student') {
+      hd = require('./assets/help-student.json');
+    } else {
+      hd = require('./assets/help.json');
+    }
     
     this.state = {
       name: 'React',
       markdownPages: [],
       page: null,
-      helpData: require('./assets/help.json')
+      helpData: hd
     };
   }
 
@@ -63,13 +72,21 @@ export default class App extends Component {
   }
 
   componentDidMount() {
-    const markdownPaths = [
-      require("./assets/body.md"), 
-      require("./assets/page2.md"), 
-      require("./assets/page3.md"), 
-      require("./assets/page4.md"),
-      require("./assets/page5.md")
-    ];
+    let markdownPaths = null;
+    if(process.env.REACT_APP_GUIDE_TYPE === 'admin') {
+      markdownPaths = [require("./assets/admin.md")];
+    } else if(process.env.REACT_APP_GUIDE_TYPE === 'student') {
+      markdownPaths = [require("./assets/student.md")];
+    } else {
+      markdownPaths = [
+        require("./assets/body.md"), 
+        require("./assets/page2.md"), 
+        require("./assets/page3.md"), 
+        require("./assets/page4.md"),
+        require("./assets/page5.md")
+      ];
+    }
+
 
     for(let i = 0; i < markdownPaths.length; i++) {
       const markdownPath = markdownPaths[i];

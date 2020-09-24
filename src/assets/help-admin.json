@@ -1,0 +1,162 @@
+{
+    "help-site-select" : {
+      "src" : "images/admin/sece-admin-siteselect.png",
+      "description" : "Screenshot of site selection screen showing Student, UH Employer, Non-UH Employer, and Administrator options",
+      "arrows" : []
+    },
+    "help-admin-main" : {
+      "src" : "images/admin/sece-admin-main.png",
+      "description" : "Screenshot of administrative home screen.",
+      "arrows" : []
+    },
+    "help-admin-attach-nonuh" : {
+      "src" : "images/admin/sece-admin-attachnonuh.png",
+      "description" : "Screenshot of Non-UH Employer account attachment form.",
+      "arrows" : []
+    },
+    "help-overrides" : {
+      "src" : "images/admin/sece-admin-std-elig-overrides.png",
+      "description" : "Screenshot of student eligibility by job program and eligibility override buttons",
+      "arrows" : []
+    },
+    "help-campus-data" : {
+      "src" : "images/admin/sece-admin-std-elig-data.png",
+      "description" : "Screenshot of a student's eligibility screen",
+      "arrows" : []
+    },
+    "help-i9-degrees" : {
+      "src" : "images/admin/sece-admin-std-elig-i9degrees.png",
+      "description" : "Screenshot of a student's I-9, exception, enrollment, and degree status",
+      "arrows" : []
+    },
+    "help-std-fws" : {
+      "src" : "images/admin/sece-admin-std-fws.png",
+      "description" : "Screenshot of a student's FWS award balance and transactions",
+      "arrows" : []
+    },
+    "help-std-ref" : {
+      "src" : "images/admin/sece-admin-std-ref.png",
+      "description" : "Screenshot of a student's referral list",
+      "arrows" : []
+    },
+    "help-std-docs" : {
+      "src" : "images/admin/sece-admin-std-docs.png",
+      "description" : "Screenshot of a student's uploaded documents list",
+      "arrows" : []
+    },
+    "help-std-plc" : {
+      "src" : "images/admin/sece-admin-std-plc.png",
+      "description" : "Screenshot of a student's placements list and automated monitoring log",
+      "arrows" : []
+    },
+    "help-std-note" : {
+      "src" : "images/admin/sece-admin-std-note.png",
+      "description" : "Screenshot of a staff note",
+      "arrows" : []
+    },
+    "help-std-i9" : {
+      "src" : "images/admin/sece-admin-std-i9.png",
+      "description" : "Screenshot of a student's list of Forms I-9",
+      "arrows" : []
+    },
+    "help-std-profile" : {
+      "src" : "images/admin/sece-admin-std-profile.png",
+      "description" : "Screenshot of a student's profile information",
+      "arrows" : []
+    },
+    "help-job-main" : {
+      "src" : "images/admin/sece-admin-job-main.png",
+      "description" : "Screenshot of the main Jobs screen showing current statistics and the search form",
+      "arrows" : []
+    },
+    "help-job-internalinfo" : {
+      "src" : "images/admin/sece-admin-job-internaluh.png",
+      "description" : "Screenshot of the internal information section of a UH job form",
+      "arrows" : []
+    },
+    "help-job-ref" : {
+      "src" : "images/admin/sece-admin-job-ref.png",
+      "description" : "Screenshot of a job's referrals list",
+      "arrows" : []
+    },
+    "help-emp-main" : {
+      "src" : "images/admin/sece-admin-emp-main.png",
+      "description" : "Screenshot of the employers main menu, showing statistics and the search form",
+      "arrows" : []
+    },
+    "help-plc-main" : {
+      "src" : "images/admin/sece-admin-plc-main.png",
+      "description" : "Screenshot of the placements main menu, showing statistics and the transaction search form",
+      "arrows" : []
+    },
+    "help-plc-detail" : {
+      "src" : "images/admin/sece-admin-plcdetail.png",
+      "description" : "Screenshot of a UH placement record",
+      "arrows" : []
+    },
+    "help-plc-hip" : {
+      "src" : "images/admin/sece-admin-hip-info.png",
+      "description" : "Screenshot of the HIP Feed Info screen showing the last and next feed dates/times and list of no-feed days for the year",
+      "arrows" : []
+    },
+    "help-plc-cooprec" : {
+      "src" : "images/admin/sece-admin-plc-cooprec.png",
+      "description" : "Screenshot of a co-op placement record",
+      "arrows" : []
+    },
+    "help-plc-coop-periods" : {
+      "src" : "images/admin/sece-admin-plc-coopterms.png",
+      "description" : "Screenshot of a co-op placement's work period list",
+      "arrows" : []
+    },
+    "help-i9-main" : {
+      "src" : "images/admin/sece-admin-i9-main.png",
+      "description" : "Screenshot of the I-9 main screen, showing statistics, the search form, and the Prepare a New Form I-9 option",
+      "arrows" : []
+    },
+    "help-ocr-main" : {
+      "src" : "images/admin/sece-admin-ocrmain.png",
+      "description" : "Screenshot of the recruitment main screen, showing statistics and the request search form",
+      "arrows" : []
+    },
+    "help-ocr-internal" : {
+      "src" : "images/admin/sece-admin-ocr-internal.png",
+      "description" : "Screenshot of the internal info section of a recruitment request",
+      "arrows" : []
+    },
+    "help-ocr-participants" : {
+      "src" : "images/admin/sece-admin-ocr-participants.png",
+      "description" : "Screenshot of the participants list on a recruitment request.",
+      "arrows" : []
+    },
+    "help-ocr-participant-edit" : {
+      "src" : "images/admin/sece-admin-ocr-editparticipant.png",
+      "description" : "Screenshot of the Add/Edit participant form",
+      "arrows" : []
+    },
+    "help-notes-main" : {
+      "src" : "images/admin/sece-admin-notes-main.png",
+      "description" : "Screenshot of the staff notes main screen, showing statistics, a link to the monitoring schedule, and the search form.",
+      "arrows" : []
+    },
+    "help-notification" : {
+      "src" : "images/admin/sece-admin-notification.png",
+      "description" : "Screenshot of an email notification form",
+      "arrows" : []
+    },
+    "help-link-manager" : {
+      "src" : "images/admin/sece-admin-links.png",
+      "description" : "Screenshot of the list of editable links",
+      "arrows" : []
+    },
+    "help-social" : {
+      "src" : "images/admin/sece-admin-social.png",
+      "description" : "Screenshot of the social media account editing screen",
+      "arrows" : []
+    },
+    "help-monitoring-post-memo1" : {
+      "src" : "images/admin/sece-admin-monitoring-view-inelig-after-memo1.png",
+      "description" : "Screenshot of the view ineligible students screen for unsatisfactory GPA. The first table, listing students being automatically handled under the heading 'Unsatisfactory GPA,' is empty. After that, under the heading 'Flagged after memo 1,' the text reads 'Students listed here were flagged subsequent to the memo 1 process and will require manual handling to terminate their placements.'",
+      "arrows" : []
+    }
+}

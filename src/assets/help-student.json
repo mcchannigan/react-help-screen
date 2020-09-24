@@ -1,0 +1,24 @@
+{
+    "help-error-messages" : {
+      "src" : "images/transaction-error-messages.jpg",
+      "description" : "An image depicting error messages on a transaction",
+      "arrows" : [
+        {
+          "left" : "5%",
+          "top" : "1%",
+          "text" : "When an error occurs, a red message will appear at the top of the screen.",
+          "direction" : "up",
+          "regionWidth" : "93%",
+          "regionHeight" : "28%"
+        },
+        {
+          "left" : "21%",
+          "top" : "70%",
+          "text" : "When you encounter an error message, the issues will be highlighted and described within the transaction.",
+          "direction" : "up",
+          "regionWidth" : "42%",
+          "regionHeight" : "14%"
+        }
+      ]
+    }
+}
