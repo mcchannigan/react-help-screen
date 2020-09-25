@@ -1,8 +1,12 @@
 # Signing In
 
+{help-sign-in}
+
 The home page contains the job search form and sign in form.  Sign in with your UH username and password using the "UH Login" button to access the system.  If you are signing in for the first time, you will be shown the registration form, where you can enter and confirm your contact information, skills, and academic information.
 
 # Student Home Screen
+
+{help-main}
 
 Upon signing in, you will be shown the home screen.  The image above highlights the user menu and the navigation menu.  Press the user menu to expand options to view and manage your profile information, and to sign out.  The job search form is available under the navigation menu on every screen.
 
@@ -11,6 +15,8 @@ Messages and announcements for your information are displayed at the top of the 
 UH Mānoa students can additionally access Focus 2, a career and education planning tool.  The link to Focus 2 is provided on the home screen if UH Mānoa is your primary institution.
 
 # Job Search
+
+{help-job-search}
 
 Use the job search form, located under the navigation menu, to find jobs of interest to you.  You can toggle between searching for On-Campus and Off-Campus jobs.  The following search options apply to both on-campus and off-campus jobs:
 
@@ -49,15 +55,23 @@ Off-campus jobs are listed by non-University employers.  You can search for part
 
 After submitting a search, you will be shown a table of search results.  Press any row to view the full job listing.  If you have selected skills in your profile, any matching skills that were indicated on the job by the employer will be highlighted green in the listing.
 
+{help-job-detail}
+
 If you are eligible to apply for the job, there will be an "Add to Job Cart" button displayed on the listing.  Your job cart is a shopping cart of jobs that you intend to apply for.  Once you add a job to your cart, you can start the application process.  
 
 If you are not eligible, you will instead be shown a message that states your lack of eligibility and states the reason why you are not eligible when expanded.
 
+{help-job-ineligible}
+
 ## Saved Searches
+
+{help-saved-searches}
 
 You can set up saved searches to quickly run job searches with your desired criteria.  Saved searches can also be configured to email you automatically when new jobs are listed that match your saved criteria.  You can configure your saved search to email you daily, weekly, or biweekly.
 
 # Job Cart
+
+{help-job-cart}
 
 Your job cart contains jobs that you intend to apply for.  Jobs will remain in your cart for 90 days, and you can apply for jobs in your cart as long as they remain open.  Jobs that close will have their "Apply Now" button disabled and relabeled "Closed" to signify the change in status.
 
@@ -71,21 +85,31 @@ The employer listing each job will choose the process through which you should a
 
 You will apply online by uploading employer-requested documents, such as resumes and cover letters, to the sece system.  When your application is complete and submitted, you will be sent a confirmation email by the system that lists the job number and title to which you applied.
 
+{help-job-application}
+
 If you later choose to withdraw your submitted application for any reason, you may do so by pressing the "Applied" button in your Job Cart to view the details of the application, and pressing "Withdraw Application."  Your application will appear as "Withdrawn" and your name and submitted documents will no longer be visible to the employer.
 
 ## External Application
 
 You will be shown the contact information of the employer(s), along with any additional instructions to apply, such as sending an email, calling, or applying in person.  While the employer in this case declines to accept direct applications through the sece system, they will still need to process your hire in the system.  This means that the sece system must add your name to an applicant list that is visible to the employer so that you can be hired.  The system will ask for your consent to add your name to the job's applicant list before you are shown the application instructions, as seen in the screenshot below.
 
+{help-job-apply-offline}
+
 # Placements
 
+{help-placements}
+
 When you are hired into a job, a placement record is created in the system. You can view all of your placements from the "Placements" screen.  Press any row in the list to expand to a more detailed view of a particular placement record.
+
+{help-plc-detail}
 
 From this detail view, you can also view historical placement transactions, such as your Student Employment Work Agreement (SEWA), pay raises, information changes, etc.
 
 # Documents and Forms
 
 This screen allows you to manage your uploaded documents, such as resumes, transcripts, and cover letters, as well as fill out your Form I-9 once you have been offered and accepted a position on-campus.
+
+{help-docs}
 
 ## Documents
 

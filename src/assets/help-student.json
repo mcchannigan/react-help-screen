@@ -1,24 +1,62 @@
 {
-    "help-error-messages" : {
-      "src" : "images/transaction-error-messages.jpg",
-      "description" : "An image depicting error messages on a transaction",
-      "arrows" : [
-        {
-          "left" : "5%",
-          "top" : "1%",
-          "text" : "When an error occurs, a red message will appear at the top of the screen.",
-          "direction" : "up",
-          "regionWidth" : "93%",
-          "regionHeight" : "28%"
-        },
-        {
-          "left" : "21%",
-          "top" : "70%",
-          "text" : "When you encounter an error message, the issues will be highlighted and described within the transaction.",
-          "direction" : "up",
-          "regionWidth" : "42%",
-          "regionHeight" : "14%"
-        }
-      ]
+    "help-sign-in" : {
+      "src" : "images/student/sece-login-uh.png",
+      "description" : "Screenshot of the sign-in form",
+      "arrows" : []
+    },
+    "help-main" : {
+      "src" : "images/student/sece-student-main.png",
+      "description" : "Screenshot of student home screen",
+      "arrows" : []
+    },
+    "help-job-search" : {
+      "src" : "images/student/sece-jobsearch.png",
+      "description" : "Screenshot of job search forms",
+      "arrows" : []
+    },
+    "help-job-detail" : {
+      "src" : "images/student/sece-jobdetail.png",
+      "description" : "Screenshot of a job listing",
+      "arrows" : []
+    },
+    "help-job-ineligible" : {
+      "src" : "images/student/sece-jobdetail-noelig.png",
+      "description" : "Screenshot of a job listing with error message stating lack of eligibility",
+      "arrows" : []
+    },
+    "help-saved-searches" : {
+      "src" : "images/student/sece-saved-searches.png",
+      "description" : "Screenshot of the saved searches screen highlighting the edit, view, and delete buttons. The edit button allows you to edit search criteria. The view button lets you view current search results.",
+      "arrows" : []
+    },
+    "help-job-cart" : {
+      "src" : "images/student/sece-jobcart.png",
+      "description" : "Screenshot of the job cart showing the list of saved jobs",
+      "arrows" : []
+    },
+    "help-job-application" : {
+      "src" : "images/student/sece-jobapp.png",
+      "description" : "Screenshot of a completed online job application",
+      "arrows" : []
+    },
+    "help-job-apply-offline" : {
+      "src" : "images/student/sece-apply-offline.png",
+      "description" : "Screenshot of statement of consent to add your name as an applicant to a job",
+      "arrows" : []
+    },
+    "help-placements" : {
+      "src" : "images/student/sece-plc.png",
+      "description" : "Screenshot of the placement list",
+      "arrows" : []
+    },
+    "help-plc-detail" : {
+      "src" : "images/student/sece-plcdetail.png",
+      "description" : "Screenshot of a placement detail with transaction selection dropdown expanded showing hire and promotion transactions",
+      "arrows" : []
+    },
+    "help-docs" : {
+      "src" : "images/student/sece-docs.png",
+      "description" : "Screenshot of uploaded documents list and forms list showing an I-9.",
+      "arrows" : []
     }
 }
