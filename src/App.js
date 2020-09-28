@@ -72,11 +72,17 @@ export default class App extends Component {
   }
 
   componentDidMount() {
+    let page = null;
     let markdownPaths = null;
+    let docTitle = "SECE Guide";
     if(process.env.REACT_APP_GUIDE_TYPE === 'admin') {
       markdownPaths = [require("./assets/admin.md")];
+      page = 1;
+      docTitle += " for Administrators";
     } else if(process.env.REACT_APP_GUIDE_TYPE === 'student') {
-      markdownPaths = [require("./assets/student.md")];
+      markdownPaths = [require("./assets/student.md")];      
+      page = 1;
+      docTitle += " for Students";
     } else {
       markdownPaths = [
         require("./assets/body.md"), 
@@ -85,8 +91,11 @@ export default class App extends Component {
         require("./assets/page4.md"),
         require("./assets/page5.md")
       ];
+      page = this.getQueryVariable('page');
+      docTitle += " for UH Employers";
     }
 
+    document.title = docTitle;
 
     for(let i = 0; i < markdownPaths.length; i++) {
       const markdownPath = markdownPaths[i];
@@ -103,7 +112,6 @@ export default class App extends Component {
       });
     }
 
-    let page = this.getQueryVariable('page');
     if(page != null) {
       this.setState({
         page: page
@@ -113,7 +121,8 @@ export default class App extends Component {
 
   render() {
     const tocPages = [];
-    for (let i = 0; i < this.state.markdownPages.length; i++) {
+    const pageCount = this.state.markdownPages.length;
+    for (let i = 0; i < pageCount; i++) {
       tocPages.push(<ReactMarkdown key={i} source={this.state.markdownPages[i]} renderers={this.makeRenderer(i + 1)}/>);
     }
 
