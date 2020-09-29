@@ -113,7 +113,7 @@ This screen allows you to manage your uploaded documents, such as resumes, trans
 
 ## Documents
 
-All of your uploaded documents are listed here.  You can download copies of any of your documents by pressing "View," and you can delete unwanted documents, provided they are not currently applied to any jobs.  If you wish to delete a document that is currently applied to a job, you may choose to withdraw the application for that job in order to free up the document for deletion (see Direct Online Application above).  You may keep up to 25 documents at a time in the system.
+All of your uploaded documents are listed here.  You can download copies of any of your documents by pressing "View," and you can delete unwanted documents, provided they are not currently applied to any jobs.  If you wish to delete a document that is currently applied to a job, you may choose to withdraw the application for that job in order to free up the document for deletion (see [Direct Online Application](#direct-online-application) above).  You may keep up to 25 documents at a time in the system.
 
 You can also upload additional documents by pressing "Add new Document."  You will be asked to select the file to upload, the type of file (Resume, Cover Letter, Transcripts, or Other), and to enter a brief description to help identify the file.  Uploaded documents must not exceed 250KB in size (500KB for transcript files), and must be one of the following formats: PDF, Word (DOC, DOCX), or HTML.
 

@@ -121,7 +121,7 @@ The Documents sub-tab allows you to see the documents that the student has uploa
 
 {help-std-plc}
 
-The Placements sub-tab lists all active and inactive placements for the student.  Placements do not appear in this list until the hiring document (SEWA, COOP or NONUH hire) was processed.  Press any row to view the detailed placement record (See Placement Detail).  
+The Placements sub-tab lists all active and inactive placements for the student.  Placements do not appear in this list until the hiring document (SEWA, COOP or NONUH hire) was processed.  Press any row to view the detailed placement record (See [Placement Detail](#uh-placements)).  
 
 The Monitoring Log contains date-stamped messages based on automated monitoring activity.  Events that may be logged include:
 
@@ -154,7 +154,7 @@ You may upload file attachments to any staff note that you have posted within th
 
 The Form I-9 sub-tab shows the student's electronic forms I-9.  Press any row to view the form in its entirety and/or make any updates.  The I-9 will open in a separate tab by default.
 
-You can also prepare a new I-9 for the student, which will allow you to enter the section 1 information that is normally entered by the student. See Preparing a Form I-9.
+You can also prepare a new I-9 for the student, which will allow you to enter the section 1 information that is normally entered by the student. See [Preparing a Form I-9](#preparing-a-form-i-9).
 
 ## Profile
 
@@ -209,7 +209,7 @@ The Placements sub-tab lists all active, inactive, and processing placements for
 
 ## Contacts
 
-The job contacts are listed on the Contacts sub-tab for reference.  All contacts who are listed by username in section 1 of the approvals section of the job listing are listed, along with their job title, departmental/company and contact information.  Press any contact's information to view their profile (See Employer Jobs/Placements).
+The job contacts are listed on the Contacts sub-tab for reference.  All contacts who are listed by username in section 1 of the approvals section of the job listing are listed, along with their job title, departmental/company and contact information.  Press any contact's information to view their profile (See [Employer Jobs/Placements](#jobs-/-placements)).
 
 ## Skill Matches (UH and FWS jobs only)
 
@@ -270,7 +270,7 @@ The Main Placements Menu displays statistics on current placement transactions a
 
 Underneath the Current Statistics, you can initiate a new SEWA using a referral number.  Most hires will be processed from a job's applicant list, but if, for any reason, you need to process a hire for a student with a referral, but no application, you can do so here by entering the referral number and pressing "Hire."
 
-Beneath that are a link to view Hawaii Information Portal (HIP) feed information, and the COOP placement management tools for users with access levels 3 and lower.  See HIP Feed and COOP Placements for more information.
+Beneath that are a link to view Hawaii Information Portal (HIP) feed information, and the COOP placement management tools for users with access levels 3 and lower.  See [HIP Feed](#hip-feed) and [COOP Placements](#coop-placements) for more information.
 
 Unlike the other menus, the placements menu has two distinct search forms, which you can toggle between using the tabs marked "Transactions" and "Placements."
 
@@ -472,7 +472,7 @@ When editing an existing participant, the form will be populated with the interv
 
 The Main Staff Notes Menu displays current statistics of the number of notes posted at your campus, broken down by method of contact.  Underneath that, you can view the monitoring schedule, which lists upcoming monitoring tasks in chronological order.  
 
-The search form allows you to filter notes by various student data, and information entered on notes.  Press any row in the search results to view the note in full on the student Staff Notes sub-tab.  See Student Staff Notes sub-tab for more information.
+The search form allows you to filter notes by various student data, and information entered on notes.  Press any row in the search results to view the note in full on the student Staff Notes sub-tab.  See [Student Staff Notes sub-tab](#staff-notes) for more information.
 
 # Settings
 
@@ -521,7 +521,7 @@ To display a widget, enter the username in the applicable box, check the "Enable
 
 Users with access level 3 and lower can view the monitoring tools and reports screen. Here, you will see monthly reports that can be generated into Excel format, along with two semesterly reports.  
 
-You can also view the automated monitoring schedule, and view lists of students who have been flagged as ineligible by the automated monitoring process.  See Automated Monitoring for more information about the monitoring process.
+You can also view the automated monitoring schedule, and view lists of students who have been flagged as ineligible by the automated monitoring process.  See [Automated Monitoring](#automated-monitoring) for more information about the monitoring process.
 
 The other Automated Monitoring options schedule and run monitoring-related tasks and are restricted to users with access level 0 only.
 
