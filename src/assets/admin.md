@@ -37,22 +37,14 @@ All access levels, with the exception of 0 and 1, are generally limited to viewi
 
 The Main Students Menu displays some statistics about the number of students registered in ***sece*** and how many are enrolled in regular and extension programs.  The main screen also provides a search feature that allows you to locate specific students.  The search criteria are:
 
-* Campus
-    The primary campus affiliation on the student profile.  Unlike many other features, student profiles can be searched for and viewed regardless of campus affiliation. 
-* Last Name
-    The last name as it appears on the student's profile.  The last name is refreshed daily from Banner.
-* First Name
-    The first name as it appears on the student's profile.  The first name is refreshed daily from Banner. 
-* UH Number
-    The UH number that uniquely identifies a student. 
-* UH Username
-    The UH username that uniquely identifies a student.
-* Email
-    The email address as it appears on the student's profile.  All profiles should list the student's UH email address.
-* Employer / College / Division
-    For students who are actively placed, this field filters by the college/division of the placement, which is defined based on the supervisor on record.
-* Employing Department / Company Type 
-    For students who are actively placed, this field filters by the department/company type of the placement, which is defined based on the supervisor on record. 
+* __Campus:__ The primary campus affiliation on the student profile.  Unlike many other features, student profiles can be searched for and viewed regardless of campus affiliation. 
+* __Last Name:__ The last name as it appears on the student's profile.  The last name is refreshed daily from Banner.
+* __First Name:__ The first name as it appears on the student's profile.  The first name is refreshed daily from Banner. 
+* __UH Number:__ The UH number that uniquely identifies a student. 
+* __UH Username:__ The UH username that uniquely identifies a student.
+* __Email:__ The email address as it appears on the student's profile.  All profiles should list the student's UH email address.
+* __Employer / College / Division:__ For students who are actively placed, this field filters by the college/division of the placement, which is defined based on the supervisor on record.
+* __Employing Department / Company Type :__ For students who are actively placed, this field filters by the department/company type of the placement, which is defined based on the supervisor on record. 
 
 ## Registering New Students
 
@@ -180,12 +172,9 @@ The job listing shows the full job form, allowing you to view and update all dat
 
 {help-job-internalinfo}
 
-* Placement Form
-    For NONUH jobs, you can select a placement form (NONUH, INTERN, COOP, FULL TIME).  For UH and FWS jobs, UH Payroll is the only option
-* FWS Job Type
-    Allows you to designate a job as belonging to one of the special FWS job programs
-* Hide Referral Contact
-    If checked, students applying for the job will not be shown the names or contact information of the job contacts, but will instead be shown the text entered in the accompanying text box
+* __Placement Form:__ For NONUH jobs, you can select a placement form (NONUH, INTERN, COOP, FULL TIME).  For UH and FWS jobs, UH Payroll is the only option
+* __FWS Job Type:__ Allows you to designate a job as belonging to one of the special FWS job programs
+* __Hide Referral Contact:__ If checked, students applying for the job will not be shown the names or contact information of the job contacts, but will instead be shown the text entered in the accompanying text box
 
 ## Referrals
 
@@ -225,26 +214,16 @@ You can also register new UH or NONUH profiles using the links below the statist
 
 The search form allows you to locate specific employer contact profiles according to the following criteria:
 
-* Campus
-    Unless you have access level 0 or 1, the campus will be pre-filled and locked to your own campus affiliation.  The search results will include all employers who selected this campus at registration, and NONUH employers who have listed at least one job at this campus, regardless of their registered campus affiliation.
-* Employer Type
-    Either UH or NONUH employers
-* Last Name
-    The last name of the employer, as entered on their profile 
-* First Name
-    The first name of the employer, as entered on their profile
-* Email Address
-    The email address that the employer used when registering their profile
-* Username
-    The username registered with their profile. For UH employers, this is the UH username on file. For NONUH employers, this is functionally the same as searching by email address
-* Employer / College / Division
-    For UH employers, this field represents the college or division.  For NONUH employers, it represents the company name
-* Company Type / Department
-    For UH employers, this field represents the department or office name.  For NONUH employers, it represents the company type
-* Status
-    Select from New, Active, or Inactive
-* Contact ID
-    Each profile is uniquely identified by a contact ID
+* __Campus:__ Unless you have access level 0 or 1, the campus will be pre-filled and locked to your own campus affiliation.  The search results will include all employers who selected this campus at registration, and NONUH employers who have listed at least one job at this campus, regardless of their registered campus affiliation.
+* __Employer Type:__ Either UH or NONUH employers
+* __Last Name:__ The last name of the employer, as entered on their profile 
+* __First Name:__ The first name of the employer, as entered on their profile
+* __Email Address:__ The email address that the employer used when registering their profile
+* __Username:__ The username registered with their profile. For UH employers, this is the UH username on file. For NONUH employers, this is functionally the same as searching by email address
+* __Employer / College / Division:__ For UH employers, this field represents the college or division.  For NONUH employers, it represents the company name
+* __Company Type / Department:__ For UH employers, this field represents the department or office name.  For NONUH employers, it represents the company type
+* __Status:__ Select from New, Active, or Inactive
+* __Contact ID:__ Each profile is uniquely identified by a contact ID
 
 ## Jobs / Placements
 
@@ -276,43 +255,26 @@ Unlike the other menus, the placements menu has two distinct search forms, which
 
 The "Transactions" search allows you to locate placement transactions.
 
-* Last Name
-    The last name of the placed student.
-* First Name
-    The first name of the placed student.
-* UH Number
-    The UH number of the placed student.
-* Job Type
-    The job type will be one of: On-Campus, Off-Campus, or COOP.  This selection determines which transaction types you can search for.
-* HIP Position Number
-    The position number in HIP associated with the transaction's placement.
-* COOP Counselor (COOP job type only)
-    This option only appears when you select COOP as the job type.  The COOP counselor that is assigned to the placement.
-* Transaction Type
-    The type of transaction.  Transaction types that are not used for the selected job type will be grayed out and disabled.
-* Transaction Status
-    The status of the transaction.
+* __Last Name:__ The last name of the placed student.
+* __First Name:__ The first name of the placed student.
+* __UH Number:__ The UH number of the placed student.
+* __Job Type:__ The job type will be one of: On-Campus, Off-Campus, or COOP.  This selection determines which transaction types you can search for.
+* __HIP Position Number:__ The position number in HIP associated with the transaction's placement.
+* __COOP Counselor (COOP job type only):__ This option only appears when you select COOP as the job type.  The COOP counselor that is assigned to the placement.
+* __Transaction Type:__ The type of transaction.  Transaction types that are not used for the selected job type will be grayed out and disabled.
+* __Transaction Status:__ The status of the transaction.
 
 The "Placements" search allows you to locate placement records. 
 
-* Last Name
-    The last name of the placed student.
-* First Name
-    The first name of the placed student.
-* UH Number
-    The UH number of the placed student.
-* Employer / College / Division
-    The company name (if NONUH) or college / division (if UH) of the supervisor as listed on the job form.
-* Company Type / Department
-    The company type (if NONUH) or department / office (if UH) of the supervisor as listed on the job form. 
-* Placement Type
-    One of: UH, NONUH, or COOP. 
-* COOP Counselor (COOP only)
-    This option only appears when you select COOP as the placement type.  The COOP counselor that is assigned to the placement.
-* Status
-    The current status of the placement. 
-* Payroll Number, Warrant Code, and Account Code (UH only)
-    If specified, you can search for placements that currently have active accounts matching the specified payroll number, warrant code, and/or account code.  Only active placements that currently have matching accounts will be listed.
+* __Last Name:__ The last name of the placed student.
+* __First Name:__ The first name of the placed student.
+* __UH Number:__ The UH number of the placed student.
+* __Employer / College / Division:__ The company name (if NONUH) or college / division (if UH) of the supervisor as listed on the job form.
+* __Company Type / Department:__ The company type (if NONUH) or department / office (if UH) of the supervisor as listed on the job form. 
+* __Placement Type:__ One of: UH, NONUH, or COOP. 
+* __COOP Counselor (COOP only):__ This option only appears when you select COOP as the placement type.  The COOP counselor that is assigned to the placement.
+* __Status:__ The current status of the placement. 
+* __Payroll Number, Warrant Code, and Account Code (UH only):__ If specified, you can search for placements that currently have active accounts matching the specified payroll number, warrant code, and/or account code.  Only active placements that currently have matching accounts will be listed.
 
 ## UH Placements
 
@@ -354,14 +316,10 @@ The Main Placements Menu includes tools for COOP placement management.
 
 Reports are generated by the system on demand, and may be downloaded in Excel format.
 
-* COOP Placements
-    Reports of COOP placements by appointment period.  You can select from various time spans, including semesters, fiscal and calendar years, or any dates of your choosing.  Any placement whose appointment period overlaps the selected time span is included in the report.
-* COOP Earnings
-    Reports of calculated COOP earnings.  Earnings are calculated based on the hourly pay rate(s) and hours worked per week for all periods during the selected time span.
-* COOP Evaluations
-    Report of all active COOPs to be sent evaluations. 
-* Graduating/Completing Addresses
-    Report of all addresses of students whose COOP appointments are ending within the entered date span.
+* __COOP Placements:__ Reports of COOP placements by appointment period.  You can select from various time spans, including semesters, fiscal and calendar years, or any dates of your choosing.  Any placement whose appointment period overlaps the selected time span is included in the report.
+* __COOP Earnings:__ Reports of calculated COOP earnings.  Earnings are calculated based on the hourly pay rate(s) and hours worked per week for all periods during the selected time span.
+* __COOP Evaluations:__ Report of all active COOPs to be sent evaluations. 
+* __Graduating/Completing Addresses:__ Report of all addresses of students whose COOP appointments are ending within the entered date span.
 
 ### COOP Evaluations
 COOP evaluation emails to students and supervisors are sent by the system at the end of Fall, Spring, and Summer semesters for each placement that has been active for 8 weeks or more.  Each semester, the links to the evaluations for supervisors and students should be updated using the "COOP Evaluation Link" on the Main Placements Menu.
@@ -416,22 +374,14 @@ The Main On-Campus Recruitment Menu lists stats of all OCR requests at your camp
 
 The search form allows you to locate specific requests.
 
-* Last Name
-    The last name of the employer who made the request, as entered on their profile. 
-* First Name
-    The first name of the employer who made the request, as entered on their profile.
-* Company
-    The company name of the employer who made the request, as entered on their profile.
-* From, To
-    Specifies a date range to filter.  This date range is checked against the preferred date entered on the request.
-* Type
-    The request type (On-Campus Interviews, Information Session, or Information Table).
-* Status
-    The current status of the request.
-* No-Show
-    Whether or not the request was marked as a no-show.
-* Parking Requested 
-    Whether or not the request included a parking request. 
+* __Last Name:__ The last name of the employer who made the request, as entered on their profile. 
+* __First Name:__ The first name of the employer who made the request, as entered on their profile.
+* __Company:__ The company name of the employer who made the request, as entered on their profile.
+* __From, To:__ Specifies a date range to filter.  This date range is checked against the preferred date entered on the request.
+* __Type:__ The request type (On-Campus Interviews, Information Session, or Information Table).
+* __Status:__ The current status of the request.
+* __No-Show:__ Whether or not the request was marked as a no-show.
+* __Parking Requested :__ Whether or not the request included a parking request. 
 
 ## OCR Coordinator
 
@@ -443,16 +393,11 @@ Users with access level 2 or lower can edit the OCR Coordinator at their campus 
 
 In addition to the employer-entered fields on each type of OCR request, there is a section for internal info visible only to SE administrators.
 
-* Location
-    Once a location for the event is confirmed, you can enter it here.  The employer will be shown the location as entered here when they view their request in the system.  Information table requests will additionally have a Table Location field.
-* Employer No-Show
-    Allows you to mark an event for which the employer was a no-show.
-* Participant Count
-    For recording the number of participants/attendees.
-* Internal Comments
-    Internal comments that will only be visible on the admin-side view of the request.
-* Status
-    Determines where in the workflow the request currently resides.  Employers can only make edits to requests that are in Pending status. 
+* __Location:__ Once a location for the event is confirmed, you can enter it here.  The employer will be shown the location as entered here when they view their request in the system.  Information table requests will additionally have a Table Location field.
+* __Employer No-Show:__ Allows you to mark an event for which the employer was a no-show.
+* __Participant Count:__ For recording the number of participants/attendees.
+* __Internal Comments:__ Internal comments that will only be visible on the admin-side view of the request.
+* __Status:__ Determines where in the workflow the request currently resides.  Employers can only make edits to requests that are in Pending status. 
 
 ## Interview Participant List
 
@@ -488,18 +433,12 @@ This screen lists all administrative users that you are authorized to edit, and 
 
 Users with access level 2 and lower can set up email notifications for jobs and/or placement transactions awaiting administrative approval at their campus.
 
-* Description
-    A brief description to help you identify this emailer. 
-* Type
-    Select one of new job or new placement transaction notification.
-* Recipient Email Address
-    Enter at least one email address that should be sent notifications.  Email addresses do not need to be registered as employers or administrators in the system.
-* Email Frequency
-    Emails can be sent daily, weekly, or biweekly.
-* Email if Zero Records
-    If checked, you will be sent a notification even if there are no new jobs/transactions awaiting approval. If not, you will only receive an email when there are new jobs/transactions.
-* Campus
-    Select the campus for which new jobs/transactions will be monitored.  Users with access level 2 will have this field locked to their own campus. 
+* __Description:__ A brief description to help you identify this emailer. 
+* __Type:__ Select one of new job or new placement transaction notification.
+* __Recipient Email Address:__ Enter at least one email address that should be sent notifications.  Email addresses do not need to be registered as employers or administrators in the system.
+* __Email Frequency:__ Emails can be sent daily, weekly, or biweekly.
+* __Email if Zero Records:__ If checked, you will be sent a notification even if there are no new jobs/transactions awaiting approval. If not, you will only receive an email when there are new jobs/transactions.
+* __Campus:__ Select the campus for which new jobs/transactions will be monitored.  Users with access level 2 will have this field locked to their own campus. 
 
 ## Links Available on Student Menu / Employer Screens
 
@@ -529,28 +468,17 @@ The other Automated Monitoring options schedule and run monitoring-related tasks
 
 The Reporting Utility allows you to generate lists of students in Excel format from current semester enrollment data in ODS.  The filtering criteria for reports are:
 
-* Campus
-    For users with access level 2 or higher, this will be locked to your own campus.  The campus represents the enrolled campus, but not necessarily the student's primary campus.  For instance, a report run at campus UH Hilo would include students who are Hawaii CC primary campus, but taking classes at UH Hilo.
-* Min Credits, Max Credits
-    Set a range of minimum and maximum total credits.  Specify only a minimum to return students with at least that many credits.  Specify only a maximum to return students with at most that many credits.  Specify both to return students with credits in the entered range. 
-* Min GPA, Max GPA
-    Set a range of minimum and maximum cumulative GPA.  You may specify a minimum, a maximum, or both, much like the credits range described above. 
-* Major(s)
-    Select one or more majors.  The list of available majors is populated based on the current enrollment data in ODS.  If a major is not listed, it means that no students are currently enrolled with that major.  
-* Search by both primary and secondary major
-    If checked, results will include students who have a matching primary or secondary major. Otherwise, only primary major will be searched.
-* Class Standing(s)
-    Select one or more class standings.
-* Include alumni
-    If checked, alumni not currently enrolled will be included in results, with their enrollment data based on their most recent semester attended.
-* Require email address
-    If checked, students with no email address on file will be omitted from results. 
-* Include unsubscribed emails
-    If checked, students who have unsubscribed from mass emails at your campus will be included in the results.   By default, unsubscribed students will not appear in any reports.  
-* Min, Max Grad Date
-    Set a range of minimum and maximum grad date.  The grad date is checked against the student-reported grad date that is stored in Banner.
-* NONUH Employer Default Password
-    Users with access level 3 or lower can modify the default NONUH employer password at their campus.  Changing the default password will affect all subsequent NONUH employer password resets, but not any employer passwords that have previously been set to the default.
+* __Campus:__ For users with access level 2 or higher, this will be locked to your own campus.  The campus represents the enrolled campus, but not necessarily the student's primary campus.  For instance, a report run at campus UH Hilo would include students who are Hawaii CC primary campus, but taking classes at UH Hilo.
+* __Min Credits, Max Credits:__ Set a range of minimum and maximum total credits.  Specify only a minimum to return students with at least that many credits.  Specify only a maximum to return students with at most that many credits.  Specify both to return students with credits in the entered range. 
+* __Min GPA, Max GPA:__ Set a range of minimum and maximum cumulative GPA.  You may specify a minimum, a maximum, or both, much like the credits range described above. 
+* __Major(s):__ Select one or more majors.  The list of available majors is populated based on the current enrollment data in ODS.  If a major is not listed, it means that no students are currently enrolled with that major.  
+* __Search by both primary and secondary major:__ If checked, results will include students who have a matching primary or secondary major. Otherwise, only primary major will be searched.
+* __Class Standing(s):__ Select one or more class standings.
+* __Include alumni:__ If checked, alumni not currently enrolled will be included in results, with their enrollment data based on their most recent semester attended.
+* __Require email address:__ If checked, students with no email address on file will be omitted from results. 
+* __Include unsubscribed emails:__ If checked, students who have unsubscribed from mass emails at your campus will be included in the results.   By default, unsubscribed students will not appear in any reports.  
+* __Min, Max Grad Date:__ Set a range of minimum and maximum grad date.  The grad date is checked against the student-reported grad date that is stored in Banner.
+* __NONUH Employer Default Password:__ Users with access level 3 or lower can modify the default NONUH employer password at their campus.  Changing the default password will affect all subsequent NONUH employer password resets, but not any employer passwords that have previously been set to the default.
 
 ## Add/Edit Employer & Department Data
 
