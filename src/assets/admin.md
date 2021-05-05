@@ -555,6 +555,15 @@ Select which list of ineligible students you wish to view, and students going th
 * Insufficient credits exceptions granted for a particular student through staff notes will remove the student from the list of ineligible students.  No further memos will be sent to the student, and terminations will not be initiated.  Please note that the exception must be granted to have any effect.  Pending exceptions will not restore eligibility.
 * Note: If there is a pending transaction on the student's placement, it will be automatically deleted to allow for the creation of the termination transaction.
 
+### Graduation
+* Checks for students who have petitioned for, or have been awarded a degree for the most recent Spring semester, and have no enrollment in the Summer or upcoming Fall semesters.
+* Interval: Summer, shortly after Spring commencement
+* Timeline: Memo 1 sent May 16th, or 2 days after commencement, whichever is later. Memo 2 sent 1 week prior to final pay date.  Termination initiated 1 week after final pay date.
+* Exceptions: 
+* UH eligibility overrides given using the “UH” checkbox on the student eligibility screen will prevent a student from being sent memos or terminated from employment. 
+* Insufficient credits exceptions granted for a particular student through staff notes will remove the student from the list of ineligible students.  No further memos will be sent to the student, and terminations will not be initiated.  Please note that the exception must be granted to have any effect.  Pending exceptions will not restore eligibility.
+* Note: If there is a pending transaction on the student's placement, it will be automatically deleted to allow for the creation of the termination transaction.
+
 ### I-9 Expiration
 * Checks for student employees with active placements with an expired I-9.  Flags students with either a paper or electronic Form I-9 that has expired.
 * Interval: Monthly
