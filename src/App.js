@@ -15,6 +15,8 @@ export default class App extends Component {
       hd = require('./assets/help-admin.json');
     } else if(process.env.REACT_APP_GUIDE_TYPE === 'student') {
       hd = require('./assets/help-student.json');
+    } else if(process.env.REACT_APP_GUIDE_TYPE === 'nonuh') {
+      hd = require('./assets/help-nonuh.json')
     } else {
       hd = require('./assets/help.json');
     }
@@ -83,6 +85,10 @@ export default class App extends Component {
       markdownPaths = [require("./assets/student.md")];      
       page = 1;
       docTitle += " for Students";
+    } else if(process.env.REACT_APP_GUIDE_TYPE === 'nonuh') {
+      markdownPaths = [require("./assets/nonuh.md")];      
+      page = 1;
+      docTitle += " for Non-UH Employers";
     } else {
       markdownPaths = [
         require("./assets/body.md"), 

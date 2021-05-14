@@ -1,0 +1,82 @@
+{
+    "help-register-link" : {
+      "src" : "images/nonuh/sece-login-nonuh.png",
+      "description" : "Screenshot of login screen with the \"Register an account\" link highlighted",
+      "arrows" : []
+    },
+    "help-register-1" : {
+      "src" : "images/nonuh/sece-nonuhreg.png",
+      "description" : "Screenshot of the beginning of the Non-UH registration form showing inputs for campus affiliation, company name, type of company, and gov/profit/non-profit selection.",
+      "arrows" : []
+    },
+    "help-home-screen" : {
+      "src" : "images/nonuh/sece-nonuhhome.png",
+      "description" : "Screenshot of the home screen highlighting the user and navigation menus.",
+      "arrows" : []
+    },
+    "help-jobs-main" : {
+      "src" : "images/nonuh/sece-nonuhjobs.png",
+      "description" : "Screenshot of the Jobs screen showing the New Part-Time Job and New Full-Time Job buttons, and listing two jobs with their respective quick open/close selection boxes",
+      "arrows" : []
+    },
+    "help-job-1" : {
+      "src" : "images/nonuh/sece-jobformnonuh-general.png",
+      "description" : "Screenshot of the General Information section of the job form. Pictured fields are described below.",
+      "arrows" : []
+    },
+    "help-job-2" : {
+      "src" : "images/nonuh/sece-jobformnonuh-class.png",
+      "description" : "Screenshot of the Job Classification/Duties section. Pictured fields are described below.",
+      "arrows" : []
+    },
+    "help-job-data" : {
+      "src" : "images/nonuh/sece-jobchgreq.png",
+      "description" : "Screenshot of a Request to Edit Locked Job Data. Highlighted are fields for entering new pay rate and job qualifications.",
+      "arrows" : []
+    },
+    "help-job-compensation" : {
+      "src" : "images/nonuh/sece-job-compensation.png",
+      "description" : "Screenshot of the Compensation/Benefits section. Pictured fields are described below.",
+      "arrows" : []
+    },
+    "help-job-location" : {
+      "src" : "images/nonuh/sece-jobformnonuh-locationsched.png",
+      "description" : "Screenshot of the Location/Schedule section. Pictured fields are described below.",
+      "arrows" : []
+    },
+    "help-job-apply-online" : {
+      "src" : "images/nonuh/sece-emp-jobapplyonline.png",
+      "description" : "Screenshot of the Apply Online option.",
+      "arrows" : []
+    },
+    "help-job-apply-email" : {
+      "src" : "images/nonuh/sece-emp-jobapplyemail.png",
+      "description" : "Screenshot of the Apply by Email option.",
+      "arrows" : []
+    },
+    "help-job-apply-other" : {
+      "src" : "images/nonuh/sece-emp-jobapplyother.png",
+      "description" : "Screenshot of the Apply Other option.",
+      "arrows" : []
+    },    
+    "help-job-contact" : {
+      "src" : "images/nonuh/sece-job-appr1.png",
+      "description" : "Screenshot of the Job Contact Information section.",
+      "arrows" : []
+    },
+    "help-job-applicants" : {
+      "src" : "images/nonuh/sece-emp-applicants.png",
+      "description" : "Screenshot of a job applicants screen.",
+      "arrows" : []
+    },
+    "help-placements" : {
+      "src" : "images/nonuh/sece-nonuh-placements.png",
+      "description" : "Screenshot of the main Placements screen.",
+      "arrows" : []
+    },
+    "help-ocr-main" : {
+      "src" : "images/nonuh/sece-emp-ocr.png",
+      "description" : "Screenshot of the main Recruitment screen showing current statistics and the list of service types described below.",
+      "arrows" : []
+    }
+}
