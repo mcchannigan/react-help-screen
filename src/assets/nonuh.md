@@ -67,7 +67,7 @@ When creating a job, you will fill out information on the Job Record.  Fields th
     * SUBMITTED: Once you are satisfied with your draft and submit it, it will go into SUBMITTED status.  This signals to your campus SE office that the job is ready to be reviewed and approved.
     * UNDER REVIEW: This status indicates that your campus SE office has begun the review process on the job.
     * HOLD: If, in the course of review, your campus SE office finds that they need additional information or action from you, they will place the job on HOLD and contact you to resolve any issues.
-    * OPEN: After your job is approved, it will be opened and advertised unless you have opted to create the job for promotions only.  Jobs in OPEN status are publicly listed for students and will accept applicants.  Due to EEO requirements, all jobs must remain open until either 3 days have elapsed or 5 students have applied.
+    * OPEN: After your job is approved, it will be opened and advertised.  Jobs in OPEN status are publicly listed for students and will accept applicants.  Due to EEO requirements, all jobs must remain open until either 3 days have elapsed or 5 students have applied.
     * CLOSED: Once your job's recruitment period has ended, it will be closed.  It will no longer be publicly listed, and no more applications will be accepted by the system.  To begin your next recruitment, you may reopen the job.
 * __Status Date:__ The date on which the job entered its current status. 
 
