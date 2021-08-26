@@ -585,3 +585,10 @@ Select which list of ineligible students you wish to view, and students going th
 * Interval: Per pay period (7th and 24th of each month)
 * Timeline: Memo 1 is sent when placement is initially identified as not having a pay date within 4 months. Memo 2 is sent one month later. Terminations occur one week after memo 2 is sent. 
 * Exceptions: Payment inactivity extensions granted via staff notes will prevent further notices and terminations from this process as long as they remain unexpired. If an extension is granted and expires without a new payment being processed for the placement in question, then a new memo 1 will be sent at the next run of the process, with memo 2 and termination following 1 month later.
+
+### Fall Mass FICA
+
+* Rolls over eligible student employees to exempt FICA status during the Fall semester, and sends email notifications to supervisors of students who may not be exempt. This process determines FICA status according to the [FICA flowchart](https://www.hawaii.edu/sece/forms/FICA-Questionnaire.pdf). Note that the system cannot check point 1 (career employee, medical resident, or medical intern), so this is ignored.  
+* Additionally, the determination of whether or not a student is in their final semester based on the user-provided expected grad date is not necessarily reliable. Thus, students who are not determined to be exempt from FICA tax will not be automatically changed to "not exempt" status, but an email will be sent to the supervisor on record indicating that the student's FICA status was not updated and providing a reason. Supervisors will be asked to log in and process a FICA change transaction if the student's FICA status needs updating.
+* Interval: Annual
+* Timeline: The process will execute the day after the student timesheet deadline of the pay period that includes the first day of the Fall semester.  This is to allow ample time for the final timesheets of Summer to be processed prior to any FICA changes.
