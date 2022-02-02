@@ -210,7 +210,7 @@ This sub-tab contains a filterable list of students sorted by how many of the se
 
 The Main Employer Menu lists current counts of employer contact profiles in the system under Current Statistics.  Press any count to list all matching contacts below.
 
-You can also register new UH or NONUH profiles using the links below the statistics.  In either case, you will be shown the appropriate registration form and asked to fill in the employer and contact information.  NONUH employers registered using this option will have their passwords set to the current default password as configured in the system.
+You can also register new UH or NONUH profiles using the links below the statistics.  In either case, you will be shown the appropriate registration form and asked to fill in the employer and contact information.  When registering NONUH employers, please be sure to note the random password shown on the registration form before you press "Submit," as the password will no longer be shown after that point.
 
 The search form allows you to locate specific employer contact profiles according to the following criteria:
 
@@ -239,7 +239,7 @@ The profile sub-tab lists the full employer profile form, allowing you to view t
 
 On UH employer profiles, you can grant or remove placement access using the "Placement Access" checkbox.  Check or uncheck this box as needed and press "Submit" to process the update.
 
-On NONUH employer profiles, you can reset the employer's password to the default password using the "Set to Default Password" checkbox by checking it and pressing "Submit" to process the update.  This will overwrite the current password on the employer's profile with the current default password as configured in the system, and allows you to help NONUH employers who have lost their password and are unable to complete the self-service password reset process.
+On NONUH employer profiles, you can reset the employer's password using the "Reset Password" checkbox by checking it and pressing "Submit" to process the update. This allows you to help NONUH employers who have lost their password and are unable to complete the self-service password reset process. After checking the "Reset Password" checkbox, a new password will be shown in a text box so that you can copy it and send it to the employer who requested the reset. Please be sure to copy the password before you navigate away from the profile page or you will need to reset the password again to a new one.
 
 # Placements
 
@@ -478,7 +478,6 @@ The Reporting Utility allows you to generate lists of students in Excel format f
 * __Require email address:__ If checked, students with no email address on file will be omitted from results. 
 * __Include unsubscribed emails:__ If checked, students who have unsubscribed from mass emails at your campus will be included in the results.   By default, unsubscribed students will not appear in any reports.  
 * __Min, Max Grad Date:__ Set a range of minimum and maximum grad date.  The grad date is checked against the student-reported grad date that is stored in Banner.
-* __NONUH Employer Default Password:__ Users with access level 3 or lower can modify the default NONUH employer password at their campus.  Changing the default password will affect all subsequent NONUH employer password resets, but not any employer passwords that have previously been set to the default.
 
 ## Add/Edit Employer & Department Data
 
