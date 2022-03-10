@@ -148,7 +148,7 @@ The Form I-9 sub-tab shows the student's electronic forms I-9.  Press any row to
 
 You can also prepare a new I-9 for the student, which will allow you to enter the section 1 information that is normally entered by the student. See [Preparing a Form I-9](#preparing-a-form-i-9).
 
-## Profile
+## Student Profile
 
 {help-std-profile}
 
@@ -233,7 +233,7 @@ For UH employers, you can add to any non-full job series using the "Add to Serie
 
 Press any job to view the full job listing.  Press any placement to view the placement detail, including placement transactions.
 
-## Profile
+## Employer Profile
 
 The profile sub-tab lists the full employer profile form, allowing you to view the information or make changes.  Additionally, there is a comments box for internal comments visible only to SE administrators.
 
