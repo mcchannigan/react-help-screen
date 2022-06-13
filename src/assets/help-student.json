@@ -11,7 +11,7 @@
     },
     "help-job-search" : {
       "src" : "images/student/sece-jobsearch.png",
-      "description" : "Screenshot of job search forms",
+      "description" : "Screenshot of the job search form",
       "arrows" : []
     },
     "help-job-detail" : {

@@ -18,7 +18,7 @@ UH Mānoa students can additionally access Focus 2, a career and education plann
 
 {help-job-search}
 
-Use the job search form, located under the navigation menu, to find jobs of interest to you.  You can toggle between searching for On-Campus and Off-Campus jobs.  The following search options apply to both on-campus and off-campus jobs:
+Use the job search form, located under the navigation menu, to find jobs of interest to you.  You can use the checkboxes to include or exclude On-Campus and Off-Campus jobs.  The following search options apply to both on-campus and off-campus jobs:
 
 * Keywords
     You may enter one or more keywords to filter your search results.  The toggle below the keyword input allows you to toggle between search results that include any one of the entered keywords, or only those that include all entered keywords.
@@ -30,6 +30,8 @@ Use the job search form, located under the navigation menu, to find jobs of inte
     Allows you to filter search results to only include jobs opened within the selected timeframe.
 * Eligibility
     Allows you to filter search results to only include jobs for which you are currently eligible to apply
+* Special Classification
+    Provides options for special classifications, such as summer-only positions.    
 * Job Program
     Allows you to search for jobs listed in a specific job program, for example, FWS or COOP.
 * Job Number 
@@ -37,19 +39,11 @@ Use the job search form, located under the navigation menu, to find jobs of inte
 
 ## On-Campus
 
-Job searches with "On-Campus" selected will list University jobs, typically located on-campus, and paid through the University's payroll, or through Federal Work Study (FWS).  The following search options are unique to on-campus jobs:
-
-* Campus
-    The campus on which the job is located.
-* Special Classification
-    Provides options for special classifications, such as summer-only positions.
+Job searches with "On-Campus" selected will list University jobs, typically located on-campus, and paid through the University's payroll, or through Federal Work Study (FWS).  You can use the Campus field to filter results by the campus on which the job is located.
 
 ## Off-Campus
 
-Off-campus jobs are listed by non-University employers.  You can search for part-time or full-time positions.  The following search option is unique to off-campus jobs:
-
-* Company
-    The name of the company that listed the job.
+Off-campus jobs are listed by non-University employers.  You can search for part-time or full-time positions.  You can use the Company field to filter by the name of the company that listed the job.
 
 ## Search Results
 
