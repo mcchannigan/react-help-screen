@@ -1,7 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## React-based Help Documentation
 
-Generates interactive HTML guides for SECE users from markdown.
+Generates interactive HTML guides for SECE users from markdown. Guides include inline screenshots with descriptive text referring to specific regions of the image, and arrows to point to the region being described.
+
+### Format
+
+Guide content is composed in markdown files in the src/assets folder. Multi-page guides are supported, and which guide (student, admin, or employer) to generate is defined in the .env file. Screenshots are inserted into the generated HTML based on labels in the markdown files inside curly braces. For example, {help-profile-1} in markdown will insert an interactive screenshot from the corresponding help data (help.json). The JSON data includes the image path, alt text, and data that defines the interactive regions in the screenshot and the descriptive text that goes with the region.
 
 ## Available Scripts
 
@@ -9,7 +13,7 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br />
+Runs the app in the development mode. The guide generated and served is defined in the .env file.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
@@ -22,7 +26,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.<br />
+Builds the app for production to the `build` folder. The guide to be built is defined in the .env file.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 Make sure desired target is set in the .env file.
