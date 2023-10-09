@@ -30,7 +30,9 @@ export default class GuidePage extends Component {
               <h1>Contents</h1>
               <ReactMarkdown source={TOCLines.join("\n")} />
             </div>
-            {children}
+            <div className="page-content">
+              {children}
+            </div>
           </div>
         );
       },
