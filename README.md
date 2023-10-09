@@ -7,6 +7,8 @@ Generates interactive HTML guides for SECE users from markdown. Guides include i
 
 Guide content is composed in markdown files in the src/assets folder. Multi-page guides are supported, and which guide (student, admin, or employer) to generate is defined in the .env file. Screenshots are inserted into the generated HTML based on labels in the markdown files inside curly braces. For example, {help-profile-1} in markdown will insert an interactive screenshot from the corresponding help data (help.json). The JSON data includes the image path, alt text, and data that defines the interactive regions in the screenshot and the descriptive text that goes with the region.
 
+A table of contents is dynamically generated for each page (along with a master TOC for multi-page guides) based on headers found in the document text.
+
 ## Available Scripts
 
 In the project directory, you can run:
