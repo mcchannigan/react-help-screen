@@ -10,6 +10,7 @@
   --link-color: #0d2fcb;
   --link-hover-color: #07196b;
   --link-visited-color: #6b074b;
+  --sidebar-width: 16rem;
 }
 
 * {
@@ -108,18 +109,28 @@ table.info-table ul, table.info-table ol {
 div.page-container {
   margin:auto;
   background-color: var(--almost-white);
-  padding: 0.5rem 1rem;
+  padding: 0;
   width: 100%;
   max-width: 45rem;
   box-shadow: 0 0.25em 0.5em rgba(0,0,0,0.3);
 }
 
 div.guide-container {
-  padding-bottom: 2rem;
   opacity: 0;
   transition: opacity 200ms ease-out;
 }
 
+div.page-content {
+  padding: 0 0.75rem 0.5rem 0.75rem;
+}
+
+div.page-content.main-toc {
+  padding-top: 0.1rem;
+}
+
+div.toc-container {
+  padding: 0 0.75rem;
+}
 
 div.screen-desc-container {
   margin: 0.5rem auto;
@@ -303,6 +314,15 @@ div.arrow-region .region-label {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  color: var(--almost-white);
+  background-color: var(--arrow-color);
+  box-shadow: 0 0.15em 0.25em rgba(0,0,0,0.3);
 }
 
 .page-nav .page-link {
@@ -312,7 +332,7 @@ div.arrow-region .region-label {
 .page-link a {
   text-decoration: none;
   font-weight: bold;
-  color: var(--almost-black);
+  color: var(--almost-white);
 }
 
 .flowchart-container {
@@ -363,26 +383,13 @@ div.arrow-region .region-label {
 }
 
 @media screen and (min-width: 55rem) {
-  nav.page-nav {
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    width: 100%;
-    background-color: var(--almost-white);
-    border-bottom:1px solid var(--dark-gray);
-  }
-
-  nav.page-nav.bottom {
-    display: none;
-  }
-
   div.page-container {
-    max-width: calc(50rem + 30ch);
+    max-width: calc(50rem + var(--sidebar-width));
     padding-top: 0;
   }
 
-  div.page-content {
-    padding-left: 30ch;
+  div.page-content:not(.main-toc) {
+    padding-left: calc(var(--sidebar-width) + 1rem);
   }
 
   div.guide-content {
@@ -394,9 +401,8 @@ div.arrow-region .region-label {
 
   div.toc-container:not(.main-toc) {
     position: fixed;
-    padding: 0.25rem;
     font-size: 0.9rem;
-    width: 30ch;
+    width: var(--sidebar-width);
     height: calc(100% - 1.5rem);
     overflow-y: scroll;
     background-color: var(--almost-white);

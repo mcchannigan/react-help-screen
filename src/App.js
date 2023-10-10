@@ -141,10 +141,12 @@ export default class App extends Component {
     } else {
       return (
         <div className="page-container">
+          <div className="page-content main-toc">
             <h1>Guide for UH Employers</h1>
             <p>This guide was adapted from a PDF version, which is available <a href="http://hawaii.edu/sece/forms/Employer-Handbook-2.pdf">here</a>.</p>
             <h2>Table of Contents</h2>
             {tocPages}
+          </div>
         </div>
       );
     }
