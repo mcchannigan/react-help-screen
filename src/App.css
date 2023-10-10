@@ -63,6 +63,7 @@ blockquote h4 {
 
 table {
   margin: auto;
+  box-shadow: 0 0.25em 0.5em rgba(0,0,0,0.3);
 }
 
 th {
@@ -95,6 +96,10 @@ table.info-table td {
   vertical-align: top;
 }
 
+table.info-table tr:nth-child(even) td {
+  background-color: var(--light-gray);
+}
+
 table.info-table ul, table.info-table ol {
   margin: 0;
   padding-left: 1rem;
@@ -125,7 +130,7 @@ div.screen-container {
   border: 0.1rem solid var(--almost-black);
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
-  /*box-shadow: 0 0.25em 0.5em rgba(0,0,0,0.3);*/
+  box-shadow: 0 0.25em 0.5em rgba(0,0,0,0.3);
 }
 
 div.region-links-container {
@@ -136,6 +141,7 @@ div.arrow-link {
   border: 0.125rem solid var(--arrow-color);
   border-top: none;
   border-left: none;
+  box-shadow: 0.1em 0.15em 0.25em rgba(0,0,0,0.3);
 }
 
 div.arrow-link:first-child {
@@ -236,6 +242,7 @@ img.screenshot {
   padding: 0.5rem;
   margin: 0;
   z-index: 3;
+  box-shadow: 0 0.25em 0.5em rgba(0,0,0,0.3);
 }
 
 .arrow-desc p {
@@ -251,7 +258,7 @@ img.screenshot {
 }
 
 .hidden {
-  position: absolute;
+  position: fixed;
   width: 0;
   height: 0;
   left: -99em;
@@ -271,6 +278,7 @@ div.arrow-region {
   border: 0.25rem solid var(--region-outline-color);
   border-radius: 0.25rem;
   padding: 0.1rem;
+  box-shadow: 0 0.25em 0.5em rgba(0,0,0,0.3);
   transition: border 100ms ease-in;
 }
 
