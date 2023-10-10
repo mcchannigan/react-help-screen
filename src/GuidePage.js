@@ -100,7 +100,7 @@ export default class GuidePage extends Component {
           <div className="guide-container">
               <Navigation page={this.state.page} pageCount={this.props.markdown.length}/>
               <ReactMarkdown source={this.props.markdown[this.state.page - 1]} renderers={this.renderers} escapeHtml={false}/>
-              <Navigation page={this.state.page} pageCount={this.props.markdown.length}/>
+              <Navigation page={this.state.page} pageCount={this.props.markdown.length} footer={true}/>
           </div>
       );
     }

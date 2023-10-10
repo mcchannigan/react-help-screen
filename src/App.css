@@ -2,7 +2,7 @@
   --almost-black: #212121;
   --dark-gray: #cdcdcd;
   --light-gray: #efefef;
-  --almost-white: #f2f2f2;
+  --almost-white: #fcfcfc;
   --highlight-bg-color: #ffffe5;
   --highlight-color: #ab9900;
   --arrow-color: #07196b;
@@ -14,6 +14,7 @@
 
 * {
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
   font-family: Lato, sans-serif;
 }
 
@@ -353,7 +354,55 @@ div.arrow-region .region-label {
   }
 }
 
+@media screen and (min-width: 55rem) {
+  nav.page-nav {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    background-color: var(--almost-white);
+    border-bottom:1px solid var(--dark-gray);
+  }
 
+  nav.page-nav.bottom {
+    display: none;
+  }
+
+  div.page-container {
+    max-width: calc(50rem + 30ch);
+    padding-top: 0;
+  }
+
+  div.page-content {
+    padding-left: 30ch;
+  }
+
+  div.guide-content {
+    display: flex;
+    flex-direction: row;
+
+    transition: transform 200ms;
+  }
+
+  div.toc-container:not(.main-toc) {
+    position: fixed;
+    padding: 0.25rem;
+    font-size: 0.9rem;
+    width: 30ch;
+    height: calc(100% - 1.5rem);
+    overflow-y: scroll;
+    background-color: var(--almost-white);
+  }
+
+  div.toc-container h1 {
+    font-size: 1.2rem;
+    border: none;
+  }
+
+  div.toc-container ul {
+    padding-left: 2ch;
+  }
+}
 
 /******************
  * CSS Transforms *

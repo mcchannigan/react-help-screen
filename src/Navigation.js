@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Navigation(props) {
     return (
-    <nav className="page-nav">
+    <nav className={`page-nav ${props.footer ? "bottom" : ""}`}>
         <div className="page-link">
         {props.page > 1 && 
             (<a href={'?page=' + (parseInt(props.page) - 1)}>Previous Page</a>)

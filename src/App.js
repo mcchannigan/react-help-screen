@@ -51,7 +51,7 @@ export default class App extends Component {
   
         return (
           <div className="guide-content">
-            <div className="toc-container">
+            <div className="toc-container main-toc">
               <h2><a href={'?page=' + page}>Page {page}</a></h2>
               <ReactMarkdown source={TOCLines.join("\n")} />
             </div>

@@ -331,25 +331,23 @@ The *General Forms and Info* section contains a number of links to various gener
 
 * __Employer Guidebook to ***sece*** Functions:__ This is a link to this guide.
 * __Hiring Policies & Procedures:__ This is a link to a document that walks you through advertising jobs and hiring students.
-* __Federal Income Tax Withholding Form (W-4):__ This is a link to the Federal income tax form that student employees need to complete to determine their Federal withholding allowances.
-* __State of Hawaii Employee Withholding Allowance and Status Certificate (HW-4):__ This is a link to the State of Hawaii income tax form that student employees need to complete to determine their State withholding allowances.
-* __HIP Direct Deposit Login:__ This is a link to log in to the Hawaii Information Portal (HIP).
 * __Form I-9 Instructions:__ This is a link to a pdf containing detailed instructions on completing the form I-9 provided by USCIS.
+* __HIP Direct Deposit Login:__ This is a link to log in to the Hawaii Information Portal (HIP).
 * __Federal Form I-9:__ This is a link to the pdf version of the form I-9. Please note that some campuses now use the electronic I-9 form built into ***sece***.
-* __General Confidentiality Notice form__: When student employees will have access to sensitive information, you may ask them to complete this form. The form should be retained as part of their personnel record in your office. You may also have them complete the form on the ITS ACER website ([https://www.hawaii.edu/its/acer/](https://www.hawaii.edu/its/acer/)).
+* __GCN and ISAT Certification (ACER)__: This is a link to the ITS ACER website ([https://www.hawaii.edu/its/acer/](https://www.hawaii.edu/its/acer/)), where student employees can log in to complete the GCN and ISAT.
 * __Administrative Procedures Manual A9.860:__ This is a link to the APM governing grievance procedures.
 * __Administrative Procedures Manual A9.880:__ This is a link to the APM governing general student employment practices, procedures, and policies for the UH system.
 * __PTS Enrollment Form:__ This is a link to the pdf form used to enroll a student in the PTS deferment program. Students subject to FICA taxes should complete this form.
 * __PTS Deferred Compensation Booklet:__ This is a link to the booklet detailing the PTS deferred compensation system that student employees pay into when subject to FICA taxes.
 * __Student Assistant FICA Questionnaire:__ This is a link to the FICA questionnaire which you can use to determine if the student is subject to FICA taxes.
 * __Summer FICA Tax Information:__ This is a link to the memorandum detailing FICA rules for the summer.
+* __Title IX Coordinators:__ This is a link to the contact information for Title IX coordinators system-wide.
 * __Contact Student Employment:__ This is a link to the contact page listing contact information for all campuses.
 
 ## UH Manoa Forms/Info
 
 * __READ THIS FIRST:__ This is a link to a memorandum that all UH Manoa employers should read and be familiar with.
 * __90-Day Extension:__ This is a link to a pdf detailing the 90-day extension process for I-9s completed using receipts.
-* __Instructions for Hiring F1 Student w/o SSN:__ This is a link to a pdf describing the process of hiring F1 students and obtaining Social Security Numbers.
 * __Multi-Job Memo:__ This is a link to a pdf of the multi-job memo.
 * __FWS Information & Policies:__ This is a link to a pdf of the FWS Information & Policies document.
-
+* __F1 VISA Students Without a SSN:__ This is a link to a pdf describing the process of hiring F1 students and obtaining Social Security Numbers.
