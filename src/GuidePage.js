@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import ReactMarkdown from 'react-markdown';
 import HelpScreenshot from './HelpScreenshot';
 import Navigation from './Navigation';
 import makeHeaderId from './utils';
 
-export default class GuidePage extends Component {
-    renderers = {
+export default function GuidePage({page, helpData, markdown}) {
+  const renderers = {
       root : (p) => {
         const children = p.children;
         const TOCLines = children.reduce((acc, { key, props }) => {
@@ -57,51 +57,47 @@ export default class GuidePage extends Component {
           // Paragraphs of format "{x}" will output screenshots
           const match = text.match(/\{(.+)\}/);
           if(match) {
-              return <HelpScreenshot data={this.state.helpData[match[1]]} />;
+              return <HelpScreenshot data={currentHelpData[match[1]]} />;
           } else {
               return (<p>{props.children}</p>);
           }
       }
     };
   
-    constructor(props) {
-      super(props);
-      this.state = {
-          page : props.page,
-          scrolled : false,
-          contentLoaded : false,
-          helpData : props.helpData
-      }
-    }
+    
+  const [currentPage] = useState(page);
+  const [scrolled, setScrolled] = useState(false);
+  const [contentLoaded, setContentLoaded] = useState(false);
+  const [currentHelpData] = useState(helpData);
 
-    componentDidUpdate() {
-      if(!this.state.contentLoaded) {
+  const mountedRef = useRef(false);
+  useEffect(() => {
+    if(!mountedRef.current) {
+      // mount
+      mountedRef.current = true;
+    } else {
+      if(!contentLoaded) {
         if(document.querySelector('p')) {
           document.querySelector('.guide-container').style.opacity = 1;
-          this.setState({
-            contentLoaded : true
-          });
+          setContentLoaded(true);
         }
       }
-      if(!this.state.scrolled && window.location.hash.length > 0) {
-        let element = document.getElementById(window.location.hash.substr(1));
+      if(!scrolled && window.location.hash.length > 0) {
+        let element = document.getElementById(window.location.hash.substring(1));
         if(element != null) {
           //element.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
           window.scrollTo(0, element.offsetTop);
-          this.setState({
-            scrolled : true
-          });
+          setScrolled(true);
         }
       }
     }
+  });
   
-    render() {
-      return (
-          <div className="guide-container">
-              <Navigation page={this.state.page} pageCount={this.props.markdown.length}/>
-              <ReactMarkdown source={this.props.markdown[this.state.page - 1]} renderers={this.renderers} escapeHtml={false}/>
-          </div>
-      );
-    }
-  }
+  return (
+      <div className="guide-container">
+          <Navigation page={currentPage} pageCount={markdown.length}/>
+          <ReactMarkdown source={markdown[currentPage - 1]} renderers={renderers} escapeHtml={false}/>
+      </div>
+  );
+}
   

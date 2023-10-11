@@ -1,23 +1,18 @@
-import React, { Component } from 'react';
-//import {CSSTransition} from 'react-transition-group';
-//import ArrowRegion from './ArrowRegion';
+import React from 'react';
 
-export default class ArrowLink extends Component {
-  constructor(props) {
-    super(props);
-  }
-
-  activateRegion(e) {
+export default function ArrowLink({ active, index, activateHandler }) {
+  
+  function activateRegion(e) {
     e.preventDefault();
-    this.props.activateHandler(this.props.index);
+    activateHandler(index);
   }
 
-  render() {
-    const className = 'arrow-link' + (this.props.active ? ' active' : '');
-    return (
-      <div className={className}>
-        <button onClick={this.activateRegion.bind(this)}>{this.props.index + 1}</button>
-      </div>
-    );
-  }
+  const className = 'arrow-link' + (active ? ' active' : '');
+    
+  return (
+    <div className={className}>
+      <button onClick={activateRegion.bind(this)}>{index + 1}</button>
+    </div>
+  );
+  
 }
