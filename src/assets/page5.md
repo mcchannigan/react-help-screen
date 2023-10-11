@@ -14,7 +14,7 @@ The I-9 expiration function runs at the start of each month.
 
 When a student is no longer eligible for student employment, the system will generate a series of two memos to the student and supervisor notifying them of the situation. If the situation is not resolved, the student will be terminated by the system as described in the memo. The student should get in touch with the SE office of the campus with which their job is affiliated to find out why they are ineligible. Generally speaking, it is better for the student to contact the SE office when trying to resolve these situations due to FERPA considerations.
 
-Reasons for ineligibility will vary greatly, but typically are the result of unsatisfactory academic progress or insufficient enrollment. Exceptions or special considerations are given at the discretion of the appropriate SE office. For students working at a campus other than their primary institution, they may need to work with both campuses SE offices to resolve the situation.
+Reasons for ineligibility will vary greatly, but typically are the result of unsatisfactory academic progress or insufficient enrollment. Exceptions or special considerations are given at the discretion of the appropriate SE office. For students working at a campus other than their primary institution, they may need to work with both campuses' SE offices to resolve the situation.
 The eligibility function runs at the start of each academic term.
 
 ## Mandatory Step Increase
