@@ -28,7 +28,7 @@ export default function HelpScreenshot({data}) {
   let i = 0;
   // Build region and description arrays
   for(const arrow of arrows) {
-    let active = (i == activeArrow);
+    let active = (i === activeArrow);
     if(active) {
       activeArrowObj = arrow;
     }
@@ -40,11 +40,11 @@ export default function HelpScreenshot({data}) {
 
   // Allow for one frame at 0 height before setting back to auto
   const dh = descHeight;
-  if(dh == 0) {
+  if(dh === 0) {
     setDescHeight('auto');
   }
 
-  if(arrowCount == 0) {
+  if(arrowCount === 0) {
     return (
       <div className="screen-desc-container">
         <div className="screen-container">

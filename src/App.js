@@ -48,7 +48,7 @@ export default function App() {
     const vars = query.split('&');
     for (let i = 0; i < vars.length; i++) {
         const pair = vars[i].split('=');
-        if (decodeURIComponent(pair[0]) == variable) {
+        if (decodeURIComponent(pair[0]) === variable) {
             return decodeURIComponent(pair[1]);
         }
     }
@@ -97,7 +97,7 @@ export default function App() {
           mkdownArray[i] = text;
           pagesFetched++;
 
-          if(pagesFetched == markdownPaths.length) {
+          if(pagesFetched === markdownPaths.length) {
             setMarkdownPages(mkdownArray);
           }
         });
@@ -108,7 +108,7 @@ export default function App() {
       }
       mountedRef.current = true;
     } else {
-      if(tableOfContents.length == 0) {
+      if(tableOfContents.length === 0) {
         setTableOfContents(tocMdRef.current);
       }
     }
@@ -122,7 +122,7 @@ export default function App() {
         <GuidePage markdown={markdownPages} helpData={helpData} page={page}/>
       </div>
     );
-  } else if (pageCount == 0) {
+  } else if (pageCount === 0) {
     return (
       <div className="page-container"></div>
     );
