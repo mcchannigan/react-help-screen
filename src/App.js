@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import GuidePage from './GuidePage';
 import makeHeaderId from './utils';
 import './App.css';
@@ -19,36 +20,26 @@ export default function App() {
   const [markdownPages, setMarkdownPages] = useState([]);
   const [page, setPage] = useState(null);
   const [helpData] = useState(hd);
+  const [tableOfContents, setTableOfContents] = useState([]);
 
-  function makeRenderer(page) {
+  const mountedRef = useRef(false);
+  const tocMdRef = useRef([]);
+
+  function makeRenderer(pageNum) {
     return {
-      root : (p) => {
-        const children = p.children;
-        const TOCLines = children.reduce((acc, { key, props }) => {
-          // Skip non-headings and h4 or greater
-          if (key.indexOf('heading') !== 0 || props.level > 3) {
-            return acc;
-          }
-          // Indent by two spaces per heading level after h1
-          let indent = '';
-          for (let idx = 1; idx < props.level; idx++) {
-            indent = `${indent}  `;
-          }
-  
-          // Append line to TOC
-          const id = makeHeaderId(props.children[0].props.children);
-          return acc.concat([`${indent}* [${props.children[0].props.children}](?page=${page}#${id})`]);
-        }, []);
-  
-        return (
-          <div className="guide-content">
-            <div className="toc-container main-toc">
-              <h2><a href={'?page=' + page}>Page {page}</a></h2>
-              <ReactMarkdown source={TOCLines.join("\n")} />
-            </div>
-          </div>
-        );
-      }
+      h1(p) {
+        // Set id based on text of heading
+        const id = makeHeaderId(p.children);
+        tocMdRef.current.push(`* [${p.children}](?page=${pageNum}#${id})`);
+      },
+      h2(p) {
+        const id = makeHeaderId(p.children);
+        tocMdRef.current.push(`  * [${p.children}](?page=${pageNum}#${id})`);
+      },
+      h3(p) {
+        const id = makeHeaderId(p.children);
+        tocMdRef.current.push(`    * [${p.children}](?page=${pageNum}#${id})`);
+      }, p(p){}, h4(p){}, ul(p){}, ol(p){}, blockquote(p){}, table(p){}, figure(p){}
     }
   }
 
@@ -64,7 +55,6 @@ export default function App() {
     return null;
   }
 
-  const mountedRef = useRef(false);
   useEffect(() => {
     if(!mountedRef.current) {
       let page = null;
@@ -117,15 +107,15 @@ export default function App() {
         setPage(page);
       }
       mountedRef.current = true;
+    } else {
+      if(tableOfContents.length == 0) {
+        setTableOfContents(tocMdRef.current);
+      }
     }
   });
 
-  
-  const tocPages = [];
   const pageCount = markdownPages.length; 
-  for (let i = 0; i < pageCount; i++) {
-    tocPages.push(<ReactMarkdown key={i} source={markdownPages[i]} renderers={makeRenderer(i + 1)}/>);
-  }
+
   if(page != null) {
     return (
       <div className="page-container">
@@ -137,14 +127,23 @@ export default function App() {
       <div className="page-container"></div>
     );
   } else {
+    const tocPages = [];
+    for (let i = 0; i < pageCount; i++) {
+      tocPages.push(<ReactMarkdown key={i} components={makeRenderer(i+1)} rehypePlugins={[rehypeRaw]}>{markdownPages[i]}</ReactMarkdown>);
+    }
     return (
       <div className="page-container">
         <div className="page-content main-toc">
           <h1>Guide for UH Employers</h1>
           <p>This guide was adapted from a PDF version, which is available <a href="http://hawaii.edu/sece/forms/Employer-Handbook-2.pdf">here</a>.</p>
           <h2>Table of Contents</h2>
-          {tocPages}
+          <div className="guide-content">
+            <div className="toc-container main-toc">
+              <ReactMarkdown>{tableOfContents.join('\n')}</ReactMarkdown>
+            </div>
+          </div>
         </div>
+        <div className="hidden">{tocPages}</div>
       </div>
     );
   }

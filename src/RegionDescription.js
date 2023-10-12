@@ -8,7 +8,7 @@ export default function RegionDescription(props) {
       <div className={"arrow-desc " + divClass}>
           <CSSTransition in={props.active} timeout={200} classNames="fade">
             <div>
-              <ReactMarkdown source={props.text}/>
+              <ReactMarkdown>{props.text}</ReactMarkdown>
             </div>
           </CSSTransition>
       </div>

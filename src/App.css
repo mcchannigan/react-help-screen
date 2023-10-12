@@ -41,6 +41,10 @@ a:visited {
   color: var(--link-visited-color);
 }
 
+h1,h2,h3 {
+  scroll-margin-top: 1.75rem;
+}
+
 h1 {
   border-bottom: 0.1rem solid var(--dark-gray);
 }
@@ -120,15 +124,15 @@ div.guide-container {
   transition: opacity 200ms ease-out;
 }
 
-div.page-content {
+.page-content {
   padding: 0 0.75rem 0.5rem 0.75rem;
 }
 
-div.page-content.main-toc {
+.page-content.main-toc {
   padding-top: 0.1rem;
 }
 
-div.toc-container {
+.toc-container {
   padding: 0 0.75rem;
 }
 
@@ -388,9 +392,9 @@ div.arrow-region .region-label {
     padding-top: 0;
   }
 
-  div.page-content:not(.main-toc) {
+  .page-content:not(.main-toc) {
     padding-left: calc(var(--sidebar-width) + 1rem);
-  }
+  } 
 
   div.guide-content {
     display: flex;
@@ -399,7 +403,7 @@ div.arrow-region .region-label {
     transition: transform 200ms;
   }
 
-  div.toc-container:not(.main-toc) {
+  .toc-container:not(.main-toc) {
     position: fixed;
     font-size: 0.9rem;
     width: var(--sidebar-width);
@@ -408,12 +412,12 @@ div.arrow-region .region-label {
     background-color: var(--almost-white);
   }
 
-  div.toc-container h1 {
+  .toc-container h1 {
     font-size: 1.2rem;
     border: none;
   }
 
-  div.toc-container ul {
+  .toc-container ul {
     padding-left: 2ch;
   }
 }
