@@ -41,6 +41,10 @@ a:visited {
   color: var(--link-visited-color);
 }
 
+.toc-container a:visited {
+  color: var(--link-color);
+}
+
 h1,h2,h3 {
   scroll-margin-top: 1.75rem;
 }
@@ -134,6 +138,10 @@ div.guide-container {
 
 .toc-container {
   padding: 0 0.75rem;
+}
+
+.toc-container .active {
+  font-weight: bold;
 }
 
 div.screen-desc-container {

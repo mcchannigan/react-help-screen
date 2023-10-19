@@ -8,7 +8,9 @@ export default function Navigation(props) {
             (<a href={'?page=' + (parseInt(props.page) - 1)}>Previous Page</a>)
         }
         </div>
-        <div className="page-link"><a href=".">Table of Contents</a></div>
+        <div className="page-link">
+            {props.pageCount > 1 && (<a href=".">Table of Contents</a>)}
+        </div>
         <div className="page-link">
         {props.page < props.pageCount &&
             (<a href={'?page=' + (parseInt(props.page) + 1)}>Next Page</a>)

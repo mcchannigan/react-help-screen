@@ -1,4 +1,4 @@
-# Timesheets
+# Timesheets Application
 
 ## Main Menu
 
@@ -163,7 +163,7 @@ When a student was paid for too many or too few hours on a previous timesheet, y
 
 Note that hours added or subtracted will actually be paid on the current timesheet, thus you cannot subtract more hours than will be paid on the current timesheet. For example, if 10 hours were worked on the current timesheet, and you need to subtract hours from a previous timesheet, you could not subtract more than 10 on the current timesheet through a reconcile.
 
-### Late Timesheets & Appending
+### Late Timesheets and Appending
 
 {help-timesheet-appending}
 
@@ -185,7 +185,7 @@ You can use the *Create New/Late Timesheet* link to create a timesheet for one o
 
 {help-timesheet-total-hour}
 
-## Timesheet Options & Contact Info
+## Timesheet Options and Contact Info
 
 {help-timesheet-options}
 

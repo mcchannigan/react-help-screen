@@ -5,6 +5,7 @@ import Navigation from './Navigation';
 import makeHeaderId from './utils';
 import remarkGfm from 'remark-gfm';
 import rehypeRaw from 'rehype-raw';
+import HeadingObserver from './HeadingObserver';
 
 export default function GuidePage({page, helpData, markdown}) {
   let tableOfContents = [];
@@ -79,6 +80,7 @@ export default function GuidePage({page, helpData, markdown}) {
               <ReactMarkdown components={renderers} remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>{markdown[currentPage - 1]}</ReactMarkdown>
             </article>
           </div>
+          <HeadingObserver/>
       </div>
   );
 }
