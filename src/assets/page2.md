@@ -152,31 +152,31 @@ What this means is that a single job can be used to hire multiple students durin
   <tbody>
     <tr>
       <td>A1</td>
-      <td>$10.60</td>
+      <td>$12.50</td>
     </tr>
     <tr>
       <td>A2</td>
-      <td>$11.65</td>
+      <td>$13.75</td>
     </tr>
     <tr>
       <td>A3</td>
-      <td>$13.05</td>
+      <td>$15.40</td>
     </tr>
     <tr>
       <td>A4</td>
-      <td>$14.90</td>
+      <td>$17.60</td>
     </tr>
     <tr>
       <td>A5</td>
-      <td>$17.35</td>
+      <td>$20.50</td>
     </tr>
     <tr>
       <td>A6</td>
-      <td>$23.70</td>
+      <td>$28.00</td>
     </tr>
     <tr>
       <td>A7</td>
-      <td>$28.85</td>
+      <td>$34.05</td>
     </tr>
   </tbody>
 </table>
