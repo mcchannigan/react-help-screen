@@ -113,7 +113,7 @@ You may generate referrals for a student by entering the job number and pay code
 
 The Documents sub-tab allows you to see the documents that the student has uploaded to the system, and how many jobs to which they are currently applied.  This is a read-only screen and documents may not be edited or deleted.
 
-## Placements
+## Student Placements
 
 {help-std-plc}
 
@@ -128,7 +128,7 @@ The Monitoring Log contains date-stamped messages based on automated monitoring 
 * Mandatory increment granted
 * Medical plan offer sent
 
-## Staff Notes
+## Student Staff Notes
 
 {help-std-note}
 
@@ -144,7 +144,7 @@ Exceptions are used to prevent termination of a student's placement by the autom
 
 You may upload file attachments to any staff note that you have posted within the past 24 hours.  The maximum file size per attachment is 5MB.
 
-## Form I-9
+## Student I-9
 
 {help-std-i9}
 
@@ -180,7 +180,7 @@ The job listing shows the full job form, allowing you to view and update all dat
 * __FWS Job Type:__ Allows you to designate a job as belonging to one of the special FWS job programs
 * __Hide Referral Contact:__ If checked, students applying for the job will not be shown the names or contact information of the job contacts, but will instead be shown the text entered in the accompanying text box
 
-## Referrals
+## Job Referrals
 
 {help-job-ref}
 
@@ -196,7 +196,7 @@ Press any row to view information about the student, including I-9, SSN, and FWS
 
 The applicants list is cleared each time a job is reopened.
 
-## Placements
+## Job Placements
 
 The Placements sub-tab lists all active, inactive, and processing placements for the job.  A placement in processing status indicates that the SEWA or other hiring transaction is still in process and has not been finalized.  Press any row to view the placement detail, including transactions.
 
@@ -483,7 +483,7 @@ The Reporting Utility allows you to generate lists of students in Excel format f
 * __Include unsubscribed emails:__ If checked, students who have unsubscribed from mass emails at your campus will be included in the results.   By default, unsubscribed students will not appear in any reports.  
 * __Min, Max Grad Date:__ Set a range of minimum and maximum grad date.  The grad date is checked against the student-reported grad date that is stored in Banner.
 
-## Add/Edit Employer & Department Data
+## Add/Edit Employer and Department Data
 
 This option is available to users with access level 3 or lower and allows you to manage the UH and NONUH employer and department lists at your campus.  After selecting which type of employer/department you want to edit, you will see the full list from your campus.  Press any row to make edits.
 
